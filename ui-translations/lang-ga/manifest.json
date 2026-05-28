@@ -1,0 +1,36 @@
+{
+  "schema_version": "3.0.0",
+  "module_id": "lang-ga",
+  "name": {
+    "en": "ga"
+  },
+  "description": {
+    "en": "ga translation pack"
+  },
+  "version": "1.0.0",
+  "type": "language-pack",
+  "category": "translations",
+  "language": "ga",
+  "author": {
+    "name": "Danwa User"
+  },
+  "license": "CC-BY-4.0",
+  "tags": [
+    "ga"
+  ],
+  "profile_file": "ui_strings.json",
+  "profile_format": "json",
+  "created_at": "2026-05-27T15:45:49.985809+00:00",
+  "compatibility": {
+    "danwa_min_version": "2.1.0",
+    "danwa_max_version": null
+  },
+  "repository": {
+    "type": "github",
+    "url": "https://github.com/asb-42/danwa-modules",
+    "ref": "v1.0.0"
+  },
+  "checksum": "7d6a4cb9c2e59a661d40e725b38bc8c4389dcb04675c85d4c460c6a25f268763",
+  "string_count": 929,
+  "updated_at": "2026-05-28T16:11:37.211231+00:00"
+}

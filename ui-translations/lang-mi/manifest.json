@@ -1,0 +1,36 @@
+{
+  "schema_version": "3.0.0",
+  "module_id": "lang-mi",
+  "name": {
+    "en": "mi"
+  },
+  "description": {
+    "en": "mi translation pack"
+  },
+  "version": "1.0.0",
+  "type": "language-pack",
+  "category": "translations",
+  "language": "mi",
+  "author": {
+    "name": "Danwa User"
+  },
+  "license": "CC-BY-4.0",
+  "tags": [
+    "mi"
+  ],
+  "profile_file": "ui_strings.json",
+  "profile_format": "json",
+  "created_at": "2026-05-22T20:28:04.818518+00:00",
+  "compatibility": {
+    "danwa_min_version": "2.1.0",
+    "danwa_max_version": null
+  },
+  "repository": {
+    "type": "github",
+    "url": "https://github.com/asb-42/danwa-modules",
+    "ref": "v1.0.0"
+  },
+  "checksum": "fc87df677a41df7075d4d59d2ffff6c024b91af500f5ceb7ecafb31d7161f028",
+  "string_count": 897,
+  "updated_at": "2026-05-28T16:11:37.234227+00:00"
+}

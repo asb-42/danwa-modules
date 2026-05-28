@@ -1,0 +1,36 @@
+{
+  "schema_version": "3.0.0",
+  "module_id": "lang-pt",
+  "name": {
+    "en": "Português"
+  },
+  "description": {
+    "en": "Português translation pack"
+  },
+  "version": "1.0.0",
+  "type": "language-pack",
+  "category": "translations",
+  "language": "pt",
+  "author": {
+    "name": "Danwa User"
+  },
+  "license": "CC-BY-4.0",
+  "tags": [
+    "pt"
+  ],
+  "profile_file": "ui_strings.json",
+  "profile_format": "json",
+  "created_at": "2026-05-27T15:46:31.919402+00:00",
+  "compatibility": {
+    "danwa_min_version": "2.1.0",
+    "danwa_max_version": null
+  },
+  "repository": {
+    "type": "github",
+    "url": "https://github.com/asb-42/danwa-modules",
+    "ref": "v1.0.0"
+  },
+  "checksum": "857c357157b5669173ce9540403ac00a176fb1088f3f4594abfe12c35bc1b058",
+  "string_count": 929,
+  "updated_at": "2026-05-28T16:11:37.248110+00:00"
+}

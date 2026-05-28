@@ -1,0 +1,36 @@
+{
+  "schema_version": "3.0.0",
+  "module_id": "lang-ku",
+  "name": {
+    "en": "ku"
+  },
+  "description": {
+    "en": "ku translation pack"
+  },
+  "version": "1.0.0",
+  "type": "language-pack",
+  "category": "translations",
+  "language": "ku",
+  "author": {
+    "name": "Danwa User"
+  },
+  "license": "CC-BY-4.0",
+  "tags": [
+    "ku"
+  ],
+  "profile_file": "ui_strings.json",
+  "profile_format": "json",
+  "created_at": "2026-05-27T15:45:26.075919+00:00",
+  "compatibility": {
+    "danwa_min_version": "2.1.0",
+    "danwa_max_version": null
+  },
+  "repository": {
+    "type": "github",
+    "url": "https://github.com/asb-42/danwa-modules",
+    "ref": "v1.0.0"
+  },
+  "checksum": "0addaf583e7d30de38776c5f25c26b7b4e1f886b5950978c210610d503501976",
+  "string_count": 929,
+  "updated_at": "2026-05-28T16:11:37.227803+00:00"
+}
