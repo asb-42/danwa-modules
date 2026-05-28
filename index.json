@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-05-28T16:03:44.625090+00:00",
+  "generated_at": "2026-05-28T16:12:59.442713+00:00",
   "schema_version": "3.0.0",
   "repository": "https://github.com/asb-42/danwa-modules",
-  "total_modules": 88,
+  "total_modules": 143,
   "modules": [
     {
       "module_id": "critic",
@@ -2245,6 +2245,1601 @@
       "license": "CC-BY-4.0",
       "created_at": "2026-05-17T03:22:25+02:00",
       "updated_at": "2026-05-28T15:57:08.321282+00:00"
+    },
+    {
+      "module_id": "lang-bn-custom",
+      "version": "1.0.0",
+      "type": "language-pack",
+      "category": "ui-translations",
+      "name": {
+        "en": "bn"
+      },
+      "description": {
+        "en": "Custom bn translation pack"
+      },
+      "language": "bn",
+      "profile_file": "ui_strings.json",
+      "profile_checksum_sha256": "68f0f10a27ab2fabf22ab3b136e4cfb21f45bdf56aef6fba4afde8a3dcdb90fe",
+      "module_checksum_sha256": "68f0f10a27ab2fabf22ab3b136e4cfb21f45bdf56aef6fba4afde8a3dcdb90fe",
+      "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/lang-bn-custom.zip",
+      "compatibility": {
+        "danwa_min_version": "2.1.0",
+        "danwa_max_version": null
+      },
+      "dependencies": {},
+      "tags": [
+        "bn",
+        "custom"
+      ],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-05-27T15:45:47.186835+00:00",
+      "updated_at": "2026-05-28T16:11:37.114473+00:00"
+    },
+    {
+      "module_id": "lang-bo-custom",
+      "version": "1.0.0",
+      "type": "language-pack",
+      "category": "ui-translations",
+      "name": {
+        "en": "bo"
+      },
+      "description": {
+        "en": "Custom bo translation pack"
+      },
+      "language": "bo",
+      "profile_file": "ui_strings.json",
+      "profile_checksum_sha256": "857c357157b5669173ce9540403ac00a176fb1088f3f4594abfe12c35bc1b058",
+      "module_checksum_sha256": "857c357157b5669173ce9540403ac00a176fb1088f3f4594abfe12c35bc1b058",
+      "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/lang-bo-custom.zip",
+      "compatibility": {
+        "danwa_min_version": "2.1.0",
+        "danwa_max_version": null
+      },
+      "dependencies": {},
+      "tags": [
+        "bo",
+        "custom"
+      ],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-05-27T15:45:21.179725+00:00",
+      "updated_at": "2026-05-28T16:11:37.165107+00:00"
+    },
+    {
+      "module_id": "lang-br-custom",
+      "version": "1.0.0",
+      "type": "language-pack",
+      "category": "ui-translations",
+      "name": {
+        "en": "br"
+      },
+      "description": {
+        "en": "Custom br translation pack"
+      },
+      "language": "br",
+      "profile_file": "ui_strings.json",
+      "profile_checksum_sha256": "857c357157b5669173ce9540403ac00a176fb1088f3f4594abfe12c35bc1b058",
+      "module_checksum_sha256": "857c357157b5669173ce9540403ac00a176fb1088f3f4594abfe12c35bc1b058",
+      "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/lang-br-custom.zip",
+      "compatibility": {
+        "danwa_min_version": "2.1.0",
+        "danwa_max_version": null
+      },
+      "dependencies": {},
+      "tags": [
+        "br",
+        "custom"
+      ],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-05-27T15:45:35.175779+00:00",
+      "updated_at": "2026-05-28T16:11:37.171870+00:00"
+    },
+    {
+      "module_id": "lang-cz-custom",
+      "version": "1.0.0",
+      "type": "language-pack",
+      "category": "ui-translations",
+      "name": {
+        "en": "cz"
+      },
+      "description": {
+        "en": "Custom cz translation pack"
+      },
+      "language": "cz",
+      "profile_file": "ui_strings.json",
+      "profile_checksum_sha256": "d5bc0b7548ed8070c40eaaee74d546ec04193b390827e926dbcffd632baffa53",
+      "module_checksum_sha256": "d5bc0b7548ed8070c40eaaee74d546ec04193b390827e926dbcffd632baffa53",
+      "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/lang-cz-custom.zip",
+      "compatibility": {
+        "danwa_min_version": "2.1.0",
+        "danwa_max_version": null
+      },
+      "dependencies": {},
+      "tags": [
+        "cz",
+        "custom"
+      ],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-05-22T11:51:42.677383+00:00",
+      "updated_at": "2026-05-28T16:11:37.179403+00:00"
+    },
+    {
+      "module_id": "lang-da-custom",
+      "version": "1.0.0",
+      "type": "language-pack",
+      "category": "ui-translations",
+      "name": {
+        "en": "da"
+      },
+      "description": {
+        "en": "Custom da translation pack"
+      },
+      "language": "da",
+      "profile_file": "ui_strings.json",
+      "profile_checksum_sha256": "857c357157b5669173ce9540403ac00a176fb1088f3f4594abfe12c35bc1b058",
+      "module_checksum_sha256": "857c357157b5669173ce9540403ac00a176fb1088f3f4594abfe12c35bc1b058",
+      "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/lang-da-custom.zip",
+      "compatibility": {
+        "danwa_min_version": "2.1.0",
+        "danwa_max_version": null
+      },
+      "dependencies": {},
+      "tags": [
+        "da",
+        "custom"
+      ],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-05-27T15:46:16.700847+00:00",
+      "updated_at": "2026-05-28T16:11:37.188012+00:00"
+    },
+    {
+      "module_id": "lang-de-custom",
+      "version": "1.0.0",
+      "type": "language-pack",
+      "category": "ui-translations",
+      "name": {
+        "en": "Deutsch"
+      },
+      "description": {
+        "en": "Custom Deutsch translation pack"
+      },
+      "language": "de",
+      "profile_file": "ui_strings.json",
+      "profile_checksum_sha256": "857c357157b5669173ce9540403ac00a176fb1088f3f4594abfe12c35bc1b058",
+      "module_checksum_sha256": "857c357157b5669173ce9540403ac00a176fb1088f3f4594abfe12c35bc1b058",
+      "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/lang-de-custom.zip",
+      "compatibility": {
+        "danwa_min_version": "2.1.0",
+        "danwa_max_version": null
+      },
+      "dependencies": {},
+      "tags": [
+        "de",
+        "custom"
+      ],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-05-27T15:46:38.917120+00:00",
+      "updated_at": "2026-05-28T16:11:37.191463+00:00"
+    },
+    {
+      "module_id": "lang-en-custom",
+      "version": "1.0.0",
+      "type": "language-pack",
+      "category": "ui-translations",
+      "name": {
+        "en": "English"
+      },
+      "description": {
+        "en": "Custom English translation pack"
+      },
+      "language": "en",
+      "profile_file": "ui_strings.json",
+      "profile_checksum_sha256": "857c357157b5669173ce9540403ac00a176fb1088f3f4594abfe12c35bc1b058",
+      "module_checksum_sha256": "857c357157b5669173ce9540403ac00a176fb1088f3f4594abfe12c35bc1b058",
+      "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/lang-en-custom.zip",
+      "compatibility": {
+        "danwa_min_version": "2.1.0",
+        "danwa_max_version": null
+      },
+      "dependencies": {},
+      "tags": [
+        "en",
+        "custom"
+      ],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-05-27T15:46:37.645500+00:00",
+      "updated_at": "2026-05-28T16:11:37.194490+00:00"
+    },
+    {
+      "module_id": "lang-eo-custom",
+      "version": "1.0.0",
+      "type": "language-pack",
+      "category": "ui-translations",
+      "name": {
+        "en": "eo"
+      },
+      "description": {
+        "en": "Custom eo translation pack"
+      },
+      "language": "eo",
+      "profile_file": "ui_strings.json",
+      "profile_checksum_sha256": "857c357157b5669173ce9540403ac00a176fb1088f3f4594abfe12c35bc1b058",
+      "module_checksum_sha256": "857c357157b5669173ce9540403ac00a176fb1088f3f4594abfe12c35bc1b058",
+      "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/lang-eo-custom.zip",
+      "compatibility": {
+        "danwa_min_version": "2.1.0",
+        "danwa_max_version": null
+      },
+      "dependencies": {},
+      "tags": [
+        "eo",
+        "custom"
+      ],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-05-27T15:45:32.618765+00:00",
+      "updated_at": "2026-05-28T16:11:37.196932+00:00"
+    },
+    {
+      "module_id": "lang-es-custom",
+      "version": "1.0.0",
+      "type": "language-pack",
+      "category": "ui-translations",
+      "name": {
+        "en": "Español"
+      },
+      "description": {
+        "en": "Custom Español translation pack"
+      },
+      "language": "es",
+      "profile_file": "ui_strings.json",
+      "profile_checksum_sha256": "857c357157b5669173ce9540403ac00a176fb1088f3f4594abfe12c35bc1b058",
+      "module_checksum_sha256": "857c357157b5669173ce9540403ac00a176fb1088f3f4594abfe12c35bc1b058",
+      "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/lang-es-custom.zip",
+      "compatibility": {
+        "danwa_min_version": "2.1.0",
+        "danwa_max_version": null
+      },
+      "dependencies": {},
+      "tags": [
+        "es",
+        "custom"
+      ],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-05-27T15:46:34.373066+00:00",
+      "updated_at": "2026-05-28T16:11:37.199350+00:00"
+    },
+    {
+      "module_id": "lang-et-custom",
+      "version": "1.0.0",
+      "type": "language-pack",
+      "category": "ui-translations",
+      "name": {
+        "en": "et"
+      },
+      "description": {
+        "en": "Custom et translation pack"
+      },
+      "language": "et",
+      "profile_file": "ui_strings.json",
+      "profile_checksum_sha256": "857c357157b5669173ce9540403ac00a176fb1088f3f4594abfe12c35bc1b058",
+      "module_checksum_sha256": "857c357157b5669173ce9540403ac00a176fb1088f3f4594abfe12c35bc1b058",
+      "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/lang-et-custom.zip",
+      "compatibility": {
+        "danwa_min_version": "2.1.0",
+        "danwa_max_version": null
+      },
+      "dependencies": {},
+      "tags": [
+        "et",
+        "custom"
+      ],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-05-27T15:45:36.266637+00:00",
+      "updated_at": "2026-05-28T16:11:37.201376+00:00"
+    },
+    {
+      "module_id": "lang-eu-custom",
+      "version": "1.0.0",
+      "type": "language-pack",
+      "category": "ui-translations",
+      "name": {
+        "en": "eu"
+      },
+      "description": {
+        "en": "Custom eu translation pack"
+      },
+      "language": "eu",
+      "profile_file": "ui_strings.json",
+      "profile_checksum_sha256": "857c357157b5669173ce9540403ac00a176fb1088f3f4594abfe12c35bc1b058",
+      "module_checksum_sha256": "857c357157b5669173ce9540403ac00a176fb1088f3f4594abfe12c35bc1b058",
+      "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/lang-eu-custom.zip",
+      "compatibility": {
+        "danwa_min_version": "2.1.0",
+        "danwa_max_version": null
+      },
+      "dependencies": {},
+      "tags": [
+        "eu",
+        "custom"
+      ],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-05-27T15:45:33.730994+00:00",
+      "updated_at": "2026-05-28T16:11:37.203397+00:00"
+    },
+    {
+      "module_id": "lang-fa-custom",
+      "version": "1.0.0",
+      "type": "language-pack",
+      "category": "ui-translations",
+      "name": {
+        "en": "fa"
+      },
+      "description": {
+        "en": "Custom fa translation pack"
+      },
+      "language": "fa",
+      "profile_file": "ui_strings.json",
+      "profile_checksum_sha256": "8b63c12a8974c17770191b20b3a094d12fbdb0706f04374adb8838b8cfe1112a",
+      "module_checksum_sha256": "8b63c12a8974c17770191b20b3a094d12fbdb0706f04374adb8838b8cfe1112a",
+      "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/lang-fa-custom.zip",
+      "compatibility": {
+        "danwa_min_version": "2.1.0",
+        "danwa_max_version": null
+      },
+      "dependencies": {},
+      "tags": [
+        "fa",
+        "custom"
+      ],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-05-21T02:31:29.748810+00:00",
+      "updated_at": "2026-05-28T16:11:37.205389+00:00"
+    },
+    {
+      "module_id": "lang-fi-custom",
+      "version": "1.0.0",
+      "type": "language-pack",
+      "category": "ui-translations",
+      "name": {
+        "en": "fi"
+      },
+      "description": {
+        "en": "Custom fi translation pack"
+      },
+      "language": "fi",
+      "profile_file": "ui_strings.json",
+      "profile_checksum_sha256": "857c357157b5669173ce9540403ac00a176fb1088f3f4594abfe12c35bc1b058",
+      "module_checksum_sha256": "857c357157b5669173ce9540403ac00a176fb1088f3f4594abfe12c35bc1b058",
+      "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/lang-fi-custom.zip",
+      "compatibility": {
+        "danwa_min_version": "2.1.0",
+        "danwa_max_version": null
+      },
+      "dependencies": {},
+      "tags": [
+        "fi",
+        "custom"
+      ],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-05-27T15:46:09.999989+00:00",
+      "updated_at": "2026-05-28T16:11:37.207932+00:00"
+    },
+    {
+      "module_id": "lang-fr-custom",
+      "version": "1.0.0",
+      "type": "language-pack",
+      "category": "ui-translations",
+      "name": {
+        "en": "Français"
+      },
+      "description": {
+        "en": "Custom Français translation pack"
+      },
+      "language": "fr",
+      "profile_file": "ui_strings.json",
+      "profile_checksum_sha256": "857c357157b5669173ce9540403ac00a176fb1088f3f4594abfe12c35bc1b058",
+      "module_checksum_sha256": "857c357157b5669173ce9540403ac00a176fb1088f3f4594abfe12c35bc1b058",
+      "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/lang-fr-custom.zip",
+      "compatibility": {
+        "danwa_min_version": "2.1.0",
+        "danwa_max_version": null
+      },
+      "dependencies": {},
+      "tags": [
+        "fr",
+        "custom"
+      ],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-05-27T15:46:36.116585+00:00",
+      "updated_at": "2026-05-28T16:11:37.209615+00:00"
+    },
+    {
+      "module_id": "lang-ga-custom",
+      "version": "1.0.0",
+      "type": "language-pack",
+      "category": "ui-translations",
+      "name": {
+        "en": "ga"
+      },
+      "description": {
+        "en": "Custom ga translation pack"
+      },
+      "language": "ga",
+      "profile_file": "ui_strings.json",
+      "profile_checksum_sha256": "7d6a4cb9c2e59a661d40e725b38bc8c4389dcb04675c85d4c460c6a25f268763",
+      "module_checksum_sha256": "7d6a4cb9c2e59a661d40e725b38bc8c4389dcb04675c85d4c460c6a25f268763",
+      "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/lang-ga-custom.zip",
+      "compatibility": {
+        "danwa_min_version": "2.1.0",
+        "danwa_max_version": null
+      },
+      "dependencies": {},
+      "tags": [
+        "ga",
+        "custom"
+      ],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-05-27T15:45:49.985809+00:00",
+      "updated_at": "2026-05-28T16:11:37.211231+00:00"
+    },
+    {
+      "module_id": "lang-hi-custom",
+      "version": "1.0.0",
+      "type": "language-pack",
+      "category": "ui-translations",
+      "name": {
+        "en": "hi"
+      },
+      "description": {
+        "en": "Custom hi translation pack"
+      },
+      "language": "hi",
+      "profile_file": "ui_strings.json",
+      "profile_checksum_sha256": "54f01d5ad7b31bad889f4c73943d74402472a2d7a061c6a6c72287fd7ff8ad89",
+      "module_checksum_sha256": "54f01d5ad7b31bad889f4c73943d74402472a2d7a061c6a6c72287fd7ff8ad89",
+      "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/lang-hi-custom.zip",
+      "compatibility": {
+        "danwa_min_version": "2.1.0",
+        "danwa_max_version": null
+      },
+      "dependencies": {},
+      "tags": [
+        "hi",
+        "custom"
+      ],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-05-22T13:12:05.813799+00:00",
+      "updated_at": "2026-05-28T16:11:37.213773+00:00"
+    },
+    {
+      "module_id": "lang-hr-custom",
+      "version": "1.0.0",
+      "type": "language-pack",
+      "category": "ui-translations",
+      "name": {
+        "en": "hr"
+      },
+      "description": {
+        "en": "Custom hr translation pack"
+      },
+      "language": "hr",
+      "profile_file": "ui_strings.json",
+      "profile_checksum_sha256": "857c357157b5669173ce9540403ac00a176fb1088f3f4594abfe12c35bc1b058",
+      "module_checksum_sha256": "857c357157b5669173ce9540403ac00a176fb1088f3f4594abfe12c35bc1b058",
+      "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/lang-hr-custom.zip",
+      "compatibility": {
+        "danwa_min_version": "2.1.0",
+        "danwa_max_version": null
+      },
+      "dependencies": {},
+      "tags": [
+        "hr",
+        "custom"
+      ],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-05-27T15:46:05.082585+00:00",
+      "updated_at": "2026-05-28T16:11:37.215831+00:00"
+    },
+    {
+      "module_id": "lang-hu-custom",
+      "version": "1.0.0",
+      "type": "language-pack",
+      "category": "ui-translations",
+      "name": {
+        "en": "hu"
+      },
+      "description": {
+        "en": "Custom hu translation pack"
+      },
+      "language": "hu",
+      "profile_file": "ui_strings.json",
+      "profile_checksum_sha256": "0314b39f7df189f3b08fbb31eb54f739e4bad0d82e4b64674546bf98845364d6",
+      "module_checksum_sha256": "0314b39f7df189f3b08fbb31eb54f739e4bad0d82e4b64674546bf98845364d6",
+      "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/lang-hu-custom.zip",
+      "compatibility": {
+        "danwa_min_version": "2.1.0",
+        "danwa_max_version": null
+      },
+      "dependencies": {},
+      "tags": [
+        "hu",
+        "custom"
+      ],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-05-21T15:06:36.333389+00:00",
+      "updated_at": "2026-05-28T16:11:37.217146+00:00"
+    },
+    {
+      "module_id": "lang-hy-custom",
+      "version": "1.0.0",
+      "type": "language-pack",
+      "category": "ui-translations",
+      "name": {
+        "en": "hy"
+      },
+      "description": {
+        "en": "Custom hy translation pack"
+      },
+      "language": "hy",
+      "profile_file": "ui_strings.json",
+      "profile_checksum_sha256": "857c357157b5669173ce9540403ac00a176fb1088f3f4594abfe12c35bc1b058",
+      "module_checksum_sha256": "857c357157b5669173ce9540403ac00a176fb1088f3f4594abfe12c35bc1b058",
+      "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/lang-hy-custom.zip",
+      "compatibility": {
+        "danwa_min_version": "2.1.0",
+        "danwa_max_version": null
+      },
+      "dependencies": {},
+      "tags": [
+        "hy",
+        "custom"
+      ],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-05-27T15:45:31.249762+00:00",
+      "updated_at": "2026-05-28T16:11:37.218552+00:00"
+    },
+    {
+      "module_id": "lang-id-custom",
+      "version": "1.0.0",
+      "type": "language-pack",
+      "category": "ui-translations",
+      "name": {
+        "en": "id"
+      },
+      "description": {
+        "en": "Custom id translation pack"
+      },
+      "language": "id",
+      "profile_file": "ui_strings.json",
+      "profile_checksum_sha256": "857c357157b5669173ce9540403ac00a176fb1088f3f4594abfe12c35bc1b058",
+      "module_checksum_sha256": "857c357157b5669173ce9540403ac00a176fb1088f3f4594abfe12c35bc1b058",
+      "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/lang-id-custom.zip",
+      "compatibility": {
+        "danwa_min_version": "2.1.0",
+        "danwa_max_version": null
+      },
+      "dependencies": {},
+      "tags": [
+        "id",
+        "custom"
+      ],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-05-27T15:45:53.719607+00:00",
+      "updated_at": "2026-05-28T16:11:37.219874+00:00"
+    },
+    {
+      "module_id": "lang-io-custom",
+      "version": "1.0.0",
+      "type": "language-pack",
+      "category": "ui-translations",
+      "name": {
+        "en": "io"
+      },
+      "description": {
+        "en": "Custom io translation pack"
+      },
+      "language": "io",
+      "profile_file": "ui_strings.json",
+      "profile_checksum_sha256": "c53f55d02cd5226f981c436dc8f8d903991f2b0a5b5db4c1c353596899f39c33",
+      "module_checksum_sha256": "c53f55d02cd5226f981c436dc8f8d903991f2b0a5b5db4c1c353596899f39c33",
+      "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/lang-io-custom.zip",
+      "compatibility": {
+        "danwa_min_version": "2.1.0",
+        "danwa_max_version": null
+      },
+      "dependencies": {},
+      "tags": [
+        "io",
+        "custom"
+      ],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-05-27T15:45:28.864661+00:00",
+      "updated_at": "2026-05-28T16:11:37.221050+00:00"
+    },
+    {
+      "module_id": "lang-is-custom",
+      "version": "1.0.0",
+      "type": "language-pack",
+      "category": "ui-translations",
+      "name": {
+        "en": "is"
+      },
+      "description": {
+        "en": "Custom is translation pack"
+      },
+      "language": "is",
+      "profile_file": "ui_strings.json",
+      "profile_checksum_sha256": "857c357157b5669173ce9540403ac00a176fb1088f3f4594abfe12c35bc1b058",
+      "module_checksum_sha256": "857c357157b5669173ce9540403ac00a176fb1088f3f4594abfe12c35bc1b058",
+      "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/lang-is-custom.zip",
+      "compatibility": {
+        "danwa_min_version": "2.1.0",
+        "danwa_max_version": null
+      },
+      "dependencies": {},
+      "tags": [
+        "is",
+        "custom"
+      ],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-05-27T15:45:48.662266+00:00",
+      "updated_at": "2026-05-28T16:11:37.222384+00:00"
+    },
+    {
+      "module_id": "lang-it-custom",
+      "version": "1.0.0",
+      "type": "language-pack",
+      "category": "ui-translations",
+      "name": {
+        "en": "Italiano"
+      },
+      "description": {
+        "en": "Custom Italiano translation pack"
+      },
+      "language": "it",
+      "profile_file": "ui_strings.json",
+      "profile_checksum_sha256": "857c357157b5669173ce9540403ac00a176fb1088f3f4594abfe12c35bc1b058",
+      "module_checksum_sha256": "857c357157b5669173ce9540403ac00a176fb1088f3f4594abfe12c35bc1b058",
+      "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/lang-it-custom.zip",
+      "compatibility": {
+        "danwa_min_version": "2.1.0",
+        "danwa_max_version": null
+      },
+      "dependencies": {},
+      "tags": [
+        "it",
+        "custom"
+      ],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-05-27T15:46:33.291553+00:00",
+      "updated_at": "2026-05-28T16:11:37.223477+00:00"
+    },
+    {
+      "module_id": "lang-iu-custom",
+      "version": "1.0.0",
+      "type": "language-pack",
+      "category": "ui-translations",
+      "name": {
+        "en": "iu"
+      },
+      "description": {
+        "en": "Custom iu translation pack"
+      },
+      "language": "iu",
+      "profile_file": "ui_strings.json",
+      "profile_checksum_sha256": "857c357157b5669173ce9540403ac00a176fb1088f3f4594abfe12c35bc1b058",
+      "module_checksum_sha256": "857c357157b5669173ce9540403ac00a176fb1088f3f4594abfe12c35bc1b058",
+      "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/lang-iu-custom.zip",
+      "compatibility": {
+        "danwa_min_version": "2.1.0",
+        "danwa_max_version": null
+      },
+      "dependencies": {},
+      "tags": [
+        "iu",
+        "custom"
+      ],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-05-27T15:45:27.464337+00:00",
+      "updated_at": "2026-05-28T16:11:37.224556+00:00"
+    },
+    {
+      "module_id": "lang-ja-custom",
+      "version": "1.0.0",
+      "type": "language-pack",
+      "category": "ui-translations",
+      "name": {
+        "en": "日本語"
+      },
+      "description": {
+        "en": "Custom 日本語 translation pack"
+      },
+      "language": "ja",
+      "profile_file": "ui_strings.json",
+      "profile_checksum_sha256": "857c357157b5669173ce9540403ac00a176fb1088f3f4594abfe12c35bc1b058",
+      "module_checksum_sha256": "857c357157b5669173ce9540403ac00a176fb1088f3f4594abfe12c35bc1b058",
+      "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/lang-ja-custom.zip",
+      "compatibility": {
+        "danwa_min_version": "2.1.0",
+        "danwa_max_version": null
+      },
+      "dependencies": {},
+      "tags": [
+        "ja",
+        "custom"
+      ],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-05-27T15:46:25.860657+00:00",
+      "updated_at": "2026-05-28T16:11:37.225636+00:00"
+    },
+    {
+      "module_id": "lang-ka-custom",
+      "version": "1.0.0",
+      "type": "language-pack",
+      "category": "ui-translations",
+      "name": {
+        "en": "ka"
+      },
+      "description": {
+        "en": "Custom ka translation pack"
+      },
+      "language": "ka",
+      "profile_file": "ui_strings.json",
+      "profile_checksum_sha256": "857c357157b5669173ce9540403ac00a176fb1088f3f4594abfe12c35bc1b058",
+      "module_checksum_sha256": "857c357157b5669173ce9540403ac00a176fb1088f3f4594abfe12c35bc1b058",
+      "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/lang-ka-custom.zip",
+      "compatibility": {
+        "danwa_min_version": "2.1.0",
+        "danwa_max_version": null
+      },
+      "dependencies": {},
+      "tags": [
+        "ka",
+        "custom"
+      ],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-05-27T15:45:30.065032+00:00",
+      "updated_at": "2026-05-28T16:11:37.226716+00:00"
+    },
+    {
+      "module_id": "lang-ku-custom",
+      "version": "1.0.0",
+      "type": "language-pack",
+      "category": "ui-translations",
+      "name": {
+        "en": "ku"
+      },
+      "description": {
+        "en": "Custom ku translation pack"
+      },
+      "language": "ku",
+      "profile_file": "ui_strings.json",
+      "profile_checksum_sha256": "0addaf583e7d30de38776c5f25c26b7b4e1f886b5950978c210610d503501976",
+      "module_checksum_sha256": "0addaf583e7d30de38776c5f25c26b7b4e1f886b5950978c210610d503501976",
+      "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/lang-ku-custom.zip",
+      "compatibility": {
+        "danwa_min_version": "2.1.0",
+        "danwa_max_version": null
+      },
+      "dependencies": {},
+      "tags": [
+        "ku",
+        "custom"
+      ],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-05-27T15:45:26.075919+00:00",
+      "updated_at": "2026-05-28T16:11:37.227803+00:00"
+    },
+    {
+      "module_id": "lang-la-custom",
+      "version": "1.0.0",
+      "type": "language-pack",
+      "category": "ui-translations",
+      "name": {
+        "en": "la"
+      },
+      "description": {
+        "en": "Custom la translation pack"
+      },
+      "language": "la",
+      "profile_file": "ui_strings.json",
+      "profile_checksum_sha256": "03008d6ab4827743e83aa87e505f4343ca13fe5c23b68a49798e615a764da768",
+      "module_checksum_sha256": "03008d6ab4827743e83aa87e505f4343ca13fe5c23b68a49798e615a764da768",
+      "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/lang-la-custom.zip",
+      "compatibility": {
+        "danwa_min_version": "2.1.0",
+        "danwa_max_version": null
+      },
+      "dependencies": {},
+      "tags": [
+        "la",
+        "custom"
+      ],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-05-22T16:51:28.930579+00:00",
+      "updated_at": "2026-05-28T16:11:37.229216+00:00"
+    },
+    {
+      "module_id": "lang-lt-custom",
+      "version": "1.0.0",
+      "type": "language-pack",
+      "category": "ui-translations",
+      "name": {
+        "en": "lt"
+      },
+      "description": {
+        "en": "Custom lt translation pack"
+      },
+      "language": "lt",
+      "profile_file": "ui_strings.json",
+      "profile_checksum_sha256": "857c357157b5669173ce9540403ac00a176fb1088f3f4594abfe12c35bc1b058",
+      "module_checksum_sha256": "857c357157b5669173ce9540403ac00a176fb1088f3f4594abfe12c35bc1b058",
+      "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/lang-lt-custom.zip",
+      "compatibility": {
+        "danwa_min_version": "2.1.0",
+        "danwa_max_version": null
+      },
+      "dependencies": {},
+      "tags": [
+        "lt",
+        "custom"
+      ],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-05-27T15:45:37.297496+00:00",
+      "updated_at": "2026-05-28T16:11:37.231331+00:00"
+    },
+    {
+      "module_id": "lang-lv-custom",
+      "version": "1.0.0",
+      "type": "language-pack",
+      "category": "ui-translations",
+      "name": {
+        "en": "lv"
+      },
+      "description": {
+        "en": "Custom lv translation pack"
+      },
+      "language": "lv",
+      "profile_file": "ui_strings.json",
+      "profile_checksum_sha256": "857c357157b5669173ce9540403ac00a176fb1088f3f4594abfe12c35bc1b058",
+      "module_checksum_sha256": "857c357157b5669173ce9540403ac00a176fb1088f3f4594abfe12c35bc1b058",
+      "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/lang-lv-custom.zip",
+      "compatibility": {
+        "danwa_min_version": "2.1.0",
+        "danwa_max_version": null
+      },
+      "dependencies": {},
+      "tags": [
+        "lv",
+        "custom"
+      ],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-05-27T15:45:38.383642+00:00",
+      "updated_at": "2026-05-28T16:11:37.232426+00:00"
+    },
+    {
+      "module_id": "lang-mi-custom",
+      "version": "1.0.0",
+      "type": "language-pack",
+      "category": "ui-translations",
+      "name": {
+        "en": "mi"
+      },
+      "description": {
+        "en": "Custom mi translation pack"
+      },
+      "language": "mi",
+      "profile_file": "ui_strings.json",
+      "profile_checksum_sha256": "fc87df677a41df7075d4d59d2ffff6c024b91af500f5ceb7ecafb31d7161f028",
+      "module_checksum_sha256": "fc87df677a41df7075d4d59d2ffff6c024b91af500f5ceb7ecafb31d7161f028",
+      "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/lang-mi-custom.zip",
+      "compatibility": {
+        "danwa_min_version": "2.1.0",
+        "danwa_max_version": null
+      },
+      "dependencies": {},
+      "tags": [
+        "mi",
+        "custom"
+      ],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-05-22T20:28:04.818518+00:00",
+      "updated_at": "2026-05-28T16:11:37.234227+00:00"
+    },
+    {
+      "module_id": "lang-mk-custom",
+      "version": "1.0.0",
+      "type": "language-pack",
+      "category": "ui-translations",
+      "name": {
+        "en": "mk"
+      },
+      "description": {
+        "en": "Custom mk translation pack"
+      },
+      "language": "mk",
+      "profile_file": "ui_strings.json",
+      "profile_checksum_sha256": "857c357157b5669173ce9540403ac00a176fb1088f3f4594abfe12c35bc1b058",
+      "module_checksum_sha256": "857c357157b5669173ce9540403ac00a176fb1088f3f4594abfe12c35bc1b058",
+      "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/lang-mk-custom.zip",
+      "compatibility": {
+        "danwa_min_version": "2.1.0",
+        "danwa_max_version": null
+      },
+      "dependencies": {},
+      "tags": [
+        "mk",
+        "custom"
+      ],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-05-27T15:45:24.637768+00:00",
+      "updated_at": "2026-05-28T16:11:37.238445+00:00"
+    },
+    {
+      "module_id": "lang-mr-custom",
+      "version": "1.0.0",
+      "type": "language-pack",
+      "category": "ui-translations",
+      "name": {
+        "en": "mr"
+      },
+      "description": {
+        "en": "Custom mr translation pack"
+      },
+      "language": "mr",
+      "profile_file": "ui_strings.json",
+      "profile_checksum_sha256": "857c357157b5669173ce9540403ac00a176fb1088f3f4594abfe12c35bc1b058",
+      "module_checksum_sha256": "857c357157b5669173ce9540403ac00a176fb1088f3f4594abfe12c35bc1b058",
+      "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/lang-mr-custom.zip",
+      "compatibility": {
+        "danwa_min_version": "2.1.0",
+        "danwa_max_version": null
+      },
+      "dependencies": {},
+      "tags": [
+        "mr",
+        "custom"
+      ],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-05-27T15:45:44.147455+00:00",
+      "updated_at": "2026-05-28T16:11:37.239561+00:00"
+    },
+    {
+      "module_id": "lang-ms-custom",
+      "version": "1.0.0",
+      "type": "language-pack",
+      "category": "ui-translations",
+      "name": {
+        "en": "ms"
+      },
+      "description": {
+        "en": "Custom ms translation pack"
+      },
+      "language": "ms",
+      "profile_file": "ui_strings.json",
+      "profile_checksum_sha256": "857c357157b5669173ce9540403ac00a176fb1088f3f4594abfe12c35bc1b058",
+      "module_checksum_sha256": "857c357157b5669173ce9540403ac00a176fb1088f3f4594abfe12c35bc1b058",
+      "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/lang-ms-custom.zip",
+      "compatibility": {
+        "danwa_min_version": "2.1.0",
+        "danwa_max_version": null
+      },
+      "dependencies": {},
+      "tags": [
+        "ms",
+        "custom"
+      ],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-05-27T15:45:22.919528+00:00",
+      "updated_at": "2026-05-28T16:11:37.240654+00:00"
+    },
+    {
+      "module_id": "lang-nb-custom",
+      "version": "1.0.0",
+      "type": "language-pack",
+      "category": "ui-translations",
+      "name": {
+        "en": "nb"
+      },
+      "description": {
+        "en": "Custom nb translation pack"
+      },
+      "language": "nb",
+      "profile_file": "ui_strings.json",
+      "profile_checksum_sha256": "857c357157b5669173ce9540403ac00a176fb1088f3f4594abfe12c35bc1b058",
+      "module_checksum_sha256": "857c357157b5669173ce9540403ac00a176fb1088f3f4594abfe12c35bc1b058",
+      "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/lang-nb-custom.zip",
+      "compatibility": {
+        "danwa_min_version": "2.1.0",
+        "danwa_max_version": null
+      },
+      "dependencies": {},
+      "tags": [
+        "nb",
+        "custom"
+      ],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-05-27T15:46:07.131186+00:00",
+      "updated_at": "2026-05-28T16:11:37.241839+00:00"
+    },
+    {
+      "module_id": "lang-nl-custom",
+      "version": "1.0.0",
+      "type": "language-pack",
+      "category": "ui-translations",
+      "name": {
+        "en": "nl"
+      },
+      "description": {
+        "en": "Custom nl translation pack"
+      },
+      "language": "nl",
+      "profile_file": "ui_strings.json",
+      "profile_checksum_sha256": "857c357157b5669173ce9540403ac00a176fb1088f3f4594abfe12c35bc1b058",
+      "module_checksum_sha256": "857c357157b5669173ce9540403ac00a176fb1088f3f4594abfe12c35bc1b058",
+      "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/lang-nl-custom.zip",
+      "compatibility": {
+        "danwa_min_version": "2.1.0",
+        "danwa_max_version": null
+      },
+      "dependencies": {},
+      "tags": [
+        "nl",
+        "custom"
+      ],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-05-27T15:46:19.922416+00:00",
+      "updated_at": "2026-05-28T16:11:37.243198+00:00"
+    },
+    {
+      "module_id": "lang-nn-custom",
+      "version": "1.0.0",
+      "type": "language-pack",
+      "category": "ui-translations",
+      "name": {
+        "en": "nn"
+      },
+      "description": {
+        "en": "Custom nn translation pack"
+      },
+      "language": "nn",
+      "profile_file": "ui_strings.json",
+      "profile_checksum_sha256": "857c357157b5669173ce9540403ac00a176fb1088f3f4594abfe12c35bc1b058",
+      "module_checksum_sha256": "857c357157b5669173ce9540403ac00a176fb1088f3f4594abfe12c35bc1b058",
+      "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/lang-nn-custom.zip",
+      "compatibility": {
+        "danwa_min_version": "2.1.0",
+        "danwa_max_version": null
+      },
+      "dependencies": {},
+      "tags": [
+        "nn",
+        "custom"
+      ],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-05-27T15:46:06.168314+00:00",
+      "updated_at": "2026-05-28T16:11:37.244554+00:00"
+    },
+    {
+      "module_id": "lang-pl-custom",
+      "version": "1.0.0",
+      "type": "language-pack",
+      "category": "ui-translations",
+      "name": {
+        "en": "pl"
+      },
+      "description": {
+        "en": "Custom pl translation pack"
+      },
+      "language": "pl",
+      "profile_file": "ui_strings.json",
+      "profile_checksum_sha256": "857c357157b5669173ce9540403ac00a176fb1088f3f4594abfe12c35bc1b058",
+      "module_checksum_sha256": "857c357157b5669173ce9540403ac00a176fb1088f3f4594abfe12c35bc1b058",
+      "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/lang-pl-custom.zip",
+      "compatibility": {
+        "danwa_min_version": "2.1.0",
+        "danwa_max_version": null
+      },
+      "dependencies": {},
+      "tags": [
+        "pl",
+        "custom"
+      ],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-05-27T15:46:18.700809+00:00",
+      "updated_at": "2026-05-28T16:11:37.246917+00:00"
+    },
+    {
+      "module_id": "lang-pt-custom",
+      "version": "1.0.0",
+      "type": "language-pack",
+      "category": "ui-translations",
+      "name": {
+        "en": "Português"
+      },
+      "description": {
+        "en": "Custom Português translation pack"
+      },
+      "language": "pt",
+      "profile_file": "ui_strings.json",
+      "profile_checksum_sha256": "857c357157b5669173ce9540403ac00a176fb1088f3f4594abfe12c35bc1b058",
+      "module_checksum_sha256": "857c357157b5669173ce9540403ac00a176fb1088f3f4594abfe12c35bc1b058",
+      "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/lang-pt-custom.zip",
+      "compatibility": {
+        "danwa_min_version": "2.1.0",
+        "danwa_max_version": null
+      },
+      "dependencies": {},
+      "tags": [
+        "pt",
+        "custom"
+      ],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-05-27T15:46:31.919402+00:00",
+      "updated_at": "2026-05-28T16:11:37.248110+00:00"
+    },
+    {
+      "module_id": "lang-ro-custom",
+      "version": "1.0.0",
+      "type": "language-pack",
+      "category": "ui-translations",
+      "name": {
+        "en": "ro"
+      },
+      "description": {
+        "en": "Custom ro translation pack"
+      },
+      "language": "ro",
+      "profile_file": "ui_strings.json",
+      "profile_checksum_sha256": "857c357157b5669173ce9540403ac00a176fb1088f3f4594abfe12c35bc1b058",
+      "module_checksum_sha256": "857c357157b5669173ce9540403ac00a176fb1088f3f4594abfe12c35bc1b058",
+      "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/lang-ro-custom.zip",
+      "compatibility": {
+        "danwa_min_version": "2.1.0",
+        "danwa_max_version": null
+      },
+      "dependencies": {},
+      "tags": [
+        "ro",
+        "custom"
+      ],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-05-27T15:46:12.075304+00:00",
+      "updated_at": "2026-05-28T16:11:37.249475+00:00"
+    },
+    {
+      "module_id": "lang-ru-custom",
+      "version": "1.0.0",
+      "type": "language-pack",
+      "category": "ui-translations",
+      "name": {
+        "en": "Русский"
+      },
+      "description": {
+        "en": "Custom Русский translation pack"
+      },
+      "language": "ru",
+      "profile_file": "ui_strings.json",
+      "profile_checksum_sha256": "857c357157b5669173ce9540403ac00a176fb1088f3f4594abfe12c35bc1b058",
+      "module_checksum_sha256": "857c357157b5669173ce9540403ac00a176fb1088f3f4594abfe12c35bc1b058",
+      "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/lang-ru-custom.zip",
+      "compatibility": {
+        "danwa_min_version": "2.1.0",
+        "danwa_max_version": null
+      },
+      "dependencies": {},
+      "tags": [
+        "ru",
+        "custom"
+      ],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-05-27T15:46:30.546676+00:00",
+      "updated_at": "2026-05-28T16:11:37.250726+00:00"
+    },
+    {
+      "module_id": "lang-sa-custom",
+      "version": "1.0.0",
+      "type": "language-pack",
+      "category": "ui-translations",
+      "name": {
+        "en": "sa"
+      },
+      "description": {
+        "en": "Custom sa translation pack"
+      },
+      "language": "sa",
+      "profile_file": "ui_strings.json",
+      "profile_checksum_sha256": "857c357157b5669173ce9540403ac00a176fb1088f3f4594abfe12c35bc1b058",
+      "module_checksum_sha256": "857c357157b5669173ce9540403ac00a176fb1088f3f4594abfe12c35bc1b058",
+      "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/lang-sa-custom.zip",
+      "compatibility": {
+        "danwa_min_version": "2.1.0",
+        "danwa_max_version": null
+      },
+      "dependencies": {},
+      "tags": [
+        "sa",
+        "custom"
+      ],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-05-27T15:45:51.987906+00:00",
+      "updated_at": "2026-05-28T16:11:37.251929+00:00"
+    },
+    {
+      "module_id": "lang-sk-custom",
+      "version": "1.0.0",
+      "type": "language-pack",
+      "category": "ui-translations",
+      "name": {
+        "en": "sk"
+      },
+      "description": {
+        "en": "Custom sk translation pack"
+      },
+      "language": "sk",
+      "profile_file": "ui_strings.json",
+      "profile_checksum_sha256": "857c357157b5669173ce9540403ac00a176fb1088f3f4594abfe12c35bc1b058",
+      "module_checksum_sha256": "857c357157b5669173ce9540403ac00a176fb1088f3f4594abfe12c35bc1b058",
+      "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/lang-sk-custom.zip",
+      "compatibility": {
+        "danwa_min_version": "2.1.0",
+        "danwa_max_version": null
+      },
+      "dependencies": {},
+      "tags": [
+        "sk",
+        "custom"
+      ],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-05-27T15:46:11.048683+00:00",
+      "updated_at": "2026-05-28T16:11:37.253216+00:00"
+    },
+    {
+      "module_id": "lang-sl-custom",
+      "version": "1.0.0",
+      "type": "language-pack",
+      "category": "ui-translations",
+      "name": {
+        "en": "sl"
+      },
+      "description": {
+        "en": "Custom sl translation pack"
+      },
+      "language": "sl",
+      "profile_file": "ui_strings.json",
+      "profile_checksum_sha256": "857c357157b5669173ce9540403ac00a176fb1088f3f4594abfe12c35bc1b058",
+      "module_checksum_sha256": "857c357157b5669173ce9540403ac00a176fb1088f3f4594abfe12c35bc1b058",
+      "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/lang-sl-custom.zip",
+      "compatibility": {
+        "danwa_min_version": "2.1.0",
+        "danwa_max_version": null
+      },
+      "dependencies": {},
+      "tags": [
+        "sl",
+        "custom"
+      ],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-05-27T15:46:08.200527+00:00",
+      "updated_at": "2026-05-28T16:11:37.254336+00:00"
+    },
+    {
+      "module_id": "lang-sq-custom",
+      "version": "1.0.0",
+      "type": "language-pack",
+      "category": "ui-translations",
+      "name": {
+        "en": "sq"
+      },
+      "description": {
+        "en": "Custom sq translation pack"
+      },
+      "language": "sq",
+      "profile_file": "ui_strings.json",
+      "profile_checksum_sha256": "857c357157b5669173ce9540403ac00a176fb1088f3f4594abfe12c35bc1b058",
+      "module_checksum_sha256": "857c357157b5669173ce9540403ac00a176fb1088f3f4594abfe12c35bc1b058",
+      "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/lang-sq-custom.zip",
+      "compatibility": {
+        "danwa_min_version": "2.1.0",
+        "danwa_max_version": null
+      },
+      "dependencies": {},
+      "tags": [
+        "sq",
+        "custom"
+      ],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-05-27T15:46:03.943776+00:00",
+      "updated_at": "2026-05-28T16:11:37.255542+00:00"
+    },
+    {
+      "module_id": "lang-sr-custom",
+      "version": "1.0.0",
+      "type": "language-pack",
+      "category": "ui-translations",
+      "name": {
+        "en": "sr"
+      },
+      "description": {
+        "en": "Custom sr translation pack"
+      },
+      "language": "sr",
+      "profile_file": "ui_strings.json",
+      "profile_checksum_sha256": "857c357157b5669173ce9540403ac00a176fb1088f3f4594abfe12c35bc1b058",
+      "module_checksum_sha256": "857c357157b5669173ce9540403ac00a176fb1088f3f4594abfe12c35bc1b058",
+      "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/lang-sr-custom.zip",
+      "compatibility": {
+        "danwa_min_version": "2.1.0",
+        "danwa_max_version": null
+      },
+      "dependencies": {},
+      "tags": [
+        "sr",
+        "custom"
+      ],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-05-27T15:46:13.323560+00:00",
+      "updated_at": "2026-05-28T16:11:37.256602+00:00"
+    },
+    {
+      "module_id": "lang-ta-custom",
+      "version": "1.0.0",
+      "type": "language-pack",
+      "category": "ui-translations",
+      "name": {
+        "en": "ta"
+      },
+      "description": {
+        "en": "Custom ta translation pack"
+      },
+      "language": "ta",
+      "profile_file": "ui_strings.json",
+      "profile_checksum_sha256": "857c357157b5669173ce9540403ac00a176fb1088f3f4594abfe12c35bc1b058",
+      "module_checksum_sha256": "857c357157b5669173ce9540403ac00a176fb1088f3f4594abfe12c35bc1b058",
+      "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/lang-ta-custom.zip",
+      "compatibility": {
+        "danwa_min_version": "2.1.0",
+        "danwa_max_version": null
+      },
+      "dependencies": {},
+      "tags": [
+        "ta",
+        "custom"
+      ],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-05-27T15:45:55.235030+00:00",
+      "updated_at": "2026-05-28T16:11:37.257664+00:00"
+    },
+    {
+      "module_id": "lang-te-custom",
+      "version": "1.0.0",
+      "type": "language-pack",
+      "category": "ui-translations",
+      "name": {
+        "en": "te"
+      },
+      "description": {
+        "en": "Custom te translation pack"
+      },
+      "language": "te",
+      "profile_file": "ui_strings.json",
+      "profile_checksum_sha256": "8cefa809d7849e2649cf627d65a8e783269003fbd8b1bc18d03b91f8d4fb2528",
+      "module_checksum_sha256": "8cefa809d7849e2649cf627d65a8e783269003fbd8b1bc18d03b91f8d4fb2528",
+      "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/lang-te-custom.zip",
+      "compatibility": {
+        "danwa_min_version": "2.1.0",
+        "danwa_max_version": null
+      },
+      "dependencies": {},
+      "tags": [
+        "te",
+        "custom"
+      ],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-05-27T15:45:42.197436+00:00",
+      "updated_at": "2026-05-28T16:11:37.258758+00:00"
+    },
+    {
+      "module_id": "lang-th-custom",
+      "version": "1.0.0",
+      "type": "language-pack",
+      "category": "ui-translations",
+      "name": {
+        "en": "th"
+      },
+      "description": {
+        "en": "Custom th translation pack"
+      },
+      "language": "th",
+      "profile_file": "ui_strings.json",
+      "profile_checksum_sha256": "857c357157b5669173ce9540403ac00a176fb1088f3f4594abfe12c35bc1b058",
+      "module_checksum_sha256": "857c357157b5669173ce9540403ac00a176fb1088f3f4594abfe12c35bc1b058",
+      "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/lang-th-custom.zip",
+      "compatibility": {
+        "danwa_min_version": "2.1.0",
+        "danwa_max_version": null
+      },
+      "dependencies": {},
+      "tags": [
+        "th",
+        "custom"
+      ],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-05-27T15:46:02.702277+00:00",
+      "updated_at": "2026-05-28T16:11:37.259961+00:00"
+    },
+    {
+      "module_id": "lang-tl-custom",
+      "version": "1.0.0",
+      "type": "language-pack",
+      "category": "ui-translations",
+      "name": {
+        "en": "tl"
+      },
+      "description": {
+        "en": "Custom tl translation pack"
+      },
+      "language": "tl",
+      "profile_file": "ui_strings.json",
+      "profile_checksum_sha256": "857c357157b5669173ce9540403ac00a176fb1088f3f4594abfe12c35bc1b058",
+      "module_checksum_sha256": "857c357157b5669173ce9540403ac00a176fb1088f3f4594abfe12c35bc1b058",
+      "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/lang-tl-custom.zip",
+      "compatibility": {
+        "danwa_min_version": "2.1.0",
+        "danwa_max_version": null
+      },
+      "dependencies": {},
+      "tags": [
+        "tl",
+        "custom"
+      ],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-05-27T15:45:39.916683+00:00",
+      "updated_at": "2026-05-28T16:11:37.261054+00:00"
+    },
+    {
+      "module_id": "lang-tr-custom",
+      "version": "1.0.0",
+      "type": "language-pack",
+      "category": "ui-translations",
+      "name": {
+        "en": "tr"
+      },
+      "description": {
+        "en": "Custom tr translation pack"
+      },
+      "language": "tr",
+      "profile_file": "ui_strings.json",
+      "profile_checksum_sha256": "99752891d0bb4c16533b38a5104c74396eea5be36902984a4e667c429cd84012",
+      "module_checksum_sha256": "99752891d0bb4c16533b38a5104c74396eea5be36902984a4e667c429cd84012",
+      "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/lang-tr-custom.zip",
+      "compatibility": {
+        "danwa_min_version": "2.1.0",
+        "danwa_max_version": null
+      },
+      "dependencies": {},
+      "tags": [
+        "tr",
+        "custom"
+      ],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-05-21T21:24:54.005455+00:00",
+      "updated_at": "2026-05-28T16:11:37.262243+00:00"
+    },
+    {
+      "module_id": "lang-ur-custom",
+      "version": "1.0.0",
+      "type": "language-pack",
+      "category": "ui-translations",
+      "name": {
+        "en": "ur"
+      },
+      "description": {
+        "en": "Custom ur translation pack"
+      },
+      "language": "ur",
+      "profile_file": "ui_strings.json",
+      "profile_checksum_sha256": "857c357157b5669173ce9540403ac00a176fb1088f3f4594abfe12c35bc1b058",
+      "module_checksum_sha256": "857c357157b5669173ce9540403ac00a176fb1088f3f4594abfe12c35bc1b058",
+      "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/lang-ur-custom.zip",
+      "compatibility": {
+        "danwa_min_version": "2.1.0",
+        "danwa_max_version": null
+      },
+      "dependencies": {},
+      "tags": [
+        "ur",
+        "custom"
+      ],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-05-27T15:45:45.748878+00:00",
+      "updated_at": "2026-05-28T16:11:37.263891+00:00"
+    },
+    {
+      "module_id": "lang-vi-custom",
+      "version": "1.0.0",
+      "type": "language-pack",
+      "category": "ui-translations",
+      "name": {
+        "en": "vi"
+      },
+      "description": {
+        "en": "Custom vi translation pack"
+      },
+      "language": "vi",
+      "profile_file": "ui_strings.json",
+      "profile_checksum_sha256": "857c357157b5669173ce9540403ac00a176fb1088f3f4594abfe12c35bc1b058",
+      "module_checksum_sha256": "857c357157b5669173ce9540403ac00a176fb1088f3f4594abfe12c35bc1b058",
+      "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/lang-vi-custom.zip",
+      "compatibility": {
+        "danwa_min_version": "2.1.0",
+        "danwa_max_version": null
+      },
+      "dependencies": {},
+      "tags": [
+        "vi",
+        "custom"
+      ],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-05-27T15:45:41.085248+00:00",
+      "updated_at": "2026-05-28T16:11:37.264957+00:00"
+    },
+    {
+      "module_id": "lang-yi-custom",
+      "version": "1.0.0",
+      "type": "language-pack",
+      "category": "ui-translations",
+      "name": {
+        "en": "yi"
+      },
+      "description": {
+        "en": "Custom yi translation pack"
+      },
+      "language": "yi",
+      "profile_file": "ui_strings.json",
+      "profile_checksum_sha256": "857c357157b5669173ce9540403ac00a176fb1088f3f4594abfe12c35bc1b058",
+      "module_checksum_sha256": "857c357157b5669173ce9540403ac00a176fb1088f3f4594abfe12c35bc1b058",
+      "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/lang-yi-custom.zip",
+      "compatibility": {
+        "danwa_min_version": "2.1.0",
+        "danwa_max_version": null
+      },
+      "dependencies": {},
+      "tags": [
+        "yi",
+        "custom"
+      ],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-05-27T15:45:18.978326+00:00",
+      "updated_at": "2026-05-28T16:11:37.266031+00:00"
+    },
+    {
+      "module_id": "lang-zh-custom",
+      "version": "1.0.0",
+      "type": "language-pack",
+      "category": "ui-translations",
+      "name": {
+        "en": "中文"
+      },
+      "description": {
+        "en": "Custom 中文 translation pack"
+      },
+      "language": "zh",
+      "profile_file": "ui_strings.json",
+      "profile_checksum_sha256": "857c357157b5669173ce9540403ac00a176fb1088f3f4594abfe12c35bc1b058",
+      "module_checksum_sha256": "857c357157b5669173ce9540403ac00a176fb1088f3f4594abfe12c35bc1b058",
+      "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/lang-zh-custom.zip",
+      "compatibility": {
+        "danwa_min_version": "2.1.0",
+        "danwa_max_version": null
+      },
+      "dependencies": {},
+      "tags": [
+        "zh",
+        "custom"
+      ],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-05-27T15:46:27.643353+00:00",
+      "updated_at": "2026-05-28T16:11:37.267098+00:00"
     },
     {
       "module_id": "workflow-socratic-debate",

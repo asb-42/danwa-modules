@@ -6,17 +6,17 @@ Community module repository for the [Danwa Debate Engine](https://github.com/asb
 
 This repository contains installable modules for Danwa:
 
-| Category | Directory | Description |
-|----------|-----------|-------------|
-| LLM Profiles | [`llm-profiles/`](llm-profiles/) | LLM provider configurations |
-| Agent Cores | [`agent-cores/`](agent-cores/) | Agent personas and role types |
-| Argumentation Patterns | [`agent-argumentation-patterns/`](agent-argumentation-patterns/) | Prompt variants for debate roles |
-| Tone Profiles | [`agent-tone-profiles/`](agent-tone-profiles/) | Debate tone and style presets |
-| Prompt Modifiers | [`agent-prompt-modifiers/`](agent-prompt-modifiers/) | Output formatting modifiers |
-| Workflows | [`workflows/`](workflows/) | Multi-agent workflow templates |
-| Bundles | [`agent-bundles/`](agent-bundles/) | Pre-configured agent bundles |
-| UI Translations | [`ui-translations/`](ui-translations/) | Language packs for the Danwa UI |
-| Kitsune Assistant | [`kitsune-assistant/`](kitsune-assistant/) | Kitsune assistant system prompts |
+| Category | Directory | Modules | Description |
+|----------|-----------|---------|-------------|
+| LLM Profiles | [`llm-profiles/`](llm-profiles/) | 19 | LLM provider configurations |
+| Agent Cores | [`agent-cores/`](agent-cores/) | 27 | Agent personas and role types |
+| Argumentation Patterns | [`agent-argumentation-patterns/`](agent-argumentation-patterns/) | 12 | Prompt variants for debate roles |
+| Tone Profiles | [`agent-tone-profiles/`](agent-tone-profiles/) | 3 | Debate tone and style presets |
+| Prompt Modifiers | [`agent-prompt-modifiers/`](agent-prompt-modifiers/) | 2 | Output formatting modifiers |
+| Workflows | [`workflows/`](workflows/) | 9 | Multi-agent workflow templates |
+| Bundles | [`agent-bundles/`](agent-bundles/) | 15 | Pre-configured agent bundles |
+| UI Translations | [`ui-translations/`](ui-translations/) | 55 | Language packs (55 locales) |
+| Kitsune Assistant | [`kitsune-assistant/`](kitsune-assistant/) | 1 | Kitsune assistant system prompts |
 
 ## Installation
 

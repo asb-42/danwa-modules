@@ -21,7 +21,7 @@ except ImportError:
 
 ROOT = Path(__file__).parent.parent
 SCHEMA_PATH = ROOT / "schemas" / "module-manifest.json"
-SKIP_DIRS = {".git", ".github", "plans", "scripts", "schemas", "ui-translations"}
+SKIP_DIRS = {".git", ".github", "plans", "scripts", "schemas"}
 
 
 def sha256_file(path: Path) -> str:

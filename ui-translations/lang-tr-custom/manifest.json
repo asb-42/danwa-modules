@@ -1,0 +1,37 @@
+{
+  "schema_version": "3.0.0",
+  "module_id": "lang-tr-custom",
+  "name": {
+    "en": "tr"
+  },
+  "description": {
+    "en": "Custom tr translation pack"
+  },
+  "version": "1.0.0",
+  "type": "language-pack",
+  "category": "translations",
+  "language": "tr",
+  "author": {
+    "name": "Danwa User"
+  },
+  "license": "CC-BY-4.0",
+  "tags": [
+    "tr",
+    "custom"
+  ],
+  "profile_file": "ui_strings.json",
+  "profile_format": "json",
+  "created_at": "2026-05-21T21:24:54.005455+00:00",
+  "compatibility": {
+    "danwa_min_version": "2.1.0",
+    "danwa_max_version": null
+  },
+  "repository": {
+    "type": "github",
+    "url": "https://github.com/asb-42/danwa-modules",
+    "ref": "v1.0.0"
+  },
+  "checksum": "99752891d0bb4c16533b38a5104c74396eea5be36902984a4e667c429cd84012",
+  "string_count": 894,
+  "updated_at": "2026-05-28T16:11:37.262243+00:00"
+}

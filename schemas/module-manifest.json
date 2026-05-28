@@ -160,6 +160,10 @@
       "type": "string",
       "description": "Functional role hint (e.g. 'critic', 'strategist')"
     },
+    "string_count": {
+      "type": "integer",
+      "description": "Number of translation strings (for language-pack modules)"
+    },
     "checksum": {
       "type": "string",
       "description": "SHA-256 of the profile file content (without manifest.json). Empty string if no profile file.",
