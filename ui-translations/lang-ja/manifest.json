@@ -2,10 +2,12 @@
   "schema_version": "3.0.0",
   "module_id": "lang-ja",
   "name": {
-    "en": "日本語"
+    "en": "日本語 (Japanese)",
+    "ja": "日本語"
   },
   "description": {
-    "en": "日本語 translation pack"
+    "en": "UI translation pack for Japanese (日本語)",
+    "ja": "UI-Übersetzungspaket für Japanese (日本語)"
   },
   "version": "1.0.0",
   "type": "language-pack",

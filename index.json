@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-28T16:14:56.057719+00:00",
+  "generated_at": "2026-05-28T16:19:42.067076+00:00",
   "schema_version": "3.0.0",
   "repository": "https://github.com/asb-42/danwa-modules",
   "total_modules": 143,
@@ -2252,10 +2252,12 @@
       "type": "language-pack",
       "category": "ui-translations",
       "name": {
-        "en": "bn"
+        "en": "বাংলা (Bengali)",
+        "bn": "বাংলা"
       },
       "description": {
-        "en": "bn translation pack"
+        "en": "UI translation pack for Bengali (বাংলা)",
+        "bn": "UI-Übersetzungspaket für Bengali (বাংলা)"
       },
       "language": "bn",
       "profile_file": "ui_strings.json",
@@ -2280,10 +2282,12 @@
       "type": "language-pack",
       "category": "ui-translations",
       "name": {
-        "en": "bo"
+        "en": "བོད་སྐད (Tibetan)",
+        "bo": "བོད་སྐད"
       },
       "description": {
-        "en": "bo translation pack"
+        "en": "UI translation pack for Tibetan (བོད་སྐད)",
+        "bo": "UI-Übersetzungspaket für Tibetan (བོད་སྐད)"
       },
       "language": "bo",
       "profile_file": "ui_strings.json",
@@ -2308,10 +2312,12 @@
       "type": "language-pack",
       "category": "ui-translations",
       "name": {
-        "en": "br"
+        "en": "Brezhoneg (Breton)",
+        "br": "Brezhoneg"
       },
       "description": {
-        "en": "br translation pack"
+        "en": "UI translation pack for Breton (Brezhoneg)",
+        "br": "UI-Übersetzungspaket für Breton (Brezhoneg)"
       },
       "language": "br",
       "profile_file": "ui_strings.json",
@@ -2336,10 +2342,12 @@
       "type": "language-pack",
       "category": "ui-translations",
       "name": {
-        "en": "cz"
+        "en": "Čeština (Czech)",
+        "cz": "Čeština"
       },
       "description": {
-        "en": "cz translation pack"
+        "en": "UI translation pack for Czech (Čeština)",
+        "cz": "UI-Übersetzungspaket für Czech (Čeština)"
       },
       "language": "cz",
       "profile_file": "ui_strings.json",
@@ -2364,10 +2372,12 @@
       "type": "language-pack",
       "category": "ui-translations",
       "name": {
-        "en": "da"
+        "en": "Dansk (Danish)",
+        "da": "Dansk"
       },
       "description": {
-        "en": "da translation pack"
+        "en": "UI translation pack for Danish (Dansk)",
+        "da": "UI-Übersetzungspaket für Danish (Dansk)"
       },
       "language": "da",
       "profile_file": "ui_strings.json",
@@ -2392,10 +2402,12 @@
       "type": "language-pack",
       "category": "ui-translations",
       "name": {
-        "en": "Deutsch"
+        "en": "Deutsch (German)",
+        "de": "Deutsch"
       },
       "description": {
-        "en": "Deutsch translation pack"
+        "en": "UI translation pack for German (Deutsch)",
+        "de": "UI-Übersetzungspaket für German (Deutsch)"
       },
       "language": "de",
       "profile_file": "ui_strings.json",
@@ -2423,7 +2435,7 @@
         "en": "English"
       },
       "description": {
-        "en": "English translation pack"
+        "en": "UI-Übersetzungspaket für English (English)"
       },
       "language": "en",
       "profile_file": "ui_strings.json",
@@ -2448,10 +2460,12 @@
       "type": "language-pack",
       "category": "ui-translations",
       "name": {
-        "en": "eo"
+        "en": "Esperanto (Esperanto)",
+        "eo": "Esperanto"
       },
       "description": {
-        "en": "eo translation pack"
+        "en": "UI translation pack for Esperanto (Esperanto)",
+        "eo": "UI-Übersetzungspaket für Esperanto (Esperanto)"
       },
       "language": "eo",
       "profile_file": "ui_strings.json",
@@ -2476,10 +2490,12 @@
       "type": "language-pack",
       "category": "ui-translations",
       "name": {
-        "en": "Español"
+        "en": "Español (Spanish)",
+        "es": "Español"
       },
       "description": {
-        "en": "Español translation pack"
+        "en": "UI translation pack for Spanish (Español)",
+        "es": "UI-Übersetzungspaket für Spanish (Español)"
       },
       "language": "es",
       "profile_file": "ui_strings.json",
@@ -2504,10 +2520,12 @@
       "type": "language-pack",
       "category": "ui-translations",
       "name": {
-        "en": "et"
+        "en": "Eesti (Estonian)",
+        "et": "Eesti"
       },
       "description": {
-        "en": "et translation pack"
+        "en": "UI translation pack for Estonian (Eesti)",
+        "et": "UI-Übersetzungspaket für Estonian (Eesti)"
       },
       "language": "et",
       "profile_file": "ui_strings.json",
@@ -2532,10 +2550,12 @@
       "type": "language-pack",
       "category": "ui-translations",
       "name": {
-        "en": "eu"
+        "en": "Euskara (Basque)",
+        "eu": "Euskara"
       },
       "description": {
-        "en": "eu translation pack"
+        "en": "UI translation pack for Basque (Euskara)",
+        "eu": "UI-Übersetzungspaket für Basque (Euskara)"
       },
       "language": "eu",
       "profile_file": "ui_strings.json",
@@ -2560,10 +2580,12 @@
       "type": "language-pack",
       "category": "ui-translations",
       "name": {
-        "en": "fa"
+        "en": "فارسی (Persian)",
+        "fa": "فارسی"
       },
       "description": {
-        "en": "fa translation pack"
+        "en": "UI translation pack for Persian (فارسی)",
+        "fa": "UI-Übersetzungspaket für Persian (فارسی)"
       },
       "language": "fa",
       "profile_file": "ui_strings.json",
@@ -2588,10 +2610,12 @@
       "type": "language-pack",
       "category": "ui-translations",
       "name": {
-        "en": "fi"
+        "en": "Suomi (Finnish)",
+        "fi": "Suomi"
       },
       "description": {
-        "en": "fi translation pack"
+        "en": "UI translation pack for Finnish (Suomi)",
+        "fi": "UI-Übersetzungspaket für Finnish (Suomi)"
       },
       "language": "fi",
       "profile_file": "ui_strings.json",
@@ -2616,10 +2640,12 @@
       "type": "language-pack",
       "category": "ui-translations",
       "name": {
-        "en": "Français"
+        "en": "Français (French)",
+        "fr": "Français"
       },
       "description": {
-        "en": "Français translation pack"
+        "en": "UI translation pack for French (Français)",
+        "fr": "UI-Übersetzungspaket für French (Français)"
       },
       "language": "fr",
       "profile_file": "ui_strings.json",
@@ -2644,10 +2670,12 @@
       "type": "language-pack",
       "category": "ui-translations",
       "name": {
-        "en": "ga"
+        "en": "Gaeilge (Irish)",
+        "ga": "Gaeilge"
       },
       "description": {
-        "en": "ga translation pack"
+        "en": "UI translation pack for Irish (Gaeilge)",
+        "ga": "UI-Übersetzungspaket für Irish (Gaeilge)"
       },
       "language": "ga",
       "profile_file": "ui_strings.json",
@@ -2672,10 +2700,12 @@
       "type": "language-pack",
       "category": "ui-translations",
       "name": {
-        "en": "hi"
+        "en": "हिन्दी (Hindi)",
+        "hi": "हिन्दी"
       },
       "description": {
-        "en": "hi translation pack"
+        "en": "UI translation pack for Hindi (हिन्दी)",
+        "hi": "UI-Übersetzungspaket für Hindi (हिन्दी)"
       },
       "language": "hi",
       "profile_file": "ui_strings.json",
@@ -2700,10 +2730,12 @@
       "type": "language-pack",
       "category": "ui-translations",
       "name": {
-        "en": "hr"
+        "en": "Hrvatski (Croatian)",
+        "hr": "Hrvatski"
       },
       "description": {
-        "en": "hr translation pack"
+        "en": "UI translation pack for Croatian (Hrvatski)",
+        "hr": "UI-Übersetzungspaket für Croatian (Hrvatski)"
       },
       "language": "hr",
       "profile_file": "ui_strings.json",
@@ -2728,10 +2760,12 @@
       "type": "language-pack",
       "category": "ui-translations",
       "name": {
-        "en": "hu"
+        "en": "Magyar (Hungarian)",
+        "hu": "Magyar"
       },
       "description": {
-        "en": "hu translation pack"
+        "en": "UI translation pack for Hungarian (Magyar)",
+        "hu": "UI-Übersetzungspaket für Hungarian (Magyar)"
       },
       "language": "hu",
       "profile_file": "ui_strings.json",
@@ -2756,10 +2790,12 @@
       "type": "language-pack",
       "category": "ui-translations",
       "name": {
-        "en": "hy"
+        "en": "Հայերեն (Armenian)",
+        "hy": "Հայերեն"
       },
       "description": {
-        "en": "hy translation pack"
+        "en": "UI translation pack for Armenian (Հայերեն)",
+        "hy": "UI-Übersetzungspaket für Armenian (Հայերեն)"
       },
       "language": "hy",
       "profile_file": "ui_strings.json",
@@ -2784,10 +2820,12 @@
       "type": "language-pack",
       "category": "ui-translations",
       "name": {
-        "en": "id"
+        "en": "Bahasa Indonesia (Indonesian)",
+        "id": "Bahasa Indonesia"
       },
       "description": {
-        "en": "id translation pack"
+        "en": "UI translation pack for Indonesian (Bahasa Indonesia)",
+        "id": "UI-Übersetzungspaket für Indonesian (Bahasa Indonesia)"
       },
       "language": "id",
       "profile_file": "ui_strings.json",
@@ -2812,10 +2850,12 @@
       "type": "language-pack",
       "category": "ui-translations",
       "name": {
-        "en": "io"
+        "en": "Ido (Ido)",
+        "io": "Ido"
       },
       "description": {
-        "en": "io translation pack"
+        "en": "UI translation pack for Ido (Ido)",
+        "io": "UI-Übersetzungspaket für Ido (Ido)"
       },
       "language": "io",
       "profile_file": "ui_strings.json",
@@ -2840,10 +2880,12 @@
       "type": "language-pack",
       "category": "ui-translations",
       "name": {
-        "en": "is"
+        "en": "Íslenska (Icelandic)",
+        "is": "Íslenska"
       },
       "description": {
-        "en": "is translation pack"
+        "en": "UI translation pack for Icelandic (Íslenska)",
+        "is": "UI-Übersetzungspaket für Icelandic (Íslenska)"
       },
       "language": "is",
       "profile_file": "ui_strings.json",
@@ -2868,10 +2910,12 @@
       "type": "language-pack",
       "category": "ui-translations",
       "name": {
-        "en": "Italiano"
+        "en": "Italiano (Italian)",
+        "it": "Italiano"
       },
       "description": {
-        "en": "Italiano translation pack"
+        "en": "UI translation pack for Italian (Italiano)",
+        "it": "UI-Übersetzungspaket für Italian (Italiano)"
       },
       "language": "it",
       "profile_file": "ui_strings.json",
@@ -2896,10 +2940,12 @@
       "type": "language-pack",
       "category": "ui-translations",
       "name": {
-        "en": "iu"
+        "en": "ᐃᓄᒃᑎᑐᑦ (Inuktitut)",
+        "iu": "ᐃᓄᒃᑎᑐᑦ"
       },
       "description": {
-        "en": "iu translation pack"
+        "en": "UI translation pack for Inuktitut (ᐃᓄᒃᑎᑐᑦ)",
+        "iu": "UI-Übersetzungspaket für Inuktitut (ᐃᓄᒃᑎᑐᑦ)"
       },
       "language": "iu",
       "profile_file": "ui_strings.json",
@@ -2924,10 +2970,12 @@
       "type": "language-pack",
       "category": "ui-translations",
       "name": {
-        "en": "日本語"
+        "en": "日本語 (Japanese)",
+        "ja": "日本語"
       },
       "description": {
-        "en": "日本語 translation pack"
+        "en": "UI translation pack for Japanese (日本語)",
+        "ja": "UI-Übersetzungspaket für Japanese (日本語)"
       },
       "language": "ja",
       "profile_file": "ui_strings.json",
@@ -2952,10 +3000,12 @@
       "type": "language-pack",
       "category": "ui-translations",
       "name": {
-        "en": "ka"
+        "en": "ქართული (Georgian)",
+        "ka": "ქართული"
       },
       "description": {
-        "en": "ka translation pack"
+        "en": "UI translation pack for Georgian (ქართული)",
+        "ka": "UI-Übersetzungspaket für Georgian (ქართული)"
       },
       "language": "ka",
       "profile_file": "ui_strings.json",
@@ -2980,10 +3030,12 @@
       "type": "language-pack",
       "category": "ui-translations",
       "name": {
-        "en": "ku"
+        "en": "Kurdî (Kurdish)",
+        "ku": "Kurdî"
       },
       "description": {
-        "en": "ku translation pack"
+        "en": "UI translation pack for Kurdish (Kurdî)",
+        "ku": "UI-Übersetzungspaket für Kurdish (Kurdî)"
       },
       "language": "ku",
       "profile_file": "ui_strings.json",
@@ -3008,10 +3060,12 @@
       "type": "language-pack",
       "category": "ui-translations",
       "name": {
-        "en": "la"
+        "en": "Latina (Latin)",
+        "la": "Latina"
       },
       "description": {
-        "en": "la translation pack"
+        "en": "UI translation pack for Latin (Latina)",
+        "la": "UI-Übersetzungspaket für Latin (Latina)"
       },
       "language": "la",
       "profile_file": "ui_strings.json",
@@ -3036,10 +3090,12 @@
       "type": "language-pack",
       "category": "ui-translations",
       "name": {
-        "en": "lt"
+        "en": "Lietuvių (Lithuanian)",
+        "lt": "Lietuvių"
       },
       "description": {
-        "en": "lt translation pack"
+        "en": "UI translation pack for Lithuanian (Lietuvių)",
+        "lt": "UI-Übersetzungspaket für Lithuanian (Lietuvių)"
       },
       "language": "lt",
       "profile_file": "ui_strings.json",
@@ -3064,10 +3120,12 @@
       "type": "language-pack",
       "category": "ui-translations",
       "name": {
-        "en": "lv"
+        "en": "Latviešu (Latvian)",
+        "lv": "Latviešu"
       },
       "description": {
-        "en": "lv translation pack"
+        "en": "UI translation pack for Latvian (Latviešu)",
+        "lv": "UI-Übersetzungspaket für Latvian (Latviešu)"
       },
       "language": "lv",
       "profile_file": "ui_strings.json",
@@ -3092,10 +3150,12 @@
       "type": "language-pack",
       "category": "ui-translations",
       "name": {
-        "en": "mi"
+        "en": "Te Reo Māori (Maori)",
+        "mi": "Te Reo Māori"
       },
       "description": {
-        "en": "mi translation pack"
+        "en": "UI translation pack for Maori (Te Reo Māori)",
+        "mi": "UI-Übersetzungspaket für Maori (Te Reo Māori)"
       },
       "language": "mi",
       "profile_file": "ui_strings.json",
@@ -3120,10 +3180,12 @@
       "type": "language-pack",
       "category": "ui-translations",
       "name": {
-        "en": "mk"
+        "en": "Македонски (Macedonian)",
+        "mk": "Македонски"
       },
       "description": {
-        "en": "mk translation pack"
+        "en": "UI translation pack for Macedonian (Македонски)",
+        "mk": "UI-Übersetzungspaket für Macedonian (Македонски)"
       },
       "language": "mk",
       "profile_file": "ui_strings.json",
@@ -3148,10 +3210,12 @@
       "type": "language-pack",
       "category": "ui-translations",
       "name": {
-        "en": "mr"
+        "en": "मराठी (Marathi)",
+        "mr": "मराठी"
       },
       "description": {
-        "en": "mr translation pack"
+        "en": "UI translation pack for Marathi (मराठी)",
+        "mr": "UI-Übersetzungspaket für Marathi (मराठी)"
       },
       "language": "mr",
       "profile_file": "ui_strings.json",
@@ -3176,10 +3240,12 @@
       "type": "language-pack",
       "category": "ui-translations",
       "name": {
-        "en": "ms"
+        "en": "Bahasa Melayu (Malay)",
+        "ms": "Bahasa Melayu"
       },
       "description": {
-        "en": "ms translation pack"
+        "en": "UI translation pack for Malay (Bahasa Melayu)",
+        "ms": "UI-Übersetzungspaket für Malay (Bahasa Melayu)"
       },
       "language": "ms",
       "profile_file": "ui_strings.json",
@@ -3204,10 +3270,12 @@
       "type": "language-pack",
       "category": "ui-translations",
       "name": {
-        "en": "nb"
+        "en": "Norsk Bokmål (Norwegian Bokmål)",
+        "nb": "Norsk Bokmål"
       },
       "description": {
-        "en": "nb translation pack"
+        "en": "UI translation pack for Norwegian Bokmål (Norsk Bokmål)",
+        "nb": "UI-Übersetzungspaket für Norwegian Bokmål (Norsk Bokmål)"
       },
       "language": "nb",
       "profile_file": "ui_strings.json",
@@ -3232,10 +3300,12 @@
       "type": "language-pack",
       "category": "ui-translations",
       "name": {
-        "en": "nl"
+        "en": "Nederlands (Dutch)",
+        "nl": "Nederlands"
       },
       "description": {
-        "en": "nl translation pack"
+        "en": "UI translation pack for Dutch (Nederlands)",
+        "nl": "UI-Übersetzungspaket für Dutch (Nederlands)"
       },
       "language": "nl",
       "profile_file": "ui_strings.json",
@@ -3260,10 +3330,12 @@
       "type": "language-pack",
       "category": "ui-translations",
       "name": {
-        "en": "nn"
+        "en": "Norsk Nynorsk (Norwegian Nynorsk)",
+        "nn": "Norsk Nynorsk"
       },
       "description": {
-        "en": "nn translation pack"
+        "en": "UI translation pack for Norwegian Nynorsk (Norsk Nynorsk)",
+        "nn": "UI-Übersetzungspaket für Norwegian Nynorsk (Norsk Nynorsk)"
       },
       "language": "nn",
       "profile_file": "ui_strings.json",
@@ -3288,10 +3360,12 @@
       "type": "language-pack",
       "category": "ui-translations",
       "name": {
-        "en": "pl"
+        "en": "Polski (Polish)",
+        "pl": "Polski"
       },
       "description": {
-        "en": "pl translation pack"
+        "en": "UI translation pack for Polish (Polski)",
+        "pl": "UI-Übersetzungspaket für Polish (Polski)"
       },
       "language": "pl",
       "profile_file": "ui_strings.json",
@@ -3316,10 +3390,12 @@
       "type": "language-pack",
       "category": "ui-translations",
       "name": {
-        "en": "Português"
+        "en": "Português (Portuguese)",
+        "pt": "Português"
       },
       "description": {
-        "en": "Português translation pack"
+        "en": "UI translation pack for Portuguese (Português)",
+        "pt": "UI-Übersetzungspaket für Portuguese (Português)"
       },
       "language": "pt",
       "profile_file": "ui_strings.json",
@@ -3344,10 +3420,12 @@
       "type": "language-pack",
       "category": "ui-translations",
       "name": {
-        "en": "ro"
+        "en": "Română (Romanian)",
+        "ro": "Română"
       },
       "description": {
-        "en": "ro translation pack"
+        "en": "UI translation pack for Romanian (Română)",
+        "ro": "UI-Übersetzungspaket für Romanian (Română)"
       },
       "language": "ro",
       "profile_file": "ui_strings.json",
@@ -3372,10 +3450,12 @@
       "type": "language-pack",
       "category": "ui-translations",
       "name": {
-        "en": "Русский"
+        "en": "Русский (Russian)",
+        "ru": "Русский"
       },
       "description": {
-        "en": "Русский translation pack"
+        "en": "UI translation pack for Russian (Русский)",
+        "ru": "UI-Übersetzungspaket für Russian (Русский)"
       },
       "language": "ru",
       "profile_file": "ui_strings.json",
@@ -3400,10 +3480,12 @@
       "type": "language-pack",
       "category": "ui-translations",
       "name": {
-        "en": "sa"
+        "en": "संस्कृतम् (Sanskrit)",
+        "sa": "संस्कृतम्"
       },
       "description": {
-        "en": "sa translation pack"
+        "en": "UI translation pack for Sanskrit (संस्कृतम्)",
+        "sa": "UI-Übersetzungspaket für Sanskrit (संस्कृतम्)"
       },
       "language": "sa",
       "profile_file": "ui_strings.json",
@@ -3428,10 +3510,12 @@
       "type": "language-pack",
       "category": "ui-translations",
       "name": {
-        "en": "sk"
+        "en": "Slovenčina (Slovak)",
+        "sk": "Slovenčina"
       },
       "description": {
-        "en": "sk translation pack"
+        "en": "UI translation pack for Slovak (Slovenčina)",
+        "sk": "UI-Übersetzungspaket für Slovak (Slovenčina)"
       },
       "language": "sk",
       "profile_file": "ui_strings.json",
@@ -3456,10 +3540,12 @@
       "type": "language-pack",
       "category": "ui-translations",
       "name": {
-        "en": "sl"
+        "en": "Slovenščina (Slovenian)",
+        "sl": "Slovenščina"
       },
       "description": {
-        "en": "sl translation pack"
+        "en": "UI translation pack for Slovenian (Slovenščina)",
+        "sl": "UI-Übersetzungspaket für Slovenian (Slovenščina)"
       },
       "language": "sl",
       "profile_file": "ui_strings.json",
@@ -3484,10 +3570,12 @@
       "type": "language-pack",
       "category": "ui-translations",
       "name": {
-        "en": "sq"
+        "en": "Shqip (Albanian)",
+        "sq": "Shqip"
       },
       "description": {
-        "en": "sq translation pack"
+        "en": "UI translation pack for Albanian (Shqip)",
+        "sq": "UI-Übersetzungspaket für Albanian (Shqip)"
       },
       "language": "sq",
       "profile_file": "ui_strings.json",
@@ -3512,10 +3600,12 @@
       "type": "language-pack",
       "category": "ui-translations",
       "name": {
-        "en": "sr"
+        "en": "Српски (Serbian)",
+        "sr": "Српски"
       },
       "description": {
-        "en": "sr translation pack"
+        "en": "UI translation pack for Serbian (Српски)",
+        "sr": "UI-Übersetzungspaket für Serbian (Српски)"
       },
       "language": "sr",
       "profile_file": "ui_strings.json",
@@ -3540,10 +3630,12 @@
       "type": "language-pack",
       "category": "ui-translations",
       "name": {
-        "en": "ta"
+        "en": "தமிழ் (Tamil)",
+        "ta": "தமிழ்"
       },
       "description": {
-        "en": "ta translation pack"
+        "en": "UI translation pack for Tamil (தமிழ்)",
+        "ta": "UI-Übersetzungspaket für Tamil (தமிழ்)"
       },
       "language": "ta",
       "profile_file": "ui_strings.json",
@@ -3568,10 +3660,12 @@
       "type": "language-pack",
       "category": "ui-translations",
       "name": {
-        "en": "te"
+        "en": "తెలుగు (Telugu)",
+        "te": "తెలుగు"
       },
       "description": {
-        "en": "te translation pack"
+        "en": "UI translation pack for Telugu (తెలుగు)",
+        "te": "UI-Übersetzungspaket für Telugu (తెలుగు)"
       },
       "language": "te",
       "profile_file": "ui_strings.json",
@@ -3596,10 +3690,12 @@
       "type": "language-pack",
       "category": "ui-translations",
       "name": {
-        "en": "th"
+        "en": "ไทย (Thai)",
+        "th": "ไทย"
       },
       "description": {
-        "en": "th translation pack"
+        "en": "UI translation pack for Thai (ไทย)",
+        "th": "UI-Übersetzungspaket für Thai (ไทย)"
       },
       "language": "th",
       "profile_file": "ui_strings.json",
@@ -3624,10 +3720,12 @@
       "type": "language-pack",
       "category": "ui-translations",
       "name": {
-        "en": "tl"
+        "en": "Tagalog (Tagalog)",
+        "tl": "Tagalog"
       },
       "description": {
-        "en": "tl translation pack"
+        "en": "UI translation pack for Tagalog (Tagalog)",
+        "tl": "UI-Übersetzungspaket für Tagalog (Tagalog)"
       },
       "language": "tl",
       "profile_file": "ui_strings.json",
@@ -3652,10 +3750,12 @@
       "type": "language-pack",
       "category": "ui-translations",
       "name": {
-        "en": "tr"
+        "en": "Türkçe (Turkish)",
+        "tr": "Türkçe"
       },
       "description": {
-        "en": "tr translation pack"
+        "en": "UI translation pack for Turkish (Türkçe)",
+        "tr": "UI-Übersetzungspaket für Turkish (Türkçe)"
       },
       "language": "tr",
       "profile_file": "ui_strings.json",
@@ -3680,10 +3780,12 @@
       "type": "language-pack",
       "category": "ui-translations",
       "name": {
-        "en": "ur"
+        "en": "اردو (Urdu)",
+        "ur": "اردو"
       },
       "description": {
-        "en": "ur translation pack"
+        "en": "UI translation pack for Urdu (اردو)",
+        "ur": "UI-Übersetzungspaket für Urdu (اردو)"
       },
       "language": "ur",
       "profile_file": "ui_strings.json",
@@ -3708,10 +3810,12 @@
       "type": "language-pack",
       "category": "ui-translations",
       "name": {
-        "en": "vi"
+        "en": "Tiếng Việt (Vietnamese)",
+        "vi": "Tiếng Việt"
       },
       "description": {
-        "en": "vi translation pack"
+        "en": "UI translation pack for Vietnamese (Tiếng Việt)",
+        "vi": "UI-Übersetzungspaket für Vietnamese (Tiếng Việt)"
       },
       "language": "vi",
       "profile_file": "ui_strings.json",
@@ -3736,10 +3840,12 @@
       "type": "language-pack",
       "category": "ui-translations",
       "name": {
-        "en": "yi"
+        "en": "ייִדיש (Yiddish)",
+        "yi": "ייִדיש"
       },
       "description": {
-        "en": "yi translation pack"
+        "en": "UI translation pack for Yiddish (ייִדיש)",
+        "yi": "UI-Übersetzungspaket für Yiddish (ייִדיש)"
       },
       "language": "yi",
       "profile_file": "ui_strings.json",
@@ -3764,10 +3870,12 @@
       "type": "language-pack",
       "category": "ui-translations",
       "name": {
-        "en": "中文"
+        "en": "中文 (Chinese)",
+        "zh": "中文"
       },
       "description": {
-        "en": "中文 translation pack"
+        "en": "UI translation pack for Chinese (中文)",
+        "zh": "UI-Übersetzungspaket für Chinese (中文)"
       },
       "language": "zh",
       "profile_file": "ui_strings.json",

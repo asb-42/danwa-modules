@@ -2,10 +2,12 @@
   "schema_version": "3.0.0",
   "module_id": "lang-iu",
   "name": {
-    "en": "iu"
+    "en": "ᐃᓄᒃᑎᑐᑦ (Inuktitut)",
+    "iu": "ᐃᓄᒃᑎᑐᑦ"
   },
   "description": {
-    "en": "iu translation pack"
+    "en": "UI translation pack for Inuktitut (ᐃᓄᒃᑎᑐᑦ)",
+    "iu": "UI-Übersetzungspaket für Inuktitut (ᐃᓄᒃᑎᑐᑦ)"
   },
   "version": "1.0.0",
   "type": "language-pack",

@@ -2,10 +2,12 @@
   "schema_version": "3.0.0",
   "module_id": "lang-pl",
   "name": {
-    "en": "pl"
+    "en": "Polski (Polish)",
+    "pl": "Polski"
   },
   "description": {
-    "en": "pl translation pack"
+    "en": "UI translation pack for Polish (Polski)",
+    "pl": "UI-Übersetzungspaket für Polish (Polski)"
   },
   "version": "1.0.0",
   "type": "language-pack",

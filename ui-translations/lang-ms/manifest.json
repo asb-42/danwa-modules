@@ -2,10 +2,12 @@
   "schema_version": "3.0.0",
   "module_id": "lang-ms",
   "name": {
-    "en": "ms"
+    "en": "Bahasa Melayu (Malay)",
+    "ms": "Bahasa Melayu"
   },
   "description": {
-    "en": "ms translation pack"
+    "en": "UI translation pack for Malay (Bahasa Melayu)",
+    "ms": "UI-Übersetzungspaket für Malay (Bahasa Melayu)"
   },
   "version": "1.0.0",
   "type": "language-pack",

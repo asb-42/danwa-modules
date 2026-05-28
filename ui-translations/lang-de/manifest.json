@@ -2,10 +2,12 @@
   "schema_version": "3.0.0",
   "module_id": "lang-de",
   "name": {
-    "en": "Deutsch"
+    "en": "Deutsch (German)",
+    "de": "Deutsch"
   },
   "description": {
-    "en": "Deutsch translation pack"
+    "en": "UI translation pack for German (Deutsch)",
+    "de": "UI-Übersetzungspaket für German (Deutsch)"
   },
   "version": "1.0.0",
   "type": "language-pack",

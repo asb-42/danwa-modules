@@ -2,10 +2,12 @@
   "schema_version": "3.0.0",
   "module_id": "lang-pt",
   "name": {
-    "en": "Português"
+    "en": "Português (Portuguese)",
+    "pt": "Português"
   },
   "description": {
-    "en": "Português translation pack"
+    "en": "UI translation pack for Portuguese (Português)",
+    "pt": "UI-Übersetzungspaket für Portuguese (Português)"
   },
   "version": "1.0.0",
   "type": "language-pack",

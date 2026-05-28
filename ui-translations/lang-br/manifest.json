@@ -2,10 +2,12 @@
   "schema_version": "3.0.0",
   "module_id": "lang-br",
   "name": {
-    "en": "br"
+    "en": "Brezhoneg (Breton)",
+    "br": "Brezhoneg"
   },
   "description": {
-    "en": "br translation pack"
+    "en": "UI translation pack for Breton (Brezhoneg)",
+    "br": "UI-Übersetzungspaket für Breton (Brezhoneg)"
   },
   "version": "1.0.0",
   "type": "language-pack",

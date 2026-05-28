@@ -2,10 +2,12 @@
   "schema_version": "3.0.0",
   "module_id": "lang-la",
   "name": {
-    "en": "la"
+    "en": "Latina (Latin)",
+    "la": "Latina"
   },
   "description": {
-    "en": "la translation pack"
+    "en": "UI translation pack for Latin (Latina)",
+    "la": "UI-Übersetzungspaket für Latin (Latina)"
   },
   "version": "1.0.0",
   "type": "language-pack",

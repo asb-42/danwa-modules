@@ -2,10 +2,12 @@
   "schema_version": "3.0.0",
   "module_id": "lang-sl",
   "name": {
-    "en": "sl"
+    "en": "Slovenščina (Slovenian)",
+    "sl": "Slovenščina"
   },
   "description": {
-    "en": "sl translation pack"
+    "en": "UI translation pack for Slovenian (Slovenščina)",
+    "sl": "UI-Übersetzungspaket für Slovenian (Slovenščina)"
   },
   "version": "1.0.0",
   "type": "language-pack",

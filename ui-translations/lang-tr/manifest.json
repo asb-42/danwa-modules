@@ -2,10 +2,12 @@
   "schema_version": "3.0.0",
   "module_id": "lang-tr",
   "name": {
-    "en": "tr"
+    "en": "Türkçe (Turkish)",
+    "tr": "Türkçe"
   },
   "description": {
-    "en": "tr translation pack"
+    "en": "UI translation pack for Turkish (Türkçe)",
+    "tr": "UI-Übersetzungspaket für Turkish (Türkçe)"
   },
   "version": "1.0.0",
   "type": "language-pack",

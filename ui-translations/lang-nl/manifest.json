@@ -2,10 +2,12 @@
   "schema_version": "3.0.0",
   "module_id": "lang-nl",
   "name": {
-    "en": "nl"
+    "en": "Nederlands (Dutch)",
+    "nl": "Nederlands"
   },
   "description": {
-    "en": "nl translation pack"
+    "en": "UI translation pack for Dutch (Nederlands)",
+    "nl": "UI-Übersetzungspaket für Dutch (Nederlands)"
   },
   "version": "1.0.0",
   "type": "language-pack",

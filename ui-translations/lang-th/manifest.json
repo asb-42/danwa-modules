@@ -2,10 +2,12 @@
   "schema_version": "3.0.0",
   "module_id": "lang-th",
   "name": {
-    "en": "th"
+    "en": "ไทย (Thai)",
+    "th": "ไทย"
   },
   "description": {
-    "en": "th translation pack"
+    "en": "UI translation pack for Thai (ไทย)",
+    "th": "UI-Übersetzungspaket für Thai (ไทย)"
   },
   "version": "1.0.0",
   "type": "language-pack",

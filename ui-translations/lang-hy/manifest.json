@@ -2,10 +2,12 @@
   "schema_version": "3.0.0",
   "module_id": "lang-hy",
   "name": {
-    "en": "hy"
+    "en": "Հայերեն (Armenian)",
+    "hy": "Հայերեն"
   },
   "description": {
-    "en": "hy translation pack"
+    "en": "UI translation pack for Armenian (Հայերեն)",
+    "hy": "UI-Übersetzungspaket für Armenian (Հայերեն)"
   },
   "version": "1.0.0",
   "type": "language-pack",

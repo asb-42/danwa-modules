@@ -2,10 +2,12 @@
   "schema_version": "3.0.0",
   "module_id": "lang-mi",
   "name": {
-    "en": "mi"
+    "en": "Te Reo Māori (Maori)",
+    "mi": "Te Reo Māori"
   },
   "description": {
-    "en": "mi translation pack"
+    "en": "UI translation pack for Maori (Te Reo Māori)",
+    "mi": "UI-Übersetzungspaket für Maori (Te Reo Māori)"
   },
   "version": "1.0.0",
   "type": "language-pack",

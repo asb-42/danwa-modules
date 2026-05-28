@@ -2,10 +2,12 @@
   "schema_version": "3.0.0",
   "module_id": "lang-fi",
   "name": {
-    "en": "fi"
+    "en": "Suomi (Finnish)",
+    "fi": "Suomi"
   },
   "description": {
-    "en": "fi translation pack"
+    "en": "UI translation pack for Finnish (Suomi)",
+    "fi": "UI-Übersetzungspaket für Finnish (Suomi)"
   },
   "version": "1.0.0",
   "type": "language-pack",

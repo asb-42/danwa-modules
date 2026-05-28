@@ -2,10 +2,12 @@
   "schema_version": "3.0.0",
   "module_id": "lang-sk",
   "name": {
-    "en": "sk"
+    "en": "Slovenčina (Slovak)",
+    "sk": "Slovenčina"
   },
   "description": {
-    "en": "sk translation pack"
+    "en": "UI translation pack for Slovak (Slovenčina)",
+    "sk": "UI-Übersetzungspaket für Slovak (Slovenčina)"
   },
   "version": "1.0.0",
   "type": "language-pack",

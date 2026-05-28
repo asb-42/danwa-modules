@@ -2,10 +2,12 @@
   "schema_version": "3.0.0",
   "module_id": "lang-mr",
   "name": {
-    "en": "mr"
+    "en": "मराठी (Marathi)",
+    "mr": "मराठी"
   },
   "description": {
-    "en": "mr translation pack"
+    "en": "UI translation pack for Marathi (मराठी)",
+    "mr": "UI-Übersetzungspaket für Marathi (मराठी)"
   },
   "version": "1.0.0",
   "type": "language-pack",

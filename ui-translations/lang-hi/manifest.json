@@ -2,10 +2,12 @@
   "schema_version": "3.0.0",
   "module_id": "lang-hi",
   "name": {
-    "en": "hi"
+    "en": "हिन्दी (Hindi)",
+    "hi": "हिन्दी"
   },
   "description": {
-    "en": "hi translation pack"
+    "en": "UI translation pack for Hindi (हिन्दी)",
+    "hi": "UI-Übersetzungspaket für Hindi (हिन्दी)"
   },
   "version": "1.0.0",
   "type": "language-pack",

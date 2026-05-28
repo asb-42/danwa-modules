@@ -2,10 +2,12 @@
   "schema_version": "3.0.0",
   "module_id": "lang-ro",
   "name": {
-    "en": "ro"
+    "en": "Română (Romanian)",
+    "ro": "Română"
   },
   "description": {
-    "en": "ro translation pack"
+    "en": "UI translation pack for Romanian (Română)",
+    "ro": "UI-Übersetzungspaket für Romanian (Română)"
   },
   "version": "1.0.0",
   "type": "language-pack",

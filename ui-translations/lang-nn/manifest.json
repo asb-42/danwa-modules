@@ -2,10 +2,12 @@
   "schema_version": "3.0.0",
   "module_id": "lang-nn",
   "name": {
-    "en": "nn"
+    "en": "Norsk Nynorsk (Norwegian Nynorsk)",
+    "nn": "Norsk Nynorsk"
   },
   "description": {
-    "en": "nn translation pack"
+    "en": "UI translation pack for Norwegian Nynorsk (Norsk Nynorsk)",
+    "nn": "UI-Übersetzungspaket für Norwegian Nynorsk (Norsk Nynorsk)"
   },
   "version": "1.0.0",
   "type": "language-pack",

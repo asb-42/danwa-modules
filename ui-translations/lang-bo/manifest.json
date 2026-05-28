@@ -2,10 +2,12 @@
   "schema_version": "3.0.0",
   "module_id": "lang-bo",
   "name": {
-    "en": "bo"
+    "en": "བོད་སྐད (Tibetan)",
+    "bo": "བོད་སྐད"
   },
   "description": {
-    "en": "bo translation pack"
+    "en": "UI translation pack for Tibetan (བོད་སྐད)",
+    "bo": "UI-Übersetzungspaket für Tibetan (བོད་སྐད)"
   },
   "version": "1.0.0",
   "type": "language-pack",

@@ -2,10 +2,12 @@
   "schema_version": "3.0.0",
   "module_id": "lang-id",
   "name": {
-    "en": "id"
+    "en": "Bahasa Indonesia (Indonesian)",
+    "id": "Bahasa Indonesia"
   },
   "description": {
-    "en": "id translation pack"
+    "en": "UI translation pack for Indonesian (Bahasa Indonesia)",
+    "id": "UI-Übersetzungspaket für Indonesian (Bahasa Indonesia)"
   },
   "version": "1.0.0",
   "type": "language-pack",

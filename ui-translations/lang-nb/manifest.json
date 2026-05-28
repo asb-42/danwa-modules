@@ -2,10 +2,12 @@
   "schema_version": "3.0.0",
   "module_id": "lang-nb",
   "name": {
-    "en": "nb"
+    "en": "Norsk Bokmål (Norwegian Bokmål)",
+    "nb": "Norsk Bokmål"
   },
   "description": {
-    "en": "nb translation pack"
+    "en": "UI translation pack for Norwegian Bokmål (Norsk Bokmål)",
+    "nb": "UI-Übersetzungspaket für Norwegian Bokmål (Norsk Bokmål)"
   },
   "version": "1.0.0",
   "type": "language-pack",

@@ -2,10 +2,12 @@
   "schema_version": "3.0.0",
   "module_id": "lang-yi",
   "name": {
-    "en": "yi"
+    "en": "ייִדיש (Yiddish)",
+    "yi": "ייִדיש"
   },
   "description": {
-    "en": "yi translation pack"
+    "en": "UI translation pack for Yiddish (ייִדיש)",
+    "yi": "UI-Übersetzungspaket für Yiddish (ייִדיש)"
   },
   "version": "1.0.0",
   "type": "language-pack",

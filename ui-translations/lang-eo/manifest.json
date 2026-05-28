@@ -2,10 +2,12 @@
   "schema_version": "3.0.0",
   "module_id": "lang-eo",
   "name": {
-    "en": "eo"
+    "en": "Esperanto (Esperanto)",
+    "eo": "Esperanto"
   },
   "description": {
-    "en": "eo translation pack"
+    "en": "UI translation pack for Esperanto (Esperanto)",
+    "eo": "UI-Übersetzungspaket für Esperanto (Esperanto)"
   },
   "version": "1.0.0",
   "type": "language-pack",

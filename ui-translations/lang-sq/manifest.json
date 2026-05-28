@@ -2,10 +2,12 @@
   "schema_version": "3.0.0",
   "module_id": "lang-sq",
   "name": {
-    "en": "sq"
+    "en": "Shqip (Albanian)",
+    "sq": "Shqip"
   },
   "description": {
-    "en": "sq translation pack"
+    "en": "UI translation pack for Albanian (Shqip)",
+    "sq": "UI-Übersetzungspaket für Albanian (Shqip)"
   },
   "version": "1.0.0",
   "type": "language-pack",

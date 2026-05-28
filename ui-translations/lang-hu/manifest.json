@@ -2,10 +2,12 @@
   "schema_version": "3.0.0",
   "module_id": "lang-hu",
   "name": {
-    "en": "hu"
+    "en": "Magyar (Hungarian)",
+    "hu": "Magyar"
   },
   "description": {
-    "en": "hu translation pack"
+    "en": "UI translation pack for Hungarian (Magyar)",
+    "hu": "UI-Übersetzungspaket für Hungarian (Magyar)"
   },
   "version": "1.0.0",
   "type": "language-pack",

@@ -2,10 +2,12 @@
   "schema_version": "3.0.0",
   "module_id": "lang-te",
   "name": {
-    "en": "te"
+    "en": "తెలుగు (Telugu)",
+    "te": "తెలుగు"
   },
   "description": {
-    "en": "te translation pack"
+    "en": "UI translation pack for Telugu (తెలుగు)",
+    "te": "UI-Übersetzungspaket für Telugu (తెలుగు)"
   },
   "version": "1.0.0",
   "type": "language-pack",

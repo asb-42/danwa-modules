@@ -2,10 +2,12 @@
   "schema_version": "3.0.0",
   "module_id": "lang-ta",
   "name": {
-    "en": "ta"
+    "en": "தமிழ் (Tamil)",
+    "ta": "தமிழ்"
   },
   "description": {
-    "en": "ta translation pack"
+    "en": "UI translation pack for Tamil (தமிழ்)",
+    "ta": "UI-Übersetzungspaket für Tamil (தமிழ்)"
   },
   "version": "1.0.0",
   "type": "language-pack",

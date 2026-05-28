@@ -2,10 +2,12 @@
   "schema_version": "3.0.0",
   "module_id": "lang-io",
   "name": {
-    "en": "io"
+    "en": "Ido (Ido)",
+    "io": "Ido"
   },
   "description": {
-    "en": "io translation pack"
+    "en": "UI translation pack for Ido (Ido)",
+    "io": "UI-Übersetzungspaket für Ido (Ido)"
   },
   "version": "1.0.0",
   "type": "language-pack",

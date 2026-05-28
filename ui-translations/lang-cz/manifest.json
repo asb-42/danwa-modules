@@ -2,10 +2,12 @@
   "schema_version": "3.0.0",
   "module_id": "lang-cz",
   "name": {
-    "en": "cz"
+    "en": "Čeština (Czech)",
+    "cz": "Čeština"
   },
   "description": {
-    "en": "cz translation pack"
+    "en": "UI translation pack for Czech (Čeština)",
+    "cz": "UI-Übersetzungspaket für Czech (Čeština)"
   },
   "version": "1.0.0",
   "type": "language-pack",

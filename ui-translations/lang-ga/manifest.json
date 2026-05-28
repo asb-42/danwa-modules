@@ -2,10 +2,12 @@
   "schema_version": "3.0.0",
   "module_id": "lang-ga",
   "name": {
-    "en": "ga"
+    "en": "Gaeilge (Irish)",
+    "ga": "Gaeilge"
   },
   "description": {
-    "en": "ga translation pack"
+    "en": "UI translation pack for Irish (Gaeilge)",
+    "ga": "UI-Übersetzungspaket für Irish (Gaeilge)"
   },
   "version": "1.0.0",
   "type": "language-pack",

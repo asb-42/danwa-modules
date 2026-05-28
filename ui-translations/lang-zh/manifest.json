@@ -2,10 +2,12 @@
   "schema_version": "3.0.0",
   "module_id": "lang-zh",
   "name": {
-    "en": "中文"
+    "en": "中文 (Chinese)",
+    "zh": "中文"
   },
   "description": {
-    "en": "中文 translation pack"
+    "en": "UI translation pack for Chinese (中文)",
+    "zh": "UI-Übersetzungspaket für Chinese (中文)"
   },
   "version": "1.0.0",
   "type": "language-pack",

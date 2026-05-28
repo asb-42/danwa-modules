@@ -2,10 +2,12 @@
   "schema_version": "3.0.0",
   "module_id": "lang-lt",
   "name": {
-    "en": "lt"
+    "en": "Lietuvių (Lithuanian)",
+    "lt": "Lietuvių"
   },
   "description": {
-    "en": "lt translation pack"
+    "en": "UI translation pack for Lithuanian (Lietuvių)",
+    "lt": "UI-Übersetzungspaket für Lithuanian (Lietuvių)"
   },
   "version": "1.0.0",
   "type": "language-pack",

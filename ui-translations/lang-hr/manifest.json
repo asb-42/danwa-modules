@@ -2,10 +2,12 @@
   "schema_version": "3.0.0",
   "module_id": "lang-hr",
   "name": {
-    "en": "hr"
+    "en": "Hrvatski (Croatian)",
+    "hr": "Hrvatski"
   },
   "description": {
-    "en": "hr translation pack"
+    "en": "UI translation pack for Croatian (Hrvatski)",
+    "hr": "UI-Übersetzungspaket für Croatian (Hrvatski)"
   },
   "version": "1.0.0",
   "type": "language-pack",

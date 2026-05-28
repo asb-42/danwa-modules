@@ -2,10 +2,12 @@
   "schema_version": "3.0.0",
   "module_id": "lang-tl",
   "name": {
-    "en": "tl"
+    "en": "Tagalog (Tagalog)",
+    "tl": "Tagalog"
   },
   "description": {
-    "en": "tl translation pack"
+    "en": "UI translation pack for Tagalog (Tagalog)",
+    "tl": "UI-Übersetzungspaket für Tagalog (Tagalog)"
   },
   "version": "1.0.0",
   "type": "language-pack",

@@ -2,10 +2,12 @@
   "schema_version": "3.0.0",
   "module_id": "lang-fa",
   "name": {
-    "en": "fa"
+    "en": "فارسی (Persian)",
+    "fa": "فارسی"
   },
   "description": {
-    "en": "fa translation pack"
+    "en": "UI translation pack for Persian (فارسی)",
+    "fa": "UI-Übersetzungspaket für Persian (فارسی)"
   },
   "version": "1.0.0",
   "type": "language-pack",

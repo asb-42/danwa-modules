@@ -2,10 +2,12 @@
   "schema_version": "3.0.0",
   "module_id": "lang-eu",
   "name": {
-    "en": "eu"
+    "en": "Euskara (Basque)",
+    "eu": "Euskara"
   },
   "description": {
-    "en": "eu translation pack"
+    "en": "UI translation pack for Basque (Euskara)",
+    "eu": "UI-Übersetzungspaket für Basque (Euskara)"
   },
   "version": "1.0.0",
   "type": "language-pack",

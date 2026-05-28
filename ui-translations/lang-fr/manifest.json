@@ -2,10 +2,12 @@
   "schema_version": "3.0.0",
   "module_id": "lang-fr",
   "name": {
-    "en": "Français"
+    "en": "Français (French)",
+    "fr": "Français"
   },
   "description": {
-    "en": "Français translation pack"
+    "en": "UI translation pack for French (Français)",
+    "fr": "UI-Übersetzungspaket für French (Français)"
   },
   "version": "1.0.0",
   "type": "language-pack",

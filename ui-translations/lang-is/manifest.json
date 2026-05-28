@@ -2,10 +2,12 @@
   "schema_version": "3.0.0",
   "module_id": "lang-is",
   "name": {
-    "en": "is"
+    "en": "Íslenska (Icelandic)",
+    "is": "Íslenska"
   },
   "description": {
-    "en": "is translation pack"
+    "en": "UI translation pack for Icelandic (Íslenska)",
+    "is": "UI-Übersetzungspaket für Icelandic (Íslenska)"
   },
   "version": "1.0.0",
   "type": "language-pack",

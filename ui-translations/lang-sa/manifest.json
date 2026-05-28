@@ -2,10 +2,12 @@
   "schema_version": "3.0.0",
   "module_id": "lang-sa",
   "name": {
-    "en": "sa"
+    "en": "संस्कृतम् (Sanskrit)",
+    "sa": "संस्कृतम्"
   },
   "description": {
-    "en": "sa translation pack"
+    "en": "UI translation pack for Sanskrit (संस्कृतम्)",
+    "sa": "UI-Übersetzungspaket für Sanskrit (संस्कृतम्)"
   },
   "version": "1.0.0",
   "type": "language-pack",

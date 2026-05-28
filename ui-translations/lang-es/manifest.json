@@ -2,10 +2,12 @@
   "schema_version": "3.0.0",
   "module_id": "lang-es",
   "name": {
-    "en": "Español"
+    "en": "Español (Spanish)",
+    "es": "Español"
   },
   "description": {
-    "en": "Español translation pack"
+    "en": "UI translation pack for Spanish (Español)",
+    "es": "UI-Übersetzungspaket für Spanish (Español)"
   },
   "version": "1.0.0",
   "type": "language-pack",

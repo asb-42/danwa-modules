@@ -2,10 +2,12 @@
   "schema_version": "3.0.0",
   "module_id": "lang-it",
   "name": {
-    "en": "Italiano"
+    "en": "Italiano (Italian)",
+    "it": "Italiano"
   },
   "description": {
-    "en": "Italiano translation pack"
+    "en": "UI translation pack for Italian (Italiano)",
+    "it": "UI-Übersetzungspaket für Italian (Italiano)"
   },
   "version": "1.0.0",
   "type": "language-pack",

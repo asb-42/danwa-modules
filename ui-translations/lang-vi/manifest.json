@@ -2,10 +2,12 @@
   "schema_version": "3.0.0",
   "module_id": "lang-vi",
   "name": {
-    "en": "vi"
+    "en": "Tiếng Việt (Vietnamese)",
+    "vi": "Tiếng Việt"
   },
   "description": {
-    "en": "vi translation pack"
+    "en": "UI translation pack for Vietnamese (Tiếng Việt)",
+    "vi": "UI-Übersetzungspaket für Vietnamese (Tiếng Việt)"
   },
   "version": "1.0.0",
   "type": "language-pack",
