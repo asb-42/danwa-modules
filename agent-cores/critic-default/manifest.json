@@ -1,0 +1,39 @@
+{
+  "schema_version": "3.0.0",
+  "module_id": "agent-critic-default-en",
+  "name": {
+    "en": "Default Critic"
+  },
+  "version": "1.0.0",
+  "type": "agent-persona",
+  "category": "agents",
+  "author": {
+    "name": "Danwa Community"
+  },
+  "license": "CC-BY-4.0",
+  "tags": [
+    "default",
+    "rigorous",
+    "english"
+  ],
+  "language": "en",
+  "description": {
+    "en": "Rigorous critic for fundamental weakness analysis"
+  },
+  "role": "critic",
+  "profile_id": "critic-default-en",
+  "profile_file": "profile.md",
+  "profile_format": "markdown",
+  "checksum": "07f713d54bfb71abb03f30e722d31eb21e8a198ea6964681b6f590af0b630d1f",
+  "updated_at": "2026-05-28T15:57:08.295489+00:00",
+  "created_at": "2026-05-17T03:22:25+02:00",
+  "compatibility": {
+    "danwa_min_version": "2.1.0",
+    "danwa_max_version": null
+  },
+  "repository": {
+    "type": "github",
+    "url": "https://github.com/asb-42/danwa-modules",
+    "ref": "v1.0.0"
+  }
+}

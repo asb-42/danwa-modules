@@ -1,0 +1,30 @@
+{
+  "schema_version": "3.0.0",
+  "module_id": "llm-xiaomi-io-2--6btm",
+  "name": {
+    "en": "mimo-2.5-tts (Xiaomi)"
+  },
+  "version": "1.0.0",
+  "type": "llm-profile",
+  "category": "llm-profiles",
+  "author": {
+    "name": "Danwa Community"
+  },
+  "license": "CC-BY-4.0",
+  "tags": [],
+  "language": "en",
+  "profile_file": "profile.yaml",
+  "profile_format": "yaml",
+  "checksum": "b0f7f90c519119335b08a13c2a6eb0414a9f5ff622327ac4fcadfc2120ed065b",
+  "created_at": "2026-05-17T03:22:25+02:00",
+  "updated_at": "2026-05-28T15:57:08.320879+00:00",
+  "compatibility": {
+    "danwa_min_version": "2.1.0",
+    "danwa_max_version": null
+  },
+  "repository": {
+    "type": "github",
+    "url": "https://github.com/asb-42/danwa-modules",
+    "ref": "v1.0.0"
+  }
+}

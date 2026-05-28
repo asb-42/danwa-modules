@@ -1,0 +1,38 @@
+{
+  "schema_version": "3.0.0",
+  "module_id": "dialectic-strategist",
+  "name": {
+    "en": "Dialectic Strategist"
+  },
+  "version": "1.0.0",
+  "type": "prompt-variant",
+  "category": "prompts",
+  "author": {
+    "name": "Danwa Community"
+  },
+  "license": "CC-BY-4.0",
+  "tags": [
+    "dialectic",
+    "strategist",
+    "en"
+  ],
+  "language": "en",
+  "profile_file": "profile.md",
+  "profile_format": "markdown",
+  "checksum": "13217feeabba59a0a8c418fd7e742238f66123c9e18c0e862af47bef6194e975",
+  "description": {
+    "en": ""
+  },
+  "role": "",
+  "updated_at": "2026-05-28T15:57:08.259397+00:00",
+  "created_at": "2026-05-17T03:53:23+02:00",
+  "compatibility": {
+    "danwa_min_version": "2.1.0",
+    "danwa_max_version": null
+  },
+  "repository": {
+    "type": "github",
+    "url": "https://github.com/asb-42/danwa-modules",
+    "ref": "v1.0.0"
+  }
+}

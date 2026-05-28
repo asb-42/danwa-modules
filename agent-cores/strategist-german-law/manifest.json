@@ -1,0 +1,38 @@
+{
+  "schema_version": "3.0.0",
+  "module_id": "agent-strategist-german-law",
+  "name": {
+    "en": "German Law Strategist"
+  },
+  "version": "1.0.0",
+  "type": "agent-persona",
+  "category": "agents",
+  "author": {
+    "name": "Danwa Community"
+  },
+  "license": "CC-BY-4.0",
+  "tags": [
+    "legal",
+    "german"
+  ],
+  "language": "en",
+  "description": {
+    "en": "Strategist specialized in German legal analysis"
+  },
+  "checksum": "90b183c361103564d5a0a089a945df37465160a1edc5fab8206287a4b6118b4b",
+  "role": "strategist",
+  "profile_id": "strategist-german-law",
+  "profile_file": "profile.md",
+  "profile_format": "markdown",
+  "created_at": "2026-05-17T03:22:25+02:00",
+  "updated_at": "2026-05-28T15:57:08.309728+00:00",
+  "compatibility": {
+    "danwa_min_version": "2.1.0",
+    "danwa_max_version": null
+  },
+  "repository": {
+    "type": "github",
+    "url": "https://github.com/asb-42/danwa-modules",
+    "ref": "v1.0.0"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "schema_version": "3.0.0",
+  "module_id": "steiner-strategist",
+  "name": {
+    "en": "Strategist (Steiner)"
+  },
+  "version": "1.0.0",
+  "type": "prompt-variant",
+  "category": "prompts",
+  "author": {
+    "name": "Danwa Community"
+  },
+  "license": "CC-BY-4.0",
+  "tags": [
+    "steiner",
+    "strategist",
+    "de"
+  ],
+  "language": "de",
+  "profile_file": "profile.md",
+  "profile_format": "markdown",
+  "checksum": "8a0630d8723524ac7e0148333f0a1124b5699c71075cec59e0f78ab2e464b123",
+  "created_at": "2026-05-17T03:53:23+02:00",
+  "updated_at": "2026-05-28T15:57:08.273387+00:00",
+  "compatibility": {
+    "danwa_min_version": "2.1.0",
+    "danwa_max_version": null
+  },
+  "repository": {
+    "type": "github",
+    "url": "https://github.com/asb-42/danwa-modules",
+    "ref": "v1.0.0"
+  }
+}

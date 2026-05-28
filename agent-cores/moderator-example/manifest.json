@@ -1,0 +1,38 @@
+{
+  "schema_version": "3.0.0",
+  "module_id": "agent-moderator-example",
+  "name": {
+    "en": "Example Moderator"
+  },
+  "version": "1.0.0",
+  "type": "agent-persona",
+  "category": "agents",
+  "author": {
+    "name": "Danwa Community"
+  },
+  "license": "CC-BY-4.0",
+  "tags": [
+    "default",
+    "neutral"
+  ],
+  "language": "en",
+  "description": {
+    "en": "Example moderator for balanced debate facilitation"
+  },
+  "checksum": "98d9195041d383cc4a1893d432c98c1d15e0a6930c209a76be45271fd79e9846",
+  "role": "moderator",
+  "profile_id": "moderator-example",
+  "profile_file": "profile.md",
+  "profile_format": "markdown",
+  "created_at": "2026-05-17T03:22:25+02:00",
+  "updated_at": "2026-05-28T15:57:08.303024+00:00",
+  "compatibility": {
+    "danwa_min_version": "2.1.0",
+    "danwa_max_version": null
+  },
+  "repository": {
+    "type": "github",
+    "url": "https://github.com/asb-42/danwa-modules",
+    "ref": "v1.0.0"
+  }
+}

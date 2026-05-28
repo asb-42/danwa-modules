@@ -1,0 +1,38 @@
+{
+  "schema_version": "3.0.0",
+  "module_id": "agent-critic-example",
+  "name": {
+    "en": "Example Critic"
+  },
+  "version": "1.0.0",
+  "type": "agent-persona",
+  "category": "agents",
+  "author": {
+    "name": "Danwa Community"
+  },
+  "license": "CC-BY-4.0",
+  "tags": [
+    "default",
+    "rigorous"
+  ],
+  "language": "en",
+  "description": {
+    "en": "Example critic with rigorous evaluation approach"
+  },
+  "checksum": "d29499b869bb8d07b019c128369d3181557b3f5d93e8a0b91e8221b4af0fa5f6",
+  "role": "critic",
+  "profile_id": "critic-example",
+  "profile_file": "profile.md",
+  "profile_format": "markdown",
+  "created_at": "2026-05-17T03:22:25+02:00",
+  "updated_at": "2026-05-28T15:57:08.296787+00:00",
+  "compatibility": {
+    "danwa_min_version": "2.1.0",
+    "danwa_max_version": null
+  },
+  "repository": {
+    "type": "github",
+    "url": "https://github.com/asb-42/danwa-modules",
+    "ref": "v1.0.0"
+  }
+}

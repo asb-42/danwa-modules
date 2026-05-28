@@ -1,0 +1,56 @@
+name: Publish Modules
+
+on:
+  push:
+    tags: ["v*"]
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install jsonschema
+        run: pip install jsonschema
+
+      - name: Validate all manifests
+        run: python scripts/validate.py
+
+      - name: Build module ZIPs
+        run: |
+          mkdir -p releases
+          for manifest in $(find . -name manifest.json -not -path './.git/*' -not -path './schemas/*' -not -path './plans/*'); do
+            DIR=$(dirname "$manifest")
+            MODULE_ID=$(python3 -c "import json; print(json.load(open('$manifest'))['module_id'])")
+            VERSION=$(python3 -c "import json; print(json.load(open('$manifest'))['version'])")
+            ZIP_NAME="releases/${MODULE_ID}.zip"
+            echo "Building $ZIP_NAME from $DIR..."
+            (cd "$DIR" && zip -r "../../$ZIP_NAME" . -x "manifest.json" > /dev/null)
+          done
+          echo "Built $(ls releases/*.zip 2>/dev/null | wc -l) ZIP archives."
+
+      - name: Generate index.json
+        run: python scripts/generate_index.py
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          name: "Module Release ${{ github.ref_name }}"
+          body: |
+            Automated release of Danwa modules.
+
+            See [index.json](index.json) for the full module catalog.
+          files: |
+            index.json
+            releases/*.zip
+          generate_release_notes: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

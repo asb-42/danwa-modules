@@ -1,0 +1,220 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Module Manifest",
+  "description": "Manifest file for Danwa modules (v3.0.0) — supports agents, LLM profiles, workflows, prompts, tone profiles, bundles, language packs, kitsune assistant",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "module_id",
+    "name",
+    "version",
+    "type"
+  ],
+  "properties": {
+    "schema_version": {
+      "type": "string",
+      "enum": ["1.0.0", "2.0.0", "3.0.0"],
+      "description": "Version of this manifest schema"
+    },
+    "module_id": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9.-]*$",
+      "description": "Unique module ID, e.g. 'bundle-critic', 'llm-openrouter-claude-3.6-sonnet'. Lowercase alphanumeric with hyphens and dots."
+    },
+    "name": {
+      "type": "object",
+      "description": "Human-readable name per language",
+      "properties": {
+        "en": { "type": "string" },
+        "de": { "type": "string" }
+      },
+      "additionalProperties": { "type": "string" }
+    },
+    "description": {
+      "type": "object",
+      "description": "Description per language",
+      "additionalProperties": { "type": "string" }
+    },
+    "version": {
+      "type": "string",
+      "pattern": "^\\d+\\.\\d+\\.\\d+$",
+      "description": "Semantic version of the module"
+    },
+    "type": {
+      "type": "string",
+      "enum": [
+        "argumentation-pattern",
+        "agent-persona",
+        "agent-core",
+        "llm-profile",
+        "workflow-template",
+        "tone-profile",
+        "workflow-variant",
+        "role-type",
+        "prompt-variant",
+        "prompt-modifier",
+        "kitsune-assistant",
+        "bundle",
+        "language-pack"
+      ],
+      "description": "Module type — determines how the module is loaded and used. 'agent-core' is an alias for 'agent-persona'."
+    },
+    "category": {
+      "type": "string",
+      "description": "Category for UI grouping",
+      "enum": [
+        "prompts",
+        "prompt-modifiers",
+        "agents",
+        "llm-profiles",
+        "workflows",
+        "workflow-variants",
+        "tone-profiles",
+        "role-types",
+        "kitsune",
+        "bundles",
+        "translations"
+      ]
+    },
+    "author": {
+      "type": "object",
+      "properties": {
+        "name": { "type": "string" },
+        "contact": { "type": "string" },
+        "org": { "type": "string" }
+      }
+    },
+    "license": {
+      "type": "string",
+      "description": "License, e.g. 'CC-BY-4.0', 'MIT'"
+    },
+    "compatibility": {
+      "type": "object",
+      "description": "Danwa version compatibility constraints",
+      "properties": {
+        "danwa_min_version": {
+          "type": ["string", "null"],
+          "description": "Minimum compatible Danwa version (semver), or null for no minimum"
+        },
+        "danwa_max_version": {
+          "type": ["string", "null"],
+          "description": "Maximum compatible Danwa version (semver), or null for no maximum"
+        }
+      },
+      "additionalProperties": false
+    },
+    "repository": {
+      "type": "object",
+      "description": "Source repository reference",
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": ["github"],
+          "description": "Repository hosting type"
+        },
+        "url": {
+          "type": "string",
+          "description": "Repository URL, e.g. 'https://github.com/asb-42/danwa-modules'"
+        },
+        "ref": {
+          "type": "string",
+          "description": "Git ref (tag, branch, commit) for this version"
+        }
+      },
+      "additionalProperties": false
+    },
+    "dependencies": {
+      "type": "object",
+      "description": "Dependencies on other modules (module_id → semver constraint)",
+      "propertyNames": {
+        "type": "string"
+      },
+      "additionalProperties": {
+        "type": "string",
+        "pattern": "^(>=?|\\^|~)?\\d+\\.\\d+\\.\\d+$"
+      }
+    },
+    "tags": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Free-form tags for search/categorization"
+    },
+    "language": {
+      "type": "string",
+      "description": "Primary language of the module content. ISO 639-1 code, e.g. 'en', 'de'."
+    },
+    "profile_file": {
+      "type": "string",
+      "description": "Filename of the module profile (v2+ format), e.g. 'profile.yaml'"
+    },
+    "profile_format": {
+      "type": "string",
+      "enum": ["yaml", "json", "markdown"],
+      "description": "Format of the profile file (v2+ format)"
+    },
+    "profile_id": {
+      "type": "string",
+      "description": "Internal profile identifier used by Danwa"
+    },
+    "role": {
+      "type": "string",
+      "description": "Functional role hint (e.g. 'critic', 'strategist')"
+    },
+    "checksum": {
+      "type": "string",
+      "description": "SHA-256 of the profile file content (without manifest.json). Empty string if no profile file.",
+      "pattern": "^([a-f0-9]{64})?$"
+    },
+    "files": {
+      "type": "array",
+      "description": "Legacy file list (v1 format) — use profile_file/profile_format instead",
+      "items": {
+        "type": "object",
+        "required": ["path", "format", "checksum"],
+        "properties": {
+          "path": {
+            "type": "string",
+            "description": "Relative path within the module"
+          },
+          "format": {
+            "type": "string",
+            "enum": ["markdown", "yaml", "json"],
+            "description": "File format"
+          },
+          "checksum": {
+            "type": "string",
+            "pattern": "^[a-f0-9]{64}$",
+            "description": "SHA-256 of this individual file"
+          },
+          "role_type_id": {
+            "type": "string",
+            "description": "Associated functional role (for prompts/personas)"
+          },
+          "mode": {
+            "type": "string",
+            "description": "Associated formatorial mode (optional)"
+          },
+          "language": {
+            "type": "string",
+            "description": "Language of the file (for prompts)"
+          },
+          "subtype": {
+            "type": "string",
+            "description": "Subtype like 'default', 'kantian', 'hegelian' etc."
+          }
+        }
+      }
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time",
+      "description": "ISO 8601 creation timestamp"
+    },
+    "updated_at": {
+      "type": "string",
+      "format": "date-time",
+      "description": "ISO 8601 last-update timestamp"
+    }
+  },
+  "additionalProperties": false
+}

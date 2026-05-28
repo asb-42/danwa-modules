@@ -1,0 +1,38 @@
+{
+  "schema_version": "3.0.0",
+  "module_id": "kitsune-assistant-default",
+  "name": {
+    "en": "Kitsune Assistant"
+  },
+  "description": {
+    "en": "System prompt for the Danwa Kitsune assistant — the intelligent assistant of the Danwa Debate Engine system."
+  },
+  "version": "1.0.0",
+  "type": "kitsune-assistant",
+  "category": "kitsune",
+  "author": {
+    "name": "Danwa Community"
+  },
+  "license": "CC-BY-4.0",
+  "tags": [
+    "kitsune",
+    "assistant",
+    "system"
+  ],
+  "language": "en",
+  "profile_file": "profile.md",
+  "profile_format": "markdown",
+  "checksum": "cea87d9552a509399a00ef43fe3ea4f16a5a7467e937adfa5daee2b73a477663",
+  "role": "",
+  "updated_at": "2026-05-28T15:57:08.312839+00:00",
+  "created_at": "2026-05-25T04:20:17+02:00",
+  "compatibility": {
+    "danwa_min_version": "2.1.0",
+    "danwa_max_version": null
+  },
+  "repository": {
+    "type": "github",
+    "url": "https://github.com/asb-42/danwa-modules",
+    "ref": "v1.0.0"
+  }
+}

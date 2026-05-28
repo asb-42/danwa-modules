@@ -1,0 +1,35 @@
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Temp / backup files
+*.bak
+*.bak.*
+*.tmp
+*.tmp.*
+.tmp_install/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Node (for scripts)
+node_modules/
+
+# Build artifacts (local only — CI builds into releases/)
+releases/
+dist/
+
+# OS-specific
+ehthumbs.db

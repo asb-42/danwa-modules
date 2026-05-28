@@ -1,0 +1,84 @@
+name: Validate Modules
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install jsonschema
+        run: pip install jsonschema
+
+      - name: Validate all manifests against schema
+        run: python scripts/validate.py
+
+      - name: Check module_id uniqueness
+        run: |
+          echo "Checking module_id uniqueness..."
+          DUPLICATES=$(find . -name manifest.json -not -path './.git/*' -not -path './schemas/*' \
+            -exec python3 -c "import json,sys; print(json.load(open(sys.argv[1]))['module_id'])" {} \; \
+            | sort | uniq -d)
+          if [ -n "$DUPLICATES" ]; then
+            echo "ERROR: Duplicate module_id values found:"
+            echo "$DUPLICATES"
+            exit 1
+          fi
+          echo "OK: All module_ids are unique."
+
+      - name: Check profile files exist
+        run: |
+          echo "Checking that all referenced profile files exist..."
+          ERRORS=0
+          for manifest in $(find . -name manifest.json -not -path './.git/*' -not -path './schemas/*'); do
+            PROFILE=$(python3 -c "import json; m=json.load(open('$manifest')); print(m.get('profile_file',''))" 2>/dev/null)
+            if [ -n "$PROFILE" ]; then
+              DIR=$(dirname "$manifest")
+              if [ ! -f "$DIR/$PROFILE" ]; then
+                echo "ERROR: Missing profile file: $DIR/$PROFILE"
+                ERRORS=$((ERRORS + 1))
+              fi
+            fi
+          done
+          if [ "$ERRORS" -gt 0 ]; then
+            echo "Found $ERRORS missing profile files."
+            exit 1
+          fi
+          echo "OK: All profile files exist."
+
+      - name: Verify checksums
+        run: |
+          echo "Verifying SHA-256 checksums..."
+          ERRORS=0
+          for manifest in $(find . -name manifest.json -not -path './.git/*' -not -path './schemas/*'); do
+            PROFILE=$(python3 -c "import json; m=json.load(open('$manifest')); print(m.get('profile_file',''))" 2>/dev/null)
+            EXPECTED=$(python3 -c "import json; m=json.load(open('$manifest')); print(m.get('checksum',''))" 2>/dev/null)
+            if [ -n "$PROFILE" ] && [ -n "$EXPECTED" ]; then
+              DIR=$(dirname "$manifest")
+              ACTUAL=$(sha256sum "$DIR/$PROFILE" | cut -d' ' -f1)
+              if [ "$EXPECTED" != "$ACTUAL" ]; then
+                echo "CHECKSUM MISMATCH: $DIR/$PROFILE"
+                echo "  Expected: $EXPECTED"
+                echo "  Actual:   $ACTUAL"
+                ERRORS=$((ERRORS + 1))
+              fi
+            fi
+          done
+          if [ "$ERRORS" -gt 0 ]; then
+            echo "Found $ERRORS checksum mismatches."
+            exit 1
+          fi
+          echo "OK: All checksums match."

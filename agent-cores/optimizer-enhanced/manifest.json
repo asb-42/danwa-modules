@@ -1,0 +1,39 @@
+{
+  "schema_version": "3.0.0",
+  "module_id": "agent-optimizer-enhanced",
+  "name": {
+    "en": "Default Optimizer Agent"
+  },
+  "version": "1.0.0",
+  "type": "agent-core",
+  "category": "agents",
+  "author": {
+    "name": "Danwa Community"
+  },
+  "license": "CC-BY-4.0",
+  "tags": [
+    "default",
+    "refinement",
+    "english"
+  ],
+  "language": "en",
+  "description": {
+    "en": "The Optimizer is a synthesis specialist for argument refinement"
+  },
+  "role": "optimizer",
+  "profile_id": "optimizer-enhanced",
+  "profile_file": "profile.md",
+  "profile_format": "markdown",
+  "created_at": "2026-05-17T03:22:25+02:00",
+  "updated_at": "2026-05-28T15:57:08.304057+00:00",
+  "compatibility": {
+    "danwa_min_version": "2.1.0",
+    "danwa_max_version": null
+  },
+  "repository": {
+    "type": "github",
+    "url": "https://github.com/asb-42/danwa-modules",
+    "ref": "v1.0.0"
+  },
+  "checksum": "28a7de740de6196c0d1da40e2c6e6b9cec29b0d951eb32cb81f26f4f63f82124"
+}

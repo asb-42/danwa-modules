@@ -1,0 +1,2527 @@
+{
+  "generated_at": "2026-05-28T16:03:44.625090+00:00",
+  "schema_version": "3.0.0",
+  "repository": "https://github.com/asb-42/danwa-modules",
+  "total_modules": 88,
+  "modules": [
+    {
+      "module_id": "critic",
+      "version": "1.0.0",
+      "type": "prompt-variant",
+      "category": "agent-argumentation-patterns",
+      "name": {
+        "en": "Default Critic"
+      },
+      "description": {
+        "en": ""
+      },
+      "language": "en",
+      "profile_file": "profile.md",
+      "profile_checksum_sha256": "07f713d54bfb71abb03f30e722d31eb21e8a198ea6964681b6f590af0b630d1f",
+      "module_checksum_sha256": "07f713d54bfb71abb03f30e722d31eb21e8a198ea6964681b6f590af0b630d1f",
+      "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/critic.zip",
+      "compatibility": {
+        "danwa_min_version": "2.1.0",
+        "danwa_max_version": null
+      },
+      "dependencies": {},
+      "tags": [
+        "default",
+        "critic",
+        "en"
+      ],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-05-17T03:53:23+02:00",
+      "updated_at": "2026-05-28T15:57:08.200082+00:00"
+    },
+    {
+      "module_id": "dialectic-critic",
+      "version": "1.0.0",
+      "type": "prompt-variant",
+      "category": "agent-argumentation-patterns",
+      "name": {
+        "en": "Dialectic Critic"
+      },
+      "description": {
+        "en": ""
+      },
+      "language": "en",
+      "profile_file": "profile.md",
+      "profile_checksum_sha256": "a879fa15a4ddd343d91f643a63537e2e1bd82686408cbe02ec018ae57646cf33",
+      "module_checksum_sha256": "a879fa15a4ddd343d91f643a63537e2e1bd82686408cbe02ec018ae57646cf33",
+      "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/dialectic-critic.zip",
+      "compatibility": {
+        "danwa_min_version": "2.1.0",
+        "danwa_max_version": null
+      },
+      "dependencies": {},
+      "tags": [
+        "dialectic",
+        "critic",
+        "en"
+      ],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-05-17T03:53:23+02:00",
+      "updated_at": "2026-05-28T15:57:08.251415+00:00"
+    },
+    {
+      "module_id": "dialectic-moderator",
+      "version": "1.0.0",
+      "type": "prompt-variant",
+      "category": "agent-argumentation-patterns",
+      "name": {
+        "en": "Dialectic Moderator"
+      },
+      "description": {
+        "en": ""
+      },
+      "language": "en",
+      "profile_file": "profile.md",
+      "profile_checksum_sha256": "c8b0dbe785375ca9b687f5271da5d6c04ff4bb5add8ebb5ea689d26bf264d7a7",
+      "module_checksum_sha256": "c8b0dbe785375ca9b687f5271da5d6c04ff4bb5add8ebb5ea689d26bf264d7a7",
+      "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/dialectic-moderator.zip",
+      "compatibility": {
+        "danwa_min_version": "2.1.0",
+        "danwa_max_version": null
+      },
+      "dependencies": {},
+      "tags": [
+        "dialectic",
+        "moderator",
+        "en"
+      ],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-05-17T03:53:23+02:00",
+      "updated_at": "2026-05-28T15:57:08.253917+00:00"
+    },
+    {
+      "module_id": "dialectic-optimizer",
+      "version": "1.0.0",
+      "type": "prompt-variant",
+      "category": "agent-argumentation-patterns",
+      "name": {
+        "en": "Dialectic Optimizer"
+      },
+      "description": {
+        "en": ""
+      },
+      "language": "en",
+      "profile_file": "profile.md",
+      "profile_checksum_sha256": "3d3d86b250a2ca213b2f91e143f6640080e75e7a60016f312f1553ec65246fc3",
+      "module_checksum_sha256": "3d3d86b250a2ca213b2f91e143f6640080e75e7a60016f312f1553ec65246fc3",
+      "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/dialectic-optimizer.zip",
+      "compatibility": {
+        "danwa_min_version": "2.1.0",
+        "danwa_max_version": null
+      },
+      "dependencies": {},
+      "tags": [
+        "dialectic",
+        "optimizer",
+        "en"
+      ],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-05-17T03:53:23+02:00",
+      "updated_at": "2026-05-28T15:57:08.256281+00:00"
+    },
+    {
+      "module_id": "dialectic-strategist",
+      "version": "1.0.0",
+      "type": "prompt-variant",
+      "category": "agent-argumentation-patterns",
+      "name": {
+        "en": "Dialectic Strategist"
+      },
+      "description": {
+        "en": ""
+      },
+      "language": "en",
+      "profile_file": "profile.md",
+      "profile_checksum_sha256": "13217feeabba59a0a8c418fd7e742238f66123c9e18c0e862af47bef6194e975",
+      "module_checksum_sha256": "13217feeabba59a0a8c418fd7e742238f66123c9e18c0e862af47bef6194e975",
+      "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/dialectic-strategist.zip",
+      "compatibility": {
+        "danwa_min_version": "2.1.0",
+        "danwa_max_version": null
+      },
+      "dependencies": {},
+      "tags": [
+        "dialectic",
+        "strategist",
+        "en"
+      ],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-05-17T03:53:23+02:00",
+      "updated_at": "2026-05-28T15:57:08.259397+00:00"
+    },
+    {
+      "module_id": "kantian-critic",
+      "version": "1.0.0",
+      "type": "prompt-variant",
+      "category": "agent-argumentation-patterns",
+      "name": {
+        "en": "Critic (Kantian)"
+      },
+      "description": {},
+      "language": "de",
+      "profile_file": "profile.md",
+      "profile_checksum_sha256": "4ed2a9602e3a111e0df59e9ab8e3c7df4032a93520d54a69fbfc36b4bad778f0",
+      "module_checksum_sha256": "4ed2a9602e3a111e0df59e9ab8e3c7df4032a93520d54a69fbfc36b4bad778f0",
+      "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/kantian-critic.zip",
+      "compatibility": {
+        "danwa_min_version": "2.1.0",
+        "danwa_max_version": null
+      },
+      "dependencies": {},
+      "tags": [
+        "kantian",
+        "critic",
+        "de"
+      ],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-05-17T03:53:23+02:00",
+      "updated_at": "2026-05-28T15:57:08.261856+00:00"
+    },
+    {
+      "module_id": "kantian-strategist",
+      "version": "1.0.0",
+      "type": "prompt-variant",
+      "category": "agent-argumentation-patterns",
+      "name": {
+        "en": "Kantian Strategist"
+      },
+      "description": {
+        "en": ""
+      },
+      "language": "de",
+      "profile_file": "profile.md",
+      "profile_checksum_sha256": "38c506b4b6e9ee3547b7b247325d5e45f0ce5a7cbbcea23bb4f3a3a5f1b6b15a",
+      "module_checksum_sha256": "38c506b4b6e9ee3547b7b247325d5e45f0ce5a7cbbcea23bb4f3a3a5f1b6b15a",
+      "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/kantian-strategist.zip",
+      "compatibility": {
+        "danwa_min_version": "2.1.0",
+        "danwa_max_version": null
+      },
+      "dependencies": {},
+      "tags": [
+        "kantian",
+        "strategist",
+        "de"
+      ],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-05-17T03:53:23+02:00",
+      "updated_at": "2026-05-28T15:57:08.264276+00:00"
+    },
+    {
+      "module_id": "moderator",
+      "version": "1.0.0",
+      "type": "prompt-variant",
+      "category": "agent-argumentation-patterns",
+      "name": {
+        "en": "Default Moderator"
+      },
+      "description": {
+        "en": ""
+      },
+      "language": "en",
+      "profile_file": "profile.md",
+      "profile_checksum_sha256": "90aa94838e4f26857b2d11f11f82b97cc2be528312a33146c97fa2dbb8cd5e91",
+      "module_checksum_sha256": "90aa94838e4f26857b2d11f11f82b97cc2be528312a33146c97fa2dbb8cd5e91",
+      "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/moderator.zip",
+      "compatibility": {
+        "danwa_min_version": "2.1.0",
+        "danwa_max_version": null
+      },
+      "dependencies": {},
+      "tags": [
+        "default",
+        "moderator",
+        "en"
+      ],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-05-17T03:53:23+02:00",
+      "updated_at": "2026-05-28T15:57:08.266654+00:00"
+    },
+    {
+      "module_id": "optimizer",
+      "version": "1.0.0",
+      "type": "prompt-variant",
+      "category": "agent-argumentation-patterns",
+      "name": {
+        "en": "Default Optimizer"
+      },
+      "description": {
+        "en": ""
+      },
+      "language": "en",
+      "profile_file": "profile.md",
+      "profile_checksum_sha256": "4081d545cf842a6493aadb8c2160f4ce9622c15e0f5b0dd795cced78251f27b3",
+      "module_checksum_sha256": "4081d545cf842a6493aadb8c2160f4ce9622c15e0f5b0dd795cced78251f27b3",
+      "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/optimizer.zip",
+      "compatibility": {
+        "danwa_min_version": "2.1.0",
+        "danwa_max_version": null
+      },
+      "dependencies": {},
+      "tags": [
+        "default",
+        "optimizer",
+        "en"
+      ],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-05-17T03:53:23+02:00",
+      "updated_at": "2026-05-28T15:57:08.269104+00:00"
+    },
+    {
+      "module_id": "steiner-critic",
+      "version": "1.0.0",
+      "type": "prompt-variant",
+      "category": "agent-argumentation-patterns",
+      "name": {
+        "en": "Critic (Steiner)"
+      },
+      "description": {},
+      "language": "de",
+      "profile_file": "profile.md",
+      "profile_checksum_sha256": "e257a3df3eb82bb050c94fa6984bd7eaa3145fc9265371219e35edb833a3adae",
+      "module_checksum_sha256": "e257a3df3eb82bb050c94fa6984bd7eaa3145fc9265371219e35edb833a3adae",
+      "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/steiner-critic.zip",
+      "compatibility": {
+        "danwa_min_version": "2.1.0",
+        "danwa_max_version": null
+      },
+      "dependencies": {},
+      "tags": [
+        "steiner",
+        "critic",
+        "de"
+      ],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-05-17T03:53:23+02:00",
+      "updated_at": "2026-05-28T15:57:08.271531+00:00"
+    },
+    {
+      "module_id": "steiner-strategist",
+      "version": "1.0.0",
+      "type": "prompt-variant",
+      "category": "agent-argumentation-patterns",
+      "name": {
+        "en": "Strategist (Steiner)"
+      },
+      "description": {},
+      "language": "de",
+      "profile_file": "profile.md",
+      "profile_checksum_sha256": "8a0630d8723524ac7e0148333f0a1124b5699c71075cec59e0f78ab2e464b123",
+      "module_checksum_sha256": "8a0630d8723524ac7e0148333f0a1124b5699c71075cec59e0f78ab2e464b123",
+      "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/steiner-strategist.zip",
+      "compatibility": {
+        "danwa_min_version": "2.1.0",
+        "danwa_max_version": null
+      },
+      "dependencies": {},
+      "tags": [
+        "steiner",
+        "strategist",
+        "de"
+      ],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-05-17T03:53:23+02:00",
+      "updated_at": "2026-05-28T15:57:08.273387+00:00"
+    },
+    {
+      "module_id": "strategist",
+      "version": "1.0.0",
+      "type": "prompt-variant",
+      "category": "agent-argumentation-patterns",
+      "name": {
+        "en": "Default Strategist"
+      },
+      "description": {
+        "en": ""
+      },
+      "language": "en",
+      "profile_file": "profile.md",
+      "profile_checksum_sha256": "3c3b2d16732e2f708b075ef35c59c8d5b8d44e67550c60f4c7366913abefb1f5",
+      "module_checksum_sha256": "3c3b2d16732e2f708b075ef35c59c8d5b8d44e67550c60f4c7366913abefb1f5",
+      "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/strategist.zip",
+      "compatibility": {
+        "danwa_min_version": "2.1.0",
+        "danwa_max_version": null
+      },
+      "dependencies": {},
+      "tags": [
+        "default",
+        "strategist",
+        "en"
+      ],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-05-17T03:53:23+02:00",
+      "updated_at": "2026-05-28T15:57:08.275920+00:00"
+    },
+    {
+      "module_id": "bundle-analyst",
+      "version": "1.0.0",
+      "type": "bundle",
+      "category": "agent-bundles",
+      "name": {
+        "en": "Analyst (Default)"
+      },
+      "description": {
+        "en": "Default agent bundle for the Analyst role — used in multi-phase debate workflows."
+      },
+      "language": "en",
+      "profile_file": "profile.json",
+      "profile_checksum_sha256": "cb949f2499d5d3bc47ef52b561b5eb443ef03c5cf347ad19c65d46d8b501d46a",
+      "module_checksum_sha256": "cb949f2499d5d3bc47ef52b561b5eb443ef03c5cf347ad19c65d46d8b501d46a",
+      "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/bundle-analyst.zip",
+      "compatibility": {
+        "danwa_min_version": "2.1.0",
+        "danwa_max_version": null
+      },
+      "dependencies": {
+        "agent-cores/analyst-default": ">=1.0.0"
+      },
+      "tags": [
+        "analyst",
+        "default",
+        "multi-phase"
+      ],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-05-25T04:51:47+02:00",
+      "updated_at": "2026-05-28T15:57:08.277644+00:00"
+    },
+    {
+      "module_id": "bundle-creative-thinker",
+      "version": "1.0.0",
+      "type": "bundle",
+      "category": "agent-bundles",
+      "name": {
+        "en": "Creative Thinker (Default)"
+      },
+      "description": {
+        "en": "Default agent bundle for the Creative Thinker role — used in multi-phase debate workflows."
+      },
+      "language": "en",
+      "profile_file": "profile.json",
+      "profile_checksum_sha256": "65a4f089cf72bb7375f08cdb3bf5f93d9b7acb9e2660808264637e910f316714",
+      "module_checksum_sha256": "65a4f089cf72bb7375f08cdb3bf5f93d9b7acb9e2660808264637e910f316714",
+      "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/bundle-creative-thinker.zip",
+      "compatibility": {
+        "danwa_min_version": "2.1.0",
+        "danwa_max_version": null
+      },
+      "dependencies": {
+        "agent-cores/creative-thinker-default": ">=1.0.0"
+      },
+      "tags": [
+        "creative-thinker",
+        "default",
+        "multi-phase"
+      ],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-05-25T04:51:47+02:00",
+      "updated_at": "2026-05-28T15:57:08.279253+00:00"
+    },
+    {
+      "module_id": "bundle-critic",
+      "version": "1.0.0",
+      "type": "bundle",
+      "category": "agent-bundles",
+      "name": {
+        "en": "Critic (Default)"
+      },
+      "description": {
+        "en": "Default agent bundle for the Critic role — used in multi-phase debate workflows."
+      },
+      "language": "en",
+      "profile_file": "profile.json",
+      "profile_checksum_sha256": "706012131bc91481e907e5d60ca6e885d1b5f1ad8831bcdef72cebd7d4ac4f84",
+      "module_checksum_sha256": "706012131bc91481e907e5d60ca6e885d1b5f1ad8831bcdef72cebd7d4ac4f84",
+      "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/bundle-critic.zip",
+      "compatibility": {
+        "danwa_min_version": "2.1.0",
+        "danwa_max_version": null
+      },
+      "dependencies": {
+        "agent-cores/critic-default": ">=1.0.0"
+      },
+      "tags": [
+        "critic",
+        "default",
+        "multi-phase"
+      ],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-05-25T04:51:47+02:00",
+      "updated_at": "2026-05-28T15:57:08.280576+00:00"
+    },
+    {
+      "module_id": "bundle-devils-advocate",
+      "version": "1.0.0",
+      "type": "bundle",
+      "category": "agent-bundles",
+      "name": {
+        "en": "Devil’s Advocate (Default)"
+      },
+      "description": {
+        "en": "Default agent bundle for the Devil’s Advocate role — used in multi-phase debate workflows."
+      },
+      "language": "en",
+      "profile_file": "profile.json",
+      "profile_checksum_sha256": "45530c8b7153a36093c24a7156db149da5614262741c7cfa8760ebbbbb47f563",
+      "module_checksum_sha256": "45530c8b7153a36093c24a7156db149da5614262741c7cfa8760ebbbbb47f563",
+      "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/bundle-devils-advocate.zip",
+      "compatibility": {
+        "danwa_min_version": "2.1.0",
+        "danwa_max_version": null
+      },
+      "dependencies": {
+        "agent-cores/devils-advocate-default": ">=1.0.0"
+      },
+      "tags": [
+        "devils-advocate",
+        "default",
+        "multi-phase"
+      ],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-05-25T04:51:47+02:00",
+      "updated_at": "2026-05-28T15:57:08.281693+00:00"
+    },
+    {
+      "module_id": "bundle-ethicist",
+      "version": "1.0.0",
+      "type": "bundle",
+      "category": "agent-bundles",
+      "name": {
+        "en": "Ethicist (Default)"
+      },
+      "description": {
+        "en": "Default agent bundle for the Ethicist role — used in multi-phase debate workflows."
+      },
+      "language": "en",
+      "profile_file": "profile.json",
+      "profile_checksum_sha256": "2370b80b68436cb6fc4f6337517c787cb6814e899ed3115346b8fd1ed1be9e2e",
+      "module_checksum_sha256": "2370b80b68436cb6fc4f6337517c787cb6814e899ed3115346b8fd1ed1be9e2e",
+      "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/bundle-ethicist.zip",
+      "compatibility": {
+        "danwa_min_version": "2.1.0",
+        "danwa_max_version": null
+      },
+      "dependencies": {
+        "agent-cores/ethicist-default": ">=1.0.0"
+      },
+      "tags": [
+        "ethicist",
+        "default",
+        "multi-phase"
+      ],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-05-25T04:51:47+02:00",
+      "updated_at": "2026-05-28T15:57:08.282836+00:00"
+    },
+    {
+      "module_id": "bundle-expert-reviewer",
+      "version": "1.0.0",
+      "type": "bundle",
+      "category": "agent-bundles",
+      "name": {
+        "en": "Expert Reviewer (Default)"
+      },
+      "description": {
+        "en": "Default agent bundle for the Expert Reviewer role — used in multi-phase debate workflows."
+      },
+      "language": "en",
+      "profile_file": "profile.json",
+      "profile_checksum_sha256": "613815c7dbf2c31eeb6dd0d31520bec97561e4744940035e50c34230cdd7a011",
+      "module_checksum_sha256": "613815c7dbf2c31eeb6dd0d31520bec97561e4744940035e50c34230cdd7a011",
+      "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/bundle-expert-reviewer.zip",
+      "compatibility": {
+        "danwa_min_version": "2.1.0",
+        "danwa_max_version": null
+      },
+      "dependencies": {
+        "agent-cores/expert-reviewer-default": ">=1.0.0"
+      },
+      "tags": [
+        "expert-reviewer",
+        "default",
+        "multi-phase"
+      ],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-05-25T04:51:47+02:00",
+      "updated_at": "2026-05-28T15:57:08.284116+00:00"
+    },
+    {
+      "module_id": "bundle-fact-checker",
+      "version": "1.0.0",
+      "type": "bundle",
+      "category": "agent-bundles",
+      "name": {
+        "en": "Fact Checker (Default)"
+      },
+      "description": {
+        "en": "Default agent bundle for the Fact Checker role — used in multi-phase debate workflows."
+      },
+      "language": "en",
+      "profile_file": "profile.json",
+      "profile_checksum_sha256": "d5fe2b2666173efdbd046d06a16af1576c5c617d6f93ad918a2abfad60ff8dac",
+      "module_checksum_sha256": "d5fe2b2666173efdbd046d06a16af1576c5c617d6f93ad918a2abfad60ff8dac",
+      "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/bundle-fact-checker.zip",
+      "compatibility": {
+        "danwa_min_version": "2.1.0",
+        "danwa_max_version": null
+      },
+      "dependencies": {
+        "agent-cores/fact-checker-default": ">=1.0.0"
+      },
+      "tags": [
+        "fact-checker",
+        "default",
+        "multi-phase"
+      ],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-05-25T04:51:47+02:00",
+      "updated_at": "2026-05-28T15:57:08.285232+00:00"
+    },
+    {
+      "module_id": "bundle-mediator",
+      "version": "1.0.0",
+      "type": "bundle",
+      "category": "agent-bundles",
+      "name": {
+        "en": "Mediator (Default)"
+      },
+      "description": {
+        "en": "Default agent bundle for the Mediator role — used in multi-phase debate workflows."
+      },
+      "language": "en",
+      "profile_file": "profile.json",
+      "profile_checksum_sha256": "9a8cc2eb939840ec4fde087174880421436245e68699bac61466b6b9d1163657",
+      "module_checksum_sha256": "9a8cc2eb939840ec4fde087174880421436245e68699bac61466b6b9d1163657",
+      "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/bundle-mediator.zip",
+      "compatibility": {
+        "danwa_min_version": "2.1.0",
+        "danwa_max_version": null
+      },
+      "dependencies": {
+        "agent-cores/mediator-default": ">=1.0.0"
+      },
+      "tags": [
+        "mediator",
+        "default",
+        "multi-phase"
+      ],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-05-25T04:51:47+02:00",
+      "updated_at": "2026-05-28T15:57:08.286248+00:00"
+    },
+    {
+      "module_id": "bundle-moderator",
+      "version": "1.0.0",
+      "type": "bundle",
+      "category": "agent-bundles",
+      "name": {
+        "en": "Moderator (Default)"
+      },
+      "description": {
+        "en": "Default agent bundle for the Moderator role — used in multi-phase debate workflows."
+      },
+      "language": "en",
+      "profile_file": "profile.json",
+      "profile_checksum_sha256": "702bee3e6266a359ce010fdb89a9902ba7b2abe1fabbf2c2212a0edee3681d95",
+      "module_checksum_sha256": "702bee3e6266a359ce010fdb89a9902ba7b2abe1fabbf2c2212a0edee3681d95",
+      "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/bundle-moderator.zip",
+      "compatibility": {
+        "danwa_min_version": "2.1.0",
+        "danwa_max_version": null
+      },
+      "dependencies": {
+        "agent-cores/moderator-default": ">=1.0.0"
+      },
+      "tags": [
+        "moderator",
+        "default",
+        "multi-phase"
+      ],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-05-25T04:51:47+02:00",
+      "updated_at": "2026-05-28T15:57:08.287062+00:00"
+    },
+    {
+      "module_id": "bundle-optimizer",
+      "version": "1.0.0",
+      "type": "bundle",
+      "category": "agent-bundles",
+      "name": {
+        "en": "Optimizer (Default)"
+      },
+      "description": {
+        "en": "Default agent bundle for the Optimizer role — used in multi-phase debate workflows."
+      },
+      "language": "en",
+      "profile_file": "profile.json",
+      "profile_checksum_sha256": "8069afa39fd124de1b5e72207fec6239cedfdb2e45a5a942f74c9a999c10b747",
+      "module_checksum_sha256": "8069afa39fd124de1b5e72207fec6239cedfdb2e45a5a942f74c9a999c10b747",
+      "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/bundle-optimizer.zip",
+      "compatibility": {
+        "danwa_min_version": "2.1.0",
+        "danwa_max_version": null
+      },
+      "dependencies": {
+        "agent-cores/optimizer-default": ">=1.0.0"
+      },
+      "tags": [
+        "optimizer",
+        "default",
+        "multi-phase"
+      ],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-05-25T04:51:47+02:00",
+      "updated_at": "2026-05-28T15:57:08.287891+00:00"
+    },
+    {
+      "module_id": "bundle-socratic-questioner",
+      "version": "1.0.0",
+      "type": "bundle",
+      "category": "agent-bundles",
+      "name": {
+        "en": "Socratic Questioner (Default)"
+      },
+      "description": {
+        "en": "Default agent bundle for the Socratic Questioner role — used in multi-phase debate workflows."
+      },
+      "language": "en",
+      "profile_file": "profile.json",
+      "profile_checksum_sha256": "7254c68cf47d44bd49d9cca0010854eaf7470691c6ab780e79520c29626facf4",
+      "module_checksum_sha256": "7254c68cf47d44bd49d9cca0010854eaf7470691c6ab780e79520c29626facf4",
+      "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/bundle-socratic-questioner.zip",
+      "compatibility": {
+        "danwa_min_version": "2.1.0",
+        "danwa_max_version": null
+      },
+      "dependencies": {
+        "agent-cores/socratic-questioner-default": ">=1.0.0"
+      },
+      "tags": [
+        "socratic-questioner",
+        "default",
+        "multi-phase"
+      ],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-05-25T04:51:47+02:00",
+      "updated_at": "2026-05-28T15:57:08.288674+00:00"
+    },
+    {
+      "module_id": "bundle-steel-manner",
+      "version": "1.0.0",
+      "type": "bundle",
+      "category": "agent-bundles",
+      "name": {
+        "en": "Steel-manner (Default)"
+      },
+      "description": {
+        "en": "Default agent bundle for the Steel-manner role — used in multi-phase debate workflows."
+      },
+      "language": "en",
+      "profile_file": "profile.json",
+      "profile_checksum_sha256": "815c37a126dac079878d1ab93f57eda1f16890c63fbe5672d2d0a0bdf43fc971",
+      "module_checksum_sha256": "815c37a126dac079878d1ab93f57eda1f16890c63fbe5672d2d0a0bdf43fc971",
+      "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/bundle-steel-manner.zip",
+      "compatibility": {
+        "danwa_min_version": "2.1.0",
+        "danwa_max_version": null
+      },
+      "dependencies": {
+        "agent-cores/steel-manner-default": ">=1.0.0"
+      },
+      "tags": [
+        "steel-manner",
+        "default",
+        "multi-phase"
+      ],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-05-25T04:51:47+02:00",
+      "updated_at": "2026-05-28T15:57:08.289476+00:00"
+    },
+    {
+      "module_id": "bundle-strategist",
+      "version": "1.0.0",
+      "type": "bundle",
+      "category": "agent-bundles",
+      "name": {
+        "en": "Strategist (Default)"
+      },
+      "description": {
+        "en": "Default agent bundle for the Strategist role — used in multi-phase debate workflows."
+      },
+      "language": "en",
+      "profile_file": "profile.json",
+      "profile_checksum_sha256": "7a2ea0b31d631f8861e0379a7766c16604bea14c41dd628c09496045f7faf6cd",
+      "module_checksum_sha256": "7a2ea0b31d631f8861e0379a7766c16604bea14c41dd628c09496045f7faf6cd",
+      "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/bundle-strategist.zip",
+      "compatibility": {
+        "danwa_min_version": "2.1.0",
+        "danwa_max_version": null
+      },
+      "dependencies": {
+        "agent-cores/strategist-default": ">=1.0.0"
+      },
+      "tags": [
+        "strategist",
+        "default",
+        "multi-phase"
+      ],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-05-25T04:51:47+02:00",
+      "updated_at": "2026-05-28T15:57:08.290487+00:00"
+    },
+    {
+      "module_id": "bundle-synthesizer",
+      "version": "1.0.0",
+      "type": "bundle",
+      "category": "agent-bundles",
+      "name": {
+        "en": "Synthesizer (Default)"
+      },
+      "description": {
+        "en": "Default agent bundle for the Synthesizer role — used in multi-phase debate workflows."
+      },
+      "language": "en",
+      "profile_file": "profile.json",
+      "profile_checksum_sha256": "3210cbdf9ef17e4c4dd73a0337e55ad58e982e91b63e3da38dd596576f14f52b",
+      "module_checksum_sha256": "3210cbdf9ef17e4c4dd73a0337e55ad58e982e91b63e3da38dd596576f14f52b",
+      "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/bundle-synthesizer.zip",
+      "compatibility": {
+        "danwa_min_version": "2.1.0",
+        "danwa_max_version": null
+      },
+      "dependencies": {
+        "agent-cores/synthesizer-default": ">=1.0.0"
+      },
+      "tags": [
+        "synthesizer",
+        "default",
+        "multi-phase"
+      ],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-05-25T04:51:47+02:00",
+      "updated_at": "2026-05-28T15:57:08.292210+00:00"
+    },
+    {
+      "module_id": "bundle-troll",
+      "version": "1.0.0",
+      "type": "bundle",
+      "category": "agent-bundles",
+      "name": {
+        "en": "Troll (Default)"
+      },
+      "description": {
+        "en": "Default agent bundle for the Troll role — used in multi-phase debate workflows."
+      },
+      "language": "en",
+      "profile_file": "profile.json",
+      "profile_checksum_sha256": "2db251d1516433d0791525a41f8a7bd35fa66a3f477e569671f35b8bc537a382",
+      "module_checksum_sha256": "2db251d1516433d0791525a41f8a7bd35fa66a3f477e569671f35b8bc537a382",
+      "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/bundle-troll.zip",
+      "compatibility": {
+        "danwa_min_version": "2.1.0",
+        "danwa_max_version": null
+      },
+      "dependencies": {
+        "agent-cores/troll-default": ">=1.0.0"
+      },
+      "tags": [
+        "troll",
+        "default",
+        "multi-phase"
+      ],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-05-25T04:51:47+02:00",
+      "updated_at": "2026-05-28T15:57:08.293084+00:00"
+    },
+    {
+      "module_id": "agent-analyst-default",
+      "version": "1.0.0",
+      "type": "agent-core",
+      "category": "agent-cores",
+      "name": {
+        "en": "Default Analyst (EN)"
+      },
+      "description": {
+        "en": "Conducts in-depth data analysis and identifies key patterns."
+      },
+      "language": "en",
+      "profile_file": "profile.md",
+      "profile_checksum_sha256": "7e14748107ac8b418d569aa373dd8aa9a8586d712eab33270e49c7ac68cc6158",
+      "module_checksum_sha256": "7e14748107ac8b418d569aa373dd8aa9a8586d712eab33270e49c7ac68cc6158",
+      "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/agent-analyst-default.zip",
+      "compatibility": {
+        "danwa_min_version": "2.1.0",
+        "danwa_max_version": null
+      },
+      "dependencies": {},
+      "tags": [
+        "default",
+        "english"
+      ],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-05-17T03:22:25+02:00",
+      "updated_at": "2026-05-28T15:57:08.294071+00:00"
+    },
+    {
+      "module_id": "agent-creative-thinker-default",
+      "version": "1.0.0",
+      "type": "agent-core",
+      "category": "agent-cores",
+      "name": {
+        "en": "Default Creative Thinker (EN)"
+      },
+      "description": {
+        "en": "Generates unconventional ideas and new perspectives. (English)"
+      },
+      "language": "en",
+      "profile_file": "profile.md",
+      "profile_checksum_sha256": "e70db3054b508c6ab3795b0af4b3f11b0f2e37cb900f6125bbc966c6c96a39df",
+      "module_checksum_sha256": "e70db3054b508c6ab3795b0af4b3f11b0f2e37cb900f6125bbc966c6c96a39df",
+      "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/agent-creative-thinker-default.zip",
+      "compatibility": {
+        "danwa_min_version": "2.1.0",
+        "danwa_max_version": null
+      },
+      "dependencies": {},
+      "tags": [
+        "default",
+        "english"
+      ],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-05-17T03:22:25+02:00",
+      "updated_at": "2026-05-28T15:57:08.294785+00:00"
+    },
+    {
+      "module_id": "agent-critic-default-en",
+      "version": "1.0.0",
+      "type": "agent-persona",
+      "category": "agent-cores",
+      "name": {
+        "en": "Default Critic"
+      },
+      "description": {
+        "en": "Rigorous critic for fundamental weakness analysis"
+      },
+      "language": "en",
+      "profile_file": "profile.md",
+      "profile_checksum_sha256": "07f713d54bfb71abb03f30e722d31eb21e8a198ea6964681b6f590af0b630d1f",
+      "module_checksum_sha256": "07f713d54bfb71abb03f30e722d31eb21e8a198ea6964681b6f590af0b630d1f",
+      "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/agent-critic-default-en.zip",
+      "compatibility": {
+        "danwa_min_version": "2.1.0",
+        "danwa_max_version": null
+      },
+      "dependencies": {},
+      "tags": [
+        "default",
+        "rigorous",
+        "english"
+      ],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-05-17T03:22:25+02:00",
+      "updated_at": "2026-05-28T15:57:08.295489+00:00"
+    },
+    {
+      "module_id": "agent-critic-enhanced",
+      "version": "1.0.0",
+      "type": "agent-core",
+      "category": "agent-cores",
+      "name": {
+        "en": "Enhanced Critic (EN)"
+      },
+      "description": {
+        "en": "Rigorous critic for fundamental weakness analysis (English)"
+      },
+      "language": "en",
+      "profile_file": "profile.md",
+      "profile_checksum_sha256": "738ae3b47cf61566fdd913b9eec8a91f1350b58b92a99fb257db00a5a7cbf4c7",
+      "module_checksum_sha256": "738ae3b47cf61566fdd913b9eec8a91f1350b58b92a99fb257db00a5a7cbf4c7",
+      "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/agent-critic-enhanced.zip",
+      "compatibility": {
+        "danwa_min_version": "2.1.0",
+        "danwa_max_version": null
+      },
+      "dependencies": {},
+      "tags": [
+        "default",
+        "rigorous",
+        "english"
+      ],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-05-17T03:22:25+02:00",
+      "updated_at": "2026-05-28T15:57:08.296187+00:00"
+    },
+    {
+      "module_id": "agent-critic-example",
+      "version": "1.0.0",
+      "type": "agent-persona",
+      "category": "agent-cores",
+      "name": {
+        "en": "Example Critic"
+      },
+      "description": {
+        "en": "Example critic with rigorous evaluation approach"
+      },
+      "language": "en",
+      "profile_file": "profile.md",
+      "profile_checksum_sha256": "d29499b869bb8d07b019c128369d3181557b3f5d93e8a0b91e8221b4af0fa5f6",
+      "module_checksum_sha256": "d29499b869bb8d07b019c128369d3181557b3f5d93e8a0b91e8221b4af0fa5f6",
+      "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/agent-critic-example.zip",
+      "compatibility": {
+        "danwa_min_version": "2.1.0",
+        "danwa_max_version": null
+      },
+      "dependencies": {},
+      "tags": [
+        "default",
+        "rigorous"
+      ],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-05-17T03:22:25+02:00",
+      "updated_at": "2026-05-28T15:57:08.296787+00:00"
+    },
+    {
+      "module_id": "agent-critic-stoic",
+      "version": "1.0.0",
+      "type": "agent-persona",
+      "category": "agent-cores",
+      "name": {
+        "en": "Stoic Critic"
+      },
+      "description": {
+        "en": "Critic applying Stoic philosophical framework"
+      },
+      "language": "en",
+      "profile_file": "profile.md",
+      "profile_checksum_sha256": "1ec5399d7a7054cf0884384fc2225a688ad45841d84cc98d23697f05e308ec9c",
+      "module_checksum_sha256": "1ec5399d7a7054cf0884384fc2225a688ad45841d84cc98d23697f05e308ec9c",
+      "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/agent-critic-stoic.zip",
+      "compatibility": {
+        "danwa_min_version": "2.1.0",
+        "danwa_max_version": null
+      },
+      "dependencies": {},
+      "tags": [
+        "philosophy",
+        "stoic"
+      ],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-05-17T03:22:25+02:00",
+      "updated_at": "2026-05-28T15:57:08.297439+00:00"
+    },
+    {
+      "module_id": "agent-custom-moderator",
+      "version": "1.0.0",
+      "type": "agent-persona",
+      "category": "agent-cores",
+      "name": {
+        "en": "Custom Moderator"
+      },
+      "description": {
+        "en": "A neutral moderator who focuses on identifying logical fallacies and ensuring balanced discussion. Uses the Socratic method to probe underlying assumptions.\n"
+      },
+      "language": "en",
+      "profile_file": "profile.md",
+      "profile_checksum_sha256": "400cbf7a9878af04d29f8a15f960f70caff4c3978741d37e26c6ec927e6220e2",
+      "module_checksum_sha256": "400cbf7a9878af04d29f8a15f960f70caff4c3978741d37e26c6ec927e6220e2",
+      "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/agent-custom-moderator.zip",
+      "compatibility": {
+        "danwa_min_version": "2.1.0",
+        "danwa_max_version": null
+      },
+      "dependencies": {},
+      "tags": [],
+      "license": "MIT",
+      "created_at": "2026-05-17T03:22:25+02:00",
+      "updated_at": "2026-05-28T15:57:08.298242+00:00"
+    },
+    {
+      "module_id": "agent-devils-advocate-default",
+      "version": "1.0.0",
+      "type": "agent-core",
+      "category": "agent-cores",
+      "name": {
+        "en": "Default Devil's Advocate [good-faith opposition — distinct from Troll] (EN)"
+      },
+      "description": {
+        "en": "Devil's Advocate [good-faith opposition — distinct from Troll] (English)"
+      },
+      "language": "en",
+      "profile_file": "profile.md",
+      "profile_checksum_sha256": "1edf8dd5245819cad925d6e3e4c3da20a0626c5370c65f7f086b0baf98641989",
+      "module_checksum_sha256": "1edf8dd5245819cad925d6e3e4c3da20a0626c5370c65f7f086b0baf98641989",
+      "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/agent-devils-advocate-default.zip",
+      "compatibility": {
+        "danwa_min_version": "2.1.0",
+        "danwa_max_version": null
+      },
+      "dependencies": {},
+      "tags": [
+        "default",
+        "english"
+      ],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-05-17T03:22:25+02:00",
+      "updated_at": "2026-05-28T15:57:08.299148+00:00"
+    },
+    {
+      "module_id": "agent-ethicist-default",
+      "version": "1.0.0",
+      "type": "agent-core",
+      "category": "agent-cores",
+      "name": {
+        "en": "Default Ethicist (EN)"
+      },
+      "description": {
+        "en": "Ethicist."
+      },
+      "language": "en",
+      "profile_file": "profile.md",
+      "profile_checksum_sha256": "131ec3cdba2dfca0a5c5517f23c01b9d54763583fea044a0677b2cebd6c71d83",
+      "module_checksum_sha256": "131ec3cdba2dfca0a5c5517f23c01b9d54763583fea044a0677b2cebd6c71d83",
+      "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/agent-ethicist-default.zip",
+      "compatibility": {
+        "danwa_min_version": "2.1.0",
+        "danwa_max_version": null
+      },
+      "dependencies": {},
+      "tags": [
+        "default",
+        "english"
+      ],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-05-17T03:22:25+02:00",
+      "updated_at": "2026-05-28T15:57:08.299785+00:00"
+    },
+    {
+      "module_id": "agent-expert-reviewer",
+      "version": "1.0.0",
+      "type": "agent-core",
+      "category": "agent-cores",
+      "name": {
+        "en": "Default Expert Reviewer (EN)"
+      },
+      "description": {
+        "en": "Provides domain-specific expertise and specialized knowledge validation. (English)"
+      },
+      "language": "en",
+      "profile_file": "profile.md",
+      "profile_checksum_sha256": "921190f6867a48818cf1031d717225bd2571d5731d9abc1cb3227dcaca6d0d2e",
+      "module_checksum_sha256": "921190f6867a48818cf1031d717225bd2571d5731d9abc1cb3227dcaca6d0d2e",
+      "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/agent-expert-reviewer.zip",
+      "compatibility": {
+        "danwa_min_version": "2.1.0",
+        "danwa_max_version": null
+      },
+      "dependencies": {},
+      "tags": [
+        "default",
+        "english"
+      ],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-05-17T03:22:25+02:00",
+      "updated_at": "2026-05-28T15:57:08.300374+00:00"
+    },
+    {
+      "module_id": "agent-fact-checker-default",
+      "version": "1.0.0",
+      "type": "agent-core",
+      "category": "agent-cores",
+      "name": {
+        "en": "Default Fact Checker (EN)"
+      },
+      "description": {
+        "en": "Verifies claims against evidence and identifies factual inaccuracies. (English)"
+      },
+      "language": "en",
+      "profile_file": "profile.md",
+      "profile_checksum_sha256": "52634c214008f98f06d86a105b857acf7e69c81e8aa8695489edcf9671118f8f",
+      "module_checksum_sha256": "52634c214008f98f06d86a105b857acf7e69c81e8aa8695489edcf9671118f8f",
+      "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/agent-fact-checker-default.zip",
+      "compatibility": {
+        "danwa_min_version": "2.1.0",
+        "danwa_max_version": null
+      },
+      "dependencies": {},
+      "tags": [
+        "default",
+        "english"
+      ],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-05-17T03:22:25+02:00",
+      "updated_at": "2026-05-28T15:57:08.300955+00:00"
+    },
+    {
+      "module_id": "agent-mediator-default",
+      "version": "1.0.0",
+      "type": "agent-core",
+      "category": "agent-cores",
+      "name": {
+        "en": "Default Mediator (EN)"
+      },
+      "description": {
+        "en": "Mediator."
+      },
+      "language": "en",
+      "profile_file": "profile.md",
+      "profile_checksum_sha256": "90e9644995e439de7ce43ca7a96a21fda00d831e97937116342c699a3a2fd9e8",
+      "module_checksum_sha256": "90e9644995e439de7ce43ca7a96a21fda00d831e97937116342c699a3a2fd9e8",
+      "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/agent-mediator-default.zip",
+      "compatibility": {
+        "danwa_min_version": "2.1.0",
+        "danwa_max_version": null
+      },
+      "dependencies": {},
+      "tags": [
+        "default",
+        "english"
+      ],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-05-17T03:22:25+02:00",
+      "updated_at": "2026-05-28T15:57:08.301489+00:00"
+    },
+    {
+      "module_id": "agent-moderator-default-en",
+      "version": "1.0.0",
+      "type": "agent-persona",
+      "category": "agent-cores",
+      "name": {
+        "en": "Default Moderator"
+      },
+      "description": {
+        "en": "Neutral moderator for consensus evaluation"
+      },
+      "language": "en",
+      "profile_file": "profile.md",
+      "profile_checksum_sha256": "90aa94838e4f26857b2d11f11f82b97cc2be528312a33146c97fa2dbb8cd5e91",
+      "module_checksum_sha256": "90aa94838e4f26857b2d11f11f82b97cc2be528312a33146c97fa2dbb8cd5e91",
+      "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/agent-moderator-default-en.zip",
+      "compatibility": {
+        "danwa_min_version": "2.1.0",
+        "danwa_max_version": null
+      },
+      "dependencies": {},
+      "tags": [
+        "default",
+        "neutral",
+        "english"
+      ],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-05-17T03:22:25+02:00",
+      "updated_at": "2026-05-28T15:57:08.301999+00:00"
+    },
+    {
+      "module_id": "agent-moderator-enhanced",
+      "version": "1.0.0",
+      "type": "agent-core",
+      "category": "agent-cores",
+      "name": {
+        "en": "Enhanced Moderator (EN)"
+      },
+      "description": {
+        "en": "Neutral moderator for consensus evaluation (English)"
+      },
+      "language": "en",
+      "profile_file": "profile.md",
+      "profile_checksum_sha256": "4dcc9efdcc188a89fabdc1a22598e5e332f34bfb7e00a866dd7333116ae722b9",
+      "module_checksum_sha256": "4dcc9efdcc188a89fabdc1a22598e5e332f34bfb7e00a866dd7333116ae722b9",
+      "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/agent-moderator-enhanced.zip",
+      "compatibility": {
+        "danwa_min_version": "2.1.0",
+        "danwa_max_version": null
+      },
+      "dependencies": {},
+      "tags": [
+        "default",
+        "neutral",
+        "english"
+      ],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-05-17T03:22:25+02:00",
+      "updated_at": "2026-05-28T15:57:08.302514+00:00"
+    },
+    {
+      "module_id": "agent-moderator-example",
+      "version": "1.0.0",
+      "type": "agent-persona",
+      "category": "agent-cores",
+      "name": {
+        "en": "Example Moderator"
+      },
+      "description": {
+        "en": "Example moderator for balanced debate facilitation"
+      },
+      "language": "en",
+      "profile_file": "profile.md",
+      "profile_checksum_sha256": "98d9195041d383cc4a1893d432c98c1d15e0a6930c209a76be45271fd79e9846",
+      "module_checksum_sha256": "98d9195041d383cc4a1893d432c98c1d15e0a6930c209a76be45271fd79e9846",
+      "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/agent-moderator-example.zip",
+      "compatibility": {
+        "danwa_min_version": "2.1.0",
+        "danwa_max_version": null
+      },
+      "dependencies": {},
+      "tags": [
+        "default",
+        "neutral"
+      ],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-05-17T03:22:25+02:00",
+      "updated_at": "2026-05-28T15:57:08.303024+00:00"
+    },
+    {
+      "module_id": "agent-optimizer-default-en",
+      "version": "1.0.0",
+      "type": "agent-persona",
+      "category": "agent-cores",
+      "name": {
+        "en": "Default Optimizer"
+      },
+      "description": {
+        "en": "Synthesis specialist for argument refinement"
+      },
+      "language": "en",
+      "profile_file": "profile.md",
+      "profile_checksum_sha256": "4081d545cf842a6493aadb8c2160f4ce9622c15e0f5b0dd795cced78251f27b3",
+      "module_checksum_sha256": "4081d545cf842a6493aadb8c2160f4ce9622c15e0f5b0dd795cced78251f27b3",
+      "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/agent-optimizer-default-en.zip",
+      "compatibility": {
+        "danwa_min_version": "2.1.0",
+        "danwa_max_version": null
+      },
+      "dependencies": {},
+      "tags": [
+        "default",
+        "refinement",
+        "english"
+      ],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-05-17T03:22:25+02:00",
+      "updated_at": "2026-05-28T15:57:08.303534+00:00"
+    },
+    {
+      "module_id": "agent-optimizer-enhanced",
+      "version": "1.0.0",
+      "type": "agent-core",
+      "category": "agent-cores",
+      "name": {
+        "en": "Default Optimizer Agent"
+      },
+      "description": {
+        "en": "The Optimizer is a synthesis specialist for argument refinement"
+      },
+      "language": "en",
+      "profile_file": "profile.md",
+      "profile_checksum_sha256": "28a7de740de6196c0d1da40e2c6e6b9cec29b0d951eb32cb81f26f4f63f82124",
+      "module_checksum_sha256": "28a7de740de6196c0d1da40e2c6e6b9cec29b0d951eb32cb81f26f4f63f82124",
+      "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/agent-optimizer-enhanced.zip",
+      "compatibility": {
+        "danwa_min_version": "2.1.0",
+        "danwa_max_version": null
+      },
+      "dependencies": {},
+      "tags": [
+        "default",
+        "refinement",
+        "english"
+      ],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-05-17T03:22:25+02:00",
+      "updated_at": "2026-05-28T15:57:08.304057+00:00"
+    },
+    {
+      "module_id": "agent-optimizer-example",
+      "version": "1.0.0",
+      "type": "agent-persona",
+      "category": "agent-cores",
+      "name": {
+        "en": "Example Optimizer"
+      },
+      "description": {
+        "en": "Example optimizer for argument refinement"
+      },
+      "language": "en",
+      "profile_file": "profile.md",
+      "profile_checksum_sha256": "f587e64470bf85fb7b0c2d319d076bdb8ecd7b8d53c2ed4cbbf5453652a482de",
+      "module_checksum_sha256": "f587e64470bf85fb7b0c2d319d076bdb8ecd7b8d53c2ed4cbbf5453652a482de",
+      "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/agent-optimizer-example.zip",
+      "compatibility": {
+        "danwa_min_version": "2.1.0",
+        "danwa_max_version": null
+      },
+      "dependencies": {},
+      "tags": [
+        "default",
+        "refinement"
+      ],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-05-17T03:22:25+02:00",
+      "updated_at": "2026-05-28T15:57:08.304587+00:00"
+    },
+    {
+      "module_id": "agent-orchestrator-default",
+      "version": "1.0.0",
+      "type": "agent-core",
+      "category": "agent-cores",
+      "name": {
+        "en": "Default Orchestrator (EN)"
+      },
+      "description": {
+        "en": "Orchestrator (Meta-Agent) - Unlike the other agents, the Orchestrator does not generate debate content. Instead, it acts as the \"brain\" of your routing system, evaluating the current state of the conversation and programmatically deciding which agent should speak next, what they should focus on, and when the debate should end."
+      },
+      "language": "en",
+      "profile_file": "profile.md",
+      "profile_checksum_sha256": "ae78524f3731862d1e2102d50b10df9db90d75691de0a45871e38d950ef21723",
+      "module_checksum_sha256": "a04b29a6e858ec1d49aa22cf1c649c8e045d7ece1500568536400e3a8a0fcb41",
+      "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/agent-orchestrator-default.zip",
+      "compatibility": {
+        "danwa_min_version": "2.1.0",
+        "danwa_max_version": null
+      },
+      "dependencies": {},
+      "tags": [
+        "default",
+        "english"
+      ],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-05-24T05:43:27+02:00",
+      "updated_at": "2026-05-28T15:57:08.305202+00:00"
+    },
+    {
+      "module_id": "agent-socratic-questioner-default",
+      "version": "1.0.0",
+      "type": "agent-core",
+      "category": "agent-cores",
+      "name": {
+        "en": "Default Socratic Questioner (EN)"
+      },
+      "description": {
+        "en": "Probes assumptions and uncovers hidden premises through systematic Socratic questioning."
+      },
+      "language": "en",
+      "profile_file": "profile.md",
+      "profile_checksum_sha256": "45a45dc57cdf7c717007649520a02abe6f3aae05e5ecd821a96d7a652869953d",
+      "module_checksum_sha256": "45a45dc57cdf7c717007649520a02abe6f3aae05e5ecd821a96d7a652869953d",
+      "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/agent-socratic-questioner-default.zip",
+      "compatibility": {
+        "danwa_min_version": "2.1.0",
+        "danwa_max_version": null
+      },
+      "dependencies": {},
+      "tags": [
+        "default",
+        "english"
+      ],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-05-17T03:22:25+02:00",
+      "updated_at": "2026-05-28T15:57:08.305721+00:00"
+    },
+    {
+      "module_id": "agent-steel-manner-default",
+      "version": "1.0.0",
+      "type": "agent-core",
+      "category": "agent-cores",
+      "name": {
+        "en": "Default Steel-manner (EN)"
+      },
+      "description": {
+        "en": "Steel-manner."
+      },
+      "language": "en",
+      "profile_file": "profile.md",
+      "profile_checksum_sha256": "30a315bac83990cfd51c54c60a99a630ca0c561ffc24af336c8ffc306ccf1696",
+      "module_checksum_sha256": "30a315bac83990cfd51c54c60a99a630ca0c561ffc24af336c8ffc306ccf1696",
+      "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/agent-steel-manner-default.zip",
+      "compatibility": {
+        "danwa_min_version": "2.1.0",
+        "danwa_max_version": null
+      },
+      "dependencies": {},
+      "tags": [
+        "default",
+        "english"
+      ],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-05-17T03:22:25+02:00",
+      "updated_at": "2026-05-28T15:57:08.306249+00:00"
+    },
+    {
+      "module_id": "agent-strategist-default-en",
+      "version": "1.0.0",
+      "type": "agent-persona",
+      "category": "agent-cores",
+      "name": {
+        "en": "Default Strategist"
+      },
+      "description": {
+        "en": "Default strategist with balanced analysis approach"
+      },
+      "language": "en",
+      "profile_file": "profile.md",
+      "profile_checksum_sha256": "3c3b2d16732e2f708b075ef35c59c8d5b8d44e67550c60f4c7366913abefb1f5",
+      "module_checksum_sha256": "3c3b2d16732e2f708b075ef35c59c8d5b8d44e67550c60f4c7366913abefb1f5",
+      "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/agent-strategist-default-en.zip",
+      "compatibility": {
+        "danwa_min_version": "2.1.0",
+        "danwa_max_version": null
+      },
+      "dependencies": {},
+      "tags": [
+        "default",
+        "balanced",
+        "english"
+      ],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-05-17T03:22:25+02:00",
+      "updated_at": "2026-05-28T15:57:08.306814+00:00"
+    },
+    {
+      "module_id": "agent-strategist-enhanced",
+      "version": "1.0.0",
+      "type": "agent-core",
+      "category": "agent-cores",
+      "name": {
+        "en": "Enhanced Strategist (EN)"
+      },
+      "description": {
+        "en": "Enhanced strategist with balanced analysis approach (English)"
+      },
+      "language": "en",
+      "profile_file": "profile.md",
+      "profile_checksum_sha256": "f2201ae0a56abc0278b26b237d5fe05ed20f25b477ba17839e26d92ca2fefcb6",
+      "module_checksum_sha256": "f2201ae0a56abc0278b26b237d5fe05ed20f25b477ba17839e26d92ca2fefcb6",
+      "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/agent-strategist-enhanced.zip",
+      "compatibility": {
+        "danwa_min_version": "2.1.0",
+        "danwa_max_version": null
+      },
+      "dependencies": {},
+      "tags": [
+        "default",
+        "balanced",
+        "english"
+      ],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-05-17T03:22:25+02:00",
+      "updated_at": "2026-05-28T15:57:08.307745+00:00"
+    },
+    {
+      "module_id": "agent-strategist-example",
+      "version": "1.0.0",
+      "type": "agent-persona",
+      "category": "agent-cores",
+      "name": {
+        "en": "Example Strategist"
+      },
+      "description": {
+        "en": "Example strategist with balanced analysis approach"
+      },
+      "language": "en",
+      "profile_file": "profile.md",
+      "profile_checksum_sha256": "94be20b8e03bc93304765a37e864374fd79eb384a810d767208b9cfe4fc8585c",
+      "module_checksum_sha256": "94be20b8e03bc93304765a37e864374fd79eb384a810d767208b9cfe4fc8585c",
+      "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/agent-strategist-example.zip",
+      "compatibility": {
+        "danwa_min_version": "2.1.0",
+        "danwa_max_version": null
+      },
+      "dependencies": {},
+      "tags": [
+        "default",
+        "balanced"
+      ],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-05-17T03:22:25+02:00",
+      "updated_at": "2026-05-28T15:57:08.309112+00:00"
+    },
+    {
+      "module_id": "agent-strategist-german-law",
+      "version": "1.0.0",
+      "type": "agent-persona",
+      "category": "agent-cores",
+      "name": {
+        "en": "German Law Strategist"
+      },
+      "description": {
+        "en": "Strategist specialized in German legal analysis"
+      },
+      "language": "en",
+      "profile_file": "profile.md",
+      "profile_checksum_sha256": "90b183c361103564d5a0a089a945df37465160a1edc5fab8206287a4b6118b4b",
+      "module_checksum_sha256": "90b183c361103564d5a0a089a945df37465160a1edc5fab8206287a4b6118b4b",
+      "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/agent-strategist-german-law.zip",
+      "compatibility": {
+        "danwa_min_version": "2.1.0",
+        "danwa_max_version": null
+      },
+      "dependencies": {},
+      "tags": [
+        "legal",
+        "german"
+      ],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-05-17T03:22:25+02:00",
+      "updated_at": "2026-05-28T15:57:08.309728+00:00"
+    },
+    {
+      "module_id": "agent-synthesizer-default",
+      "version": "1.0.0",
+      "type": "agent-core",
+      "category": "agent-cores",
+      "name": {
+        "en": "Default Synthesizer (EN)"
+      },
+      "description": {
+        "en": "Synthesizer."
+      },
+      "language": "en",
+      "profile_file": "profile.md",
+      "profile_checksum_sha256": "aeb3d20a7814029160b055d40c6afc0143ac856f4998e1b0c29f2277ae1c86b8",
+      "module_checksum_sha256": "aeb3d20a7814029160b055d40c6afc0143ac856f4998e1b0c29f2277ae1c86b8",
+      "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/agent-synthesizer-default.zip",
+      "compatibility": {
+        "danwa_min_version": "2.1.0",
+        "danwa_max_version": null
+      },
+      "dependencies": {},
+      "tags": [
+        "default",
+        "english"
+      ],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-05-17T03:22:25+02:00",
+      "updated_at": "2026-05-28T15:57:08.310214+00:00"
+    },
+    {
+      "module_id": "agent-troll-default",
+      "version": "1.0.0",
+      "type": "agent-core",
+      "category": "agent-cores",
+      "name": {
+        "en": "Default Troll [Red-Team Adversary] (EN)"
+      },
+      "description": {
+        "en": "A raw troll prompt produces noise. A red-team troll produces labeled noise that trains your other agents to recognize and neutralize bad-faith rhetoric. The Tactic Ledger turns disruption into a teaching signal (English)"
+      },
+      "language": "en",
+      "profile_file": "profile.md",
+      "profile_checksum_sha256": "1d0b0d775a46c55add9b015a09f3f72c351ee9eb1eeb80de53a97ec0fe47baa8",
+      "module_checksum_sha256": "1d0b0d775a46c55add9b015a09f3f72c351ee9eb1eeb80de53a97ec0fe47baa8",
+      "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/agent-troll-default.zip",
+      "compatibility": {
+        "danwa_min_version": "2.1.0",
+        "danwa_max_version": null
+      },
+      "dependencies": {},
+      "tags": [
+        "default",
+        "english"
+      ],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-05-24T05:43:27+02:00",
+      "updated_at": "2026-05-28T15:57:08.310691+00:00"
+    },
+    {
+      "module_id": "prompt-modifier-neutral-default",
+      "version": "1.0.0",
+      "type": "prompt-modifier",
+      "category": "agent-prompt-modifiers",
+      "name": {
+        "en": "Structured Analysis"
+      },
+      "description": {
+        "en": "Default prompt modifier — clean output formatting without additional constraints."
+      },
+      "language": "en",
+      "profile_file": "profile.md",
+      "profile_checksum_sha256": "b38e17412b2eafe78a531af78e06fe33f1144984611cdfe2d6e62ed3e1b9a4be",
+      "module_checksum_sha256": "b38e17412b2eafe78a531af78e06fe33f1144984611cdfe2d6e62ed3e1b9a4be",
+      "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/prompt-modifier-neutral-default.zip",
+      "compatibility": {
+        "danwa_min_version": "2.1.0",
+        "danwa_max_version": null
+      },
+      "dependencies": {},
+      "tags": [
+        "structured"
+      ],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-05-24T06:06:45+02:00",
+      "updated_at": "2026-05-28T15:57:08.322124+00:00"
+    },
+    {
+      "module_id": "prompt-modifier-text-only",
+      "version": "1.0.0",
+      "type": "prompt-modifier",
+      "category": "agent-prompt-modifiers",
+      "name": {
+        "en": "Text only"
+      },
+      "description": {
+        "en": "Text only output for TTS"
+      },
+      "language": "en",
+      "profile_file": "profile.md",
+      "profile_checksum_sha256": "4881cd1db9afd922c314de5883877770f41cc633d3891f43ac4e5dc36077858c",
+      "module_checksum_sha256": "4881cd1db9afd922c314de5883877770f41cc633d3891f43ac4e5dc36077858c",
+      "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/prompt-modifier-text-only.zip",
+      "compatibility": {
+        "danwa_min_version": "2.1.0",
+        "danwa_max_version": null
+      },
+      "dependencies": {},
+      "tags": [
+        "text-only"
+      ],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-05-27T02:28:01.906326+00:00",
+      "updated_at": "2026-05-28T15:57:08.321696+00:00"
+    },
+    {
+      "module_id": "academic",
+      "version": "1.0.0",
+      "type": "tone-profile",
+      "category": "agent-tone-profiles",
+      "name": {
+        "en": "Academic Debate"
+      },
+      "description": {
+        "en": "A formal, evidence-based debate style. Agents cite sources, use precise language, and maintain scholarly decorum."
+      },
+      "language": "en",
+      "profile_file": "profile.md",
+      "profile_checksum_sha256": "30f869b5c8fccd06e26e73853a26f28f36df08794f0686f0e5c51dfc5ed810c9",
+      "module_checksum_sha256": "30f869b5c8fccd06e26e73853a26f28f36df08794f0686f0e5c51dfc5ed810c9",
+      "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/academic.zip",
+      "compatibility": {
+        "danwa_min_version": "2.1.0",
+        "danwa_max_version": null
+      },
+      "dependencies": {},
+      "tags": [],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-05-17T03:22:25+02:00",
+      "updated_at": "2026-05-28T15:57:08.311234+00:00"
+    },
+    {
+      "module_id": "heated",
+      "version": "1.0.0",
+      "type": "tone-profile",
+      "category": "agent-tone-profiles",
+      "name": {
+        "en": "Heated Debate"
+      },
+      "description": {
+        "en": "A confrontational, emotionally charged debate style. Agents challenge each other aggressively and use rhetorical devices."
+      },
+      "language": "en",
+      "profile_file": "profile.md",
+      "profile_checksum_sha256": "2eeeeba99e3a7521c8735f047c078947331223ca3039477655e83343a44eff0c",
+      "module_checksum_sha256": "2eeeeba99e3a7521c8735f047c078947331223ca3039477655e83343a44eff0c",
+      "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/heated.zip",
+      "compatibility": {
+        "danwa_min_version": "2.1.0",
+        "danwa_max_version": null
+      },
+      "dependencies": {},
+      "tags": [],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-05-17T03:22:25+02:00",
+      "updated_at": "2026-05-28T15:57:08.311670+00:00"
+    },
+    {
+      "module_id": "neutral",
+      "version": "1.0.0",
+      "type": "tone-profile",
+      "category": "agent-tone-profiles",
+      "name": {
+        "en": "Neutral / Objective"
+      },
+      "description": {
+        "en": "A balanced, objective debate style. Agents present facts and arguments without emotional coloring."
+      },
+      "language": "en",
+      "profile_file": "profile.md",
+      "profile_checksum_sha256": "a6fe4d3f65a97a25737aa1aac47a9a763b8cb924676351cc27cc3dea4acfb708",
+      "module_checksum_sha256": "a6fe4d3f65a97a25737aa1aac47a9a763b8cb924676351cc27cc3dea4acfb708",
+      "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/neutral.zip",
+      "compatibility": {
+        "danwa_min_version": "2.1.0",
+        "danwa_max_version": null
+      },
+      "dependencies": {},
+      "tags": [],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-05-17T03:22:25+02:00",
+      "updated_at": "2026-05-28T15:57:08.312145+00:00"
+    },
+    {
+      "module_id": "kitsune-assistant-default",
+      "version": "1.0.0",
+      "type": "kitsune-assistant",
+      "category": "kitsune-assistant",
+      "name": {
+        "en": "Kitsune Assistant"
+      },
+      "description": {
+        "en": "System prompt for the Danwa Kitsune assistant — the intelligent assistant of the Danwa Debate Engine system."
+      },
+      "language": "en",
+      "profile_file": "profile.md",
+      "profile_checksum_sha256": "cea87d9552a509399a00ef43fe3ea4f16a5a7467e937adfa5daee2b73a477663",
+      "module_checksum_sha256": "cea87d9552a509399a00ef43fe3ea4f16a5a7467e937adfa5daee2b73a477663",
+      "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/kitsune-assistant-default.zip",
+      "compatibility": {
+        "danwa_min_version": "2.1.0",
+        "danwa_max_version": null
+      },
+      "dependencies": {},
+      "tags": [
+        "kitsune",
+        "assistant",
+        "system"
+      ],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-05-25T04:20:17+02:00",
+      "updated_at": "2026-05-28T15:57:08.312839+00:00"
+    },
+    {
+      "module_id": "llm-cloud-openrouter",
+      "version": "1.0.0",
+      "type": "llm-profile",
+      "category": "llm-profiles",
+      "name": {
+        "en": "claude-3-5-sonnet (Openrouter)"
+      },
+      "description": {},
+      "language": "en",
+      "profile_file": "profile.yaml",
+      "profile_checksum_sha256": "bbaf3cdd9107a082dbd5ae4dd88bf13d536e657a15b15619c2893708353e5026",
+      "module_checksum_sha256": "bbaf3cdd9107a082dbd5ae4dd88bf13d536e657a15b15619c2893708353e5026",
+      "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/llm-cloud-openrouter.zip",
+      "compatibility": {
+        "danwa_min_version": "2.1.0",
+        "danwa_max_version": null
+      },
+      "dependencies": {},
+      "tags": [],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-05-17T03:22:25+02:00",
+      "updated_at": "2026-05-28T15:57:08.313774+00:00"
+    },
+    {
+      "module_id": "llm-cloud-qwen",
+      "version": "1.0.0",
+      "type": "llm-profile",
+      "category": "llm-profiles",
+      "name": {
+        "en": "qwen3.5-plus (Openrouter)"
+      },
+      "description": {},
+      "language": "en",
+      "profile_file": "profile.yaml",
+      "profile_checksum_sha256": "e6905d06de71b3bc798bf4b1394334c504c36b295a921ec9e0f549ea366ffde2",
+      "module_checksum_sha256": "e6905d06de71b3bc798bf4b1394334c504c36b295a921ec9e0f549ea366ffde2",
+      "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/llm-cloud-qwen.zip",
+      "compatibility": {
+        "danwa_min_version": "2.1.0",
+        "danwa_max_version": null
+      },
+      "dependencies": {},
+      "tags": [],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-05-17T03:22:25+02:00",
+      "updated_at": "2026-05-28T15:57:08.314286+00:00"
+    },
+    {
+      "module_id": "llm-draft-d6f64175",
+      "version": "1.0.0",
+      "type": "llm-profile",
+      "category": "llm-profiles",
+      "name": {
+        "en": "gemma-4-31b-it (Openrouter)"
+      },
+      "description": {},
+      "language": "en",
+      "profile_file": "profile.yaml",
+      "profile_checksum_sha256": "00785c80f56b61a022fcbf71b660128b66b6eb262ae6fe945acd7ca58ae83ff4",
+      "module_checksum_sha256": "00785c80f56b61a022fcbf71b660128b66b6eb262ae6fe945acd7ca58ae83ff4",
+      "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/llm-draft-d6f64175.zip",
+      "compatibility": {
+        "danwa_min_version": "2.1.0",
+        "danwa_max_version": null
+      },
+      "dependencies": {},
+      "tags": [],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-05-17T03:22:25+02:00",
+      "updated_at": "2026-05-28T15:57:08.314728+00:00"
+    },
+    {
+      "module_id": "llm-local-gemma",
+      "version": "1.0.0",
+      "type": "llm-profile",
+      "category": "llm-profiles",
+      "name": {
+        "en": "gemma-4-26b-a4b (LM Studio)"
+      },
+      "description": {},
+      "language": "en",
+      "profile_file": "profile.yaml",
+      "profile_checksum_sha256": "627275a9ba6ef4ba52e12f701fe826e1f04066b586f7c1f55f6bfd39762372b5",
+      "module_checksum_sha256": "627275a9ba6ef4ba52e12f701fe826e1f04066b586f7c1f55f6bfd39762372b5",
+      "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/llm-local-gemma.zip",
+      "compatibility": {
+        "danwa_min_version": "2.1.0",
+        "danwa_max_version": null
+      },
+      "dependencies": {},
+      "tags": [],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-05-17T03:22:25+02:00",
+      "updated_at": "2026-05-28T15:57:08.315162+00:00"
+    },
+    {
+      "module_id": "llm-local-gemma-4-26b-a4b",
+      "version": "1.0.0",
+      "type": "llm-profile",
+      "category": "llm-profiles",
+      "name": {
+        "en": "google/gemma-4-26b-a4b (LM Studio)"
+      },
+      "description": {},
+      "language": "en",
+      "profile_file": "profile.yaml",
+      "profile_checksum_sha256": "4a645eda4389dcd1fcd94fa91d8e4e84fb1cf9fe2cd2d03e7347bf30594ce1a3",
+      "module_checksum_sha256": "4a645eda4389dcd1fcd94fa91d8e4e84fb1cf9fe2cd2d03e7347bf30594ce1a3",
+      "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/llm-local-gemma-4-26b-a4b.zip",
+      "compatibility": {
+        "danwa_min_version": "2.1.0",
+        "danwa_max_version": null
+      },
+      "dependencies": {},
+      "tags": [],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-05-17T03:22:25+02:00",
+      "updated_at": "2026-05-28T15:57:08.315582+00:00"
+    },
+    {
+      "module_id": "llm-local-gemma-4-31b-it",
+      "version": "1.0.0",
+      "type": "llm-profile",
+      "category": "llm-profiles",
+      "name": {
+        "en": "gemma-4-31b-it (LM Studio)"
+      },
+      "description": {},
+      "language": "en",
+      "profile_file": "profile.yaml",
+      "profile_checksum_sha256": "fb67bf6e8022a44cc7a94a79d5993fb5d9c848b754c9c52f771c6a2501da110f",
+      "module_checksum_sha256": "fb67bf6e8022a44cc7a94a79d5993fb5d9c848b754c9c52f771c6a2501da110f",
+      "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/llm-local-gemma-4-31b-it.zip",
+      "compatibility": {
+        "danwa_min_version": "2.1.0",
+        "danwa_max_version": null
+      },
+      "dependencies": {},
+      "tags": [],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-05-17T03:22:25+02:00",
+      "updated_at": "2026-05-28T15:57:08.316030+00:00"
+    },
+    {
+      "module_id": "llm-local-glm-4-32b-0414-uncensored-heretic-v1",
+      "version": "1.0.0",
+      "type": "llm-profile",
+      "category": "llm-profiles",
+      "name": {
+        "en": "glm-4-32b-0414-uncensored-heretic-v1 (LM Studio)"
+      },
+      "description": {},
+      "language": "en",
+      "profile_file": "profile.yaml",
+      "profile_checksum_sha256": "70cf9cf842397086290b82129f796437d44af22cd64795bb644e484774c57903",
+      "module_checksum_sha256": "70cf9cf842397086290b82129f796437d44af22cd64795bb644e484774c57903",
+      "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/llm-local-glm-4-32b-0414-uncensored-heretic-v1.zip",
+      "compatibility": {
+        "danwa_min_version": "2.1.0",
+        "danwa_max_version": null
+      },
+      "dependencies": {},
+      "tags": [],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-05-17T03:22:25+02:00",
+      "updated_at": "2026-05-28T15:57:08.316450+00:00"
+    },
+    {
+      "module_id": "llm-local-qwen3.5-27b-distilled",
+      "version": "1.0.0",
+      "type": "llm-profile",
+      "category": "llm-profiles",
+      "name": {
+        "en": "qwen3.5-27b-claude-4.6-opus-reasoning-distilled-i1 (LM Studio)"
+      },
+      "description": {},
+      "language": "en",
+      "profile_file": "profile.yaml",
+      "profile_checksum_sha256": "6ffe538a96b3a07bb614dc8dc0b9c96fd33965b6f6f18244213e1bf890204014",
+      "module_checksum_sha256": "6ffe538a96b3a07bb614dc8dc0b9c96fd33965b6f6f18244213e1bf890204014",
+      "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/llm-local-qwen3.5-27b-distilled.zip",
+      "compatibility": {
+        "danwa_min_version": "2.1.0",
+        "danwa_max_version": null
+      },
+      "dependencies": {},
+      "tags": [],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-05-17T03:22:25+02:00",
+      "updated_at": "2026-05-28T15:57:08.316856+00:00"
+    },
+    {
+      "module_id": "llm-local-qwen3.6-35b-a3b",
+      "version": "1.0.0",
+      "type": "llm-profile",
+      "category": "llm-profiles",
+      "name": {
+        "en": "qwen3.6-35b-a3b (LM Studio)"
+      },
+      "description": {},
+      "language": "en",
+      "profile_file": "profile.yaml",
+      "profile_checksum_sha256": "f325911586018303d57c9474dfe6bc5d6496a1a5cb7dc4eeedd4de23628b3f4a",
+      "module_checksum_sha256": "f325911586018303d57c9474dfe6bc5d6496a1a5cb7dc4eeedd4de23628b3f4a",
+      "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/llm-local-qwen3.6-35b-a3b.zip",
+      "compatibility": {
+        "danwa_min_version": "2.1.0",
+        "danwa_max_version": null
+      },
+      "dependencies": {},
+      "tags": [],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-05-17T03:22:25+02:00",
+      "updated_at": "2026-05-28T15:57:08.317259+00:00"
+    },
+    {
+      "module_id": "llm-opencodezen-minimax-m2.5-free-ry6l",
+      "version": "1.0.0",
+      "type": "llm-profile",
+      "category": "llm-profiles",
+      "name": {
+        "en": "minimax-m2.5 (Opencode Zen)"
+      },
+      "description": {},
+      "language": "en",
+      "profile_file": "profile.yaml",
+      "profile_checksum_sha256": "c4d5dadb6893b4721b21d1a48ab41a7095c1a922df57a99fe52a3319fb3d5993",
+      "module_checksum_sha256": "c4d5dadb6893b4721b21d1a48ab41a7095c1a922df57a99fe52a3319fb3d5993",
+      "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/llm-opencodezen-minimax-m2.5-free-ry6l.zip",
+      "compatibility": {
+        "danwa_min_version": "2.1.0",
+        "danwa_max_version": null
+      },
+      "dependencies": {},
+      "tags": [],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-05-17T03:22:25+02:00",
+      "updated_at": "2026-05-28T15:57:08.317662+00:00"
+    },
+    {
+      "module_id": "llm-openrouter-claude-3.6-sonnet",
+      "version": "1.0.0",
+      "type": "llm-profile",
+      "category": "llm-profiles",
+      "name": {
+        "en": "moonshotai/kimi-k2.6 (Openrouter)"
+      },
+      "description": {},
+      "language": "en",
+      "profile_file": "profile.yaml",
+      "profile_checksum_sha256": "39f5ed2d514bc0156b1062cfbb315231fb921d57224e796a9c8fa3c29425c19a",
+      "module_checksum_sha256": "39f5ed2d514bc0156b1062cfbb315231fb921d57224e796a9c8fa3c29425c19a",
+      "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/llm-openrouter-claude-3.6-sonnet.zip",
+      "compatibility": {
+        "danwa_min_version": "2.1.0",
+        "danwa_max_version": null
+      },
+      "dependencies": {},
+      "tags": [],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-05-17T03:22:25+02:00",
+      "updated_at": "2026-05-28T15:57:08.318068+00:00"
+    },
+    {
+      "module_id": "llm-openrouter-glm-5-2ond",
+      "version": "1.0.0",
+      "type": "llm-profile",
+      "category": "llm-profiles",
+      "name": {
+        "en": "glm-5 (Openrouter)"
+      },
+      "description": {},
+      "language": "en",
+      "profile_file": "profile.yaml",
+      "profile_checksum_sha256": "fb63b7d80a459baffac5fc10cfade23a41f49baa403cc8bb6c6ac3a142ab2824",
+      "module_checksum_sha256": "fb63b7d80a459baffac5fc10cfade23a41f49baa403cc8bb6c6ac3a142ab2824",
+      "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/llm-openrouter-glm-5-2ond.zip",
+      "compatibility": {
+        "danwa_min_version": "2.1.0",
+        "danwa_max_version": null
+      },
+      "dependencies": {},
+      "tags": [],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-05-17T03:22:25+02:00",
+      "updated_at": "2026-05-28T15:57:08.318477+00:00"
+    },
+    {
+      "module_id": "llm-openrouter-gpt4",
+      "version": "1.0.0",
+      "type": "llm-profile",
+      "category": "llm-profiles",
+      "name": {
+        "en": "gpt-5.4 (Openrouter)"
+      },
+      "description": {},
+      "language": "en",
+      "profile_file": "profile.yaml",
+      "profile_checksum_sha256": "9eb2e0a54a42d70b3b44e1d467dfdbdb9e48f5c74afc1848821ab89065bb00f7",
+      "module_checksum_sha256": "9eb2e0a54a42d70b3b44e1d467dfdbdb9e48f5c74afc1848821ab89065bb00f7",
+      "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/llm-openrouter-gpt4.zip",
+      "compatibility": {
+        "danwa_min_version": "2.1.0",
+        "danwa_max_version": null
+      },
+      "dependencies": {},
+      "tags": [],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-05-17T03:22:25+02:00",
+      "updated_at": "2026-05-28T15:57:08.318877+00:00"
+    },
+    {
+      "module_id": "llm-openrouter-grok-4.20",
+      "version": "1.0.0",
+      "type": "llm-profile",
+      "category": "llm-profiles",
+      "name": {
+        "en": "xAI Grok 4.20 (OpenRouter)"
+      },
+      "description": {},
+      "language": "en",
+      "profile_file": "profile.yaml",
+      "profile_checksum_sha256": "cf99598f5209627a6cd04a50c18d3400e6bf1fb2fc282e3f5ac698dabc5e70f9",
+      "module_checksum_sha256": "cf99598f5209627a6cd04a50c18d3400e6bf1fb2fc282e3f5ac698dabc5e70f9",
+      "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/llm-openrouter-grok-4.20.zip",
+      "compatibility": {
+        "danwa_min_version": "2.1.0",
+        "danwa_max_version": null
+      },
+      "dependencies": {},
+      "tags": [],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-05-17T03:22:25+02:00",
+      "updated_at": "2026-05-28T15:57:08.319284+00:00"
+    },
+    {
+      "module_id": "llm-openrouter-hy3-preview",
+      "version": "1.0.0",
+      "type": "llm-profile",
+      "category": "llm-profiles",
+      "name": {
+        "en": "deepseek-v4-pro (Openrouter)"
+      },
+      "description": {},
+      "language": "en",
+      "profile_file": "profile.yaml",
+      "profile_checksum_sha256": "983fd69521ba304dd76e9aa32825b37c2f64085f44f039cbb79208bee4b94a1e",
+      "module_checksum_sha256": "983fd69521ba304dd76e9aa32825b37c2f64085f44f039cbb79208bee4b94a1e",
+      "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/llm-openrouter-hy3-preview.zip",
+      "compatibility": {
+        "danwa_min_version": "2.1.0",
+        "danwa_max_version": null
+      },
+      "dependencies": {},
+      "tags": [],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-05-17T03:22:25+02:00",
+      "updated_at": "2026-05-28T15:57:08.319684+00:00"
+    },
+    {
+      "module_id": "llm-owl-alpha",
+      "version": "1.0.0",
+      "type": "llm-profile",
+      "category": "llm-profiles",
+      "name": {
+        "en": "owl-alpha via OpenRouter"
+      },
+      "description": {},
+      "language": "en",
+      "profile_file": "profile.yaml",
+      "profile_checksum_sha256": "c48306158d67df98d07b8230b4e2d09adcbe8fd6a08d222e4afb9b1c468a2045",
+      "module_checksum_sha256": "c48306158d67df98d07b8230b4e2d09adcbe8fd6a08d222e4afb9b1c468a2045",
+      "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/llm-owl-alpha.zip",
+      "compatibility": {
+        "danwa_min_version": "2.1.0",
+        "danwa_max_version": null
+      },
+      "dependencies": {},
+      "tags": [],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-05-17T03:22:25+02:00",
+      "updated_at": "2026-05-28T15:57:08.320079+00:00"
+    },
+    {
+      "module_id": "llm-owl-alpha-copy-u7rv",
+      "version": "1.0.0",
+      "type": "llm-profile",
+      "category": "llm-profiles",
+      "name": {
+        "en": "ring-2.6-1t (Openrouter)"
+      },
+      "description": {},
+      "language": "en",
+      "profile_file": "profile.yaml",
+      "profile_checksum_sha256": "824783eb684615ccf26d8e62d97a1f43151ec1acfe9b6cf395a2a1f15011b0f4",
+      "module_checksum_sha256": "824783eb684615ccf26d8e62d97a1f43151ec1acfe9b6cf395a2a1f15011b0f4",
+      "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/llm-owl-alpha-copy-u7rv.zip",
+      "compatibility": {
+        "danwa_min_version": "2.1.0",
+        "danwa_max_version": null
+      },
+      "dependencies": {},
+      "tags": [],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-05-17T03:22:25+02:00",
+      "updated_at": "2026-05-28T15:57:08.320483+00:00"
+    },
+    {
+      "module_id": "llm-xiaomi-io-2--6btm",
+      "version": "1.0.0",
+      "type": "llm-profile",
+      "category": "llm-profiles",
+      "name": {
+        "en": "mimo-2.5-tts (Xiaomi)"
+      },
+      "description": {},
+      "language": "en",
+      "profile_file": "profile.yaml",
+      "profile_checksum_sha256": "b0f7f90c519119335b08a13c2a6eb0414a9f5ff622327ac4fcadfc2120ed065b",
+      "module_checksum_sha256": "b0f7f90c519119335b08a13c2a6eb0414a9f5ff622327ac4fcadfc2120ed065b",
+      "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/llm-xiaomi-io-2--6btm.zip",
+      "compatibility": {
+        "danwa_min_version": "2.1.0",
+        "danwa_max_version": null
+      },
+      "dependencies": {},
+      "tags": [],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-05-17T03:22:25+02:00",
+      "updated_at": "2026-05-28T15:57:08.320879+00:00"
+    },
+    {
+      "module_id": "llm-xiaomi-mimo-v2.5-pro",
+      "version": "1.0.0",
+      "type": "llm-profile",
+      "category": "llm-profiles",
+      "name": {
+        "en": "mimo-v2.5-pro (Xiaomi)"
+      },
+      "description": {},
+      "language": "en",
+      "profile_file": "profile.yaml",
+      "profile_checksum_sha256": "9f88ea92f3ef240c20c55f49f4a0b5735db27ba2177577a93e4281f14ab75d4c",
+      "module_checksum_sha256": "9f88ea92f3ef240c20c55f49f4a0b5735db27ba2177577a93e4281f14ab75d4c",
+      "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/llm-xiaomi-mimo-v2.5-pro.zip",
+      "compatibility": {
+        "danwa_min_version": "2.1.0",
+        "danwa_max_version": null
+      },
+      "dependencies": {},
+      "tags": [],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-05-17T03:22:25+02:00",
+      "updated_at": "2026-05-28T15:57:08.321282+00:00"
+    },
+    {
+      "module_id": "workflow-socratic-debate",
+      "version": "1.0.0",
+      "type": "workflow-template",
+      "category": "workflows",
+      "name": {
+        "en": "Socratic Debate"
+      },
+      "description": {
+        "en": "A debate workflow using the Socratic method for deep examination of claims."
+      },
+      "language": "en",
+      "profile_file": "profile.json",
+      "profile_checksum_sha256": "7387e2a048956c68353e798633101adf6b57259b33ad686863346f4865fee252",
+      "module_checksum_sha256": "7387e2a048956c68353e798633101adf6b57259b33ad686863346f4865fee252",
+      "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/workflow-socratic-debate.zip",
+      "compatibility": {
+        "danwa_min_version": "2.1.0",
+        "danwa_max_version": null
+      },
+      "dependencies": {},
+      "tags": [],
+      "license": "MIT",
+      "created_at": "2026-05-17T03:22:25+02:00",
+      "updated_at": "2026-05-28T15:57:08.322603+00:00"
+    },
+    {
+      "module_id": "workflow-tpl-5-phase-debate",
+      "version": "1.0.0",
+      "type": "workflow-template",
+      "category": "workflows",
+      "name": {
+        "en": "5-Phase Structured Debate"
+      },
+      "description": {
+        "en": "A comprehensive multi-phase debate workflow with five consecutive phases: Problem Framing, Position Building, Stress Testing, Integration, and Closure. Uses 15 specialized agent bundles in structured phase containers."
+      },
+      "language": "en",
+      "profile_file": "profile.json",
+      "profile_checksum_sha256": "531213d4707345303ee18f2bc7d5e90f743c769556195df7179cecb7774cb750",
+      "module_checksum_sha256": "b2ed3f39f8de62fefa08419619511a7adb3cdad1de9a553b88824ecd040c413f",
+      "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/workflow-tpl-5-phase-debate.zip",
+      "compatibility": {
+        "danwa_min_version": "2.1.0",
+        "danwa_max_version": null
+      },
+      "dependencies": {},
+      "tags": [
+        "multi-phase",
+        "structured",
+        "debate",
+        "5-phase",
+        "advanced"
+      ],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-05-25T05:49:22+02:00",
+      "updated_at": "2026-05-28T15:57:08.323046+00:00"
+    },
+    {
+      "module_id": "workflow-tpl-dialectic-debate",
+      "version": "1.0.0",
+      "type": "workflow-template",
+      "category": "workflows",
+      "name": {
+        "en": "Hegelian Dialectic Debate"
+      },
+      "description": {
+        "en": "A three-stage dialectical workflow following Hegel's method. The Strategist formulates the thesis (These), the Critic develops the antithesis (Antithese), and the Optimizer synthesizes both into a higher unity (synthesis/Aufhebung). Supports multiple rounds of dialectical refinement."
+      },
+      "language": "en",
+      "profile_file": "profile.json",
+      "profile_checksum_sha256": "04328f9980020eaf1219fe38047b0d4e94f0ba9857a769e26315df78d9e26714",
+      "module_checksum_sha256": "04328f9980020eaf1219fe38047b0d4e94f0ba9857a769e26315df78d9e26714",
+      "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/workflow-tpl-dialectic-debate.zip",
+      "compatibility": {
+        "danwa_min_version": "2.1.0",
+        "danwa_max_version": null
+      },
+      "dependencies": {},
+      "tags": [
+        "dialectic",
+        "hegel",
+        "thesis-antithesis-synthesis",
+        "structured",
+        "philosophy"
+      ],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-05-17T03:22:25+02:00",
+      "updated_at": "2026-05-28T15:57:08.323589+00:00"
+    },
+    {
+      "module_id": "workflow-tpl-interview",
+      "version": "1.0.0",
+      "type": "workflow-template",
+      "category": "workflows",
+      "name": {
+        "en": "Structured Interview"
+      },
+      "description": {
+        "en": "An interview-style workflow where a Strategist conducts structured inquiry through an Analyst, with a Moderator ensuring focus and summarizing findings. Ideal for investigative analysis and information gathering."
+      },
+      "language": "en",
+      "profile_file": "profile.json",
+      "profile_checksum_sha256": "318c3eb0781c46122feeaddccf06eae6b423e141eeff37dd6d6716e6110cee10",
+      "module_checksum_sha256": "318c3eb0781c46122feeaddccf06eae6b423e141eeff37dd6d6716e6110cee10",
+      "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/workflow-tpl-interview.zip",
+      "compatibility": {
+        "danwa_min_version": "2.1.0",
+        "danwa_max_version": null
+      },
+      "dependencies": {},
+      "tags": [
+        "interview",
+        "investigation",
+        "structured-inquiry",
+        "analyst"
+      ],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-05-17T03:22:25+02:00",
+      "updated_at": "2026-05-28T15:57:08.324586+00:00"
+    },
+    {
+      "module_id": "workflow-tpl-kantian-analysis",
+      "version": "1.0.0",
+      "type": "workflow-template",
+      "category": "workflows",
+      "name": {
+        "en": "Kantian Analysis"
+      },
+      "description": {
+        "en": "A structured ethical analysis using Kantian principles. The strategist proposes, the critic applies the categorical imperative, and the moderator synthesizes."
+      },
+      "language": "en",
+      "profile_file": "profile.json",
+      "profile_checksum_sha256": "c50ffdb77ee8531675df9ae10993c8a114cc7c496a5a9feb93d106776e2e4ca1",
+      "module_checksum_sha256": "c50ffdb77ee8531675df9ae10993c8a114cc7c496a5a9feb93d106776e2e4ca1",
+      "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/workflow-tpl-kantian-analysis.zip",
+      "compatibility": {
+        "danwa_min_version": "2.1.0",
+        "danwa_max_version": null
+      },
+      "dependencies": {},
+      "tags": [
+        "ethics",
+        "kantian",
+        "structured",
+        "analysis"
+      ],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-05-17T03:22:25+02:00",
+      "updated_at": "2026-05-28T15:57:08.325692+00:00"
+    },
+    {
+      "module_id": "workflow-tpl-mediation",
+      "version": "1.0.0",
+      "type": "workflow-template",
+      "category": "workflows",
+      "name": {
+        "en": "Mediation"
+      },
+      "description": {
+        "en": "A conflict resolution workflow where a Mediator facilitates dialogue between opposing parties (represented by Strategist and Critic perspectives). The Mediator guides toward common ground and a mutually acceptable resolution."
+      },
+      "language": "en",
+      "profile_file": "profile.json",
+      "profile_checksum_sha256": "1f3e4e031ddfd67eb59db8684fe8ede713c5a6824c723eb10858bcfd07ba398e",
+      "module_checksum_sha256": "1f3e4e031ddfd67eb59db8684fe8ede713c5a6824c723eb10858bcfd07ba398e",
+      "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/workflow-tpl-mediation.zip",
+      "compatibility": {
+        "danwa_min_version": "2.1.0",
+        "danwa_max_version": null
+      },
+      "dependencies": {},
+      "tags": [
+        "mediation",
+        "conflict-resolution",
+        "facilitation",
+        "consensus"
+      ],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-05-17T03:22:25+02:00",
+      "updated_at": "2026-05-28T15:57:08.326151+00:00"
+    },
+    {
+      "module_id": "workflow-tpl-quick-review",
+      "version": "1.0.0",
+      "type": "workflow-template",
+      "category": "workflows",
+      "name": {
+        "en": "Quick Review"
+      },
+      "description": {
+        "en": "A lightweight single-agent review with optional user injection. Fast turnaround for simple tasks."
+      },
+      "language": "en",
+      "profile_file": "profile.json",
+      "profile_checksum_sha256": "8795c024c49c14805ffc2f86c5a50307ae54b9efb46a1f7262e0c703da3aac48",
+      "module_checksum_sha256": "8795c024c49c14805ffc2f86c5a50307ae54b9efb46a1f7262e0c703da3aac48",
+      "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/workflow-tpl-quick-review.zip",
+      "compatibility": {
+        "danwa_min_version": "2.1.0",
+        "danwa_max_version": null
+      },
+      "dependencies": {},
+      "tags": [
+        "quick",
+        "lightweight",
+        "single-agent",
+        "review"
+      ],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-05-17T03:22:25+02:00",
+      "updated_at": "2026-05-28T15:57:08.326587+00:00"
+    },
+    {
+      "module_id": "workflow-tpl-standard-debate",
+      "version": "1.0.0",
+      "type": "workflow-template",
+      "category": "workflows",
+      "name": {
+        "en": "Standard Debate"
+      },
+      "description": {
+        "en": "A classic multi-agent debate with strategist, critic, optimizer, and moderator. Suitable for most analytical tasks."
+      },
+      "language": "en",
+      "profile_file": "profile.json",
+      "profile_checksum_sha256": "71fea6989e720b1d8512f34a3ec84525060dccebd1788c818500764a2eed0e44",
+      "module_checksum_sha256": "71fea6989e720b1d8512f34a3ec84525060dccebd1788c818500764a2eed0e44",
+      "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/workflow-tpl-standard-debate.zip",
+      "compatibility": {
+        "danwa_min_version": "2.1.0",
+        "danwa_max_version": null
+      },
+      "dependencies": {},
+      "tags": [
+        "debate",
+        "multi-agent",
+        "classic"
+      ],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-05-17T03:22:25+02:00",
+      "updated_at": "2026-05-28T15:57:08.327010+00:00"
+    },
+    {
+      "module_id": "workflow-tpl-streitgespraech",
+      "version": "1.0.0",
+      "type": "workflow-template",
+      "category": "workflows",
+      "name": {
+        "en": "Streitgespräch (Adversarial Debate)"
+      },
+      "description": {
+        "en": "A confrontational debate format where an Advocate defends one position while an Adversary attacks it. A Referee ensures fair play, and the Moderator synthesizes the outcome. Based on the adversarial method of philosophical inquiry."
+      },
+      "language": "en",
+      "profile_file": "profile.json",
+      "profile_checksum_sha256": "9c284f4a1695fddf55bf8391edfa279ead4cd3205adadb646a26d0fa607469d7",
+      "module_checksum_sha256": "9c284f4a1695fddf55bf8391edfa279ead4cd3205adadb646a26d0fa607469d7",
+      "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/workflow-tpl-streitgespraech.zip",
+      "compatibility": {
+        "danwa_min_version": "2.1.0",
+        "danwa_max_version": null
+      },
+      "dependencies": {},
+      "tags": [
+        "streitgespräch",
+        "adversarial",
+        "advocate",
+        "adversary",
+        "referee",
+        "debate"
+      ],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-05-17T03:22:25+02:00",
+      "updated_at": "2026-05-28T15:57:08.327433+00:00"
+    }
+  ]
+}

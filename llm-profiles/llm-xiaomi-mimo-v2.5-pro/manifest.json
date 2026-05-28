@@ -1,0 +1,30 @@
+{
+  "schema_version": "3.0.0",
+  "module_id": "llm-xiaomi-mimo-v2.5-pro",
+  "name": {
+    "en": "mimo-v2.5-pro (Xiaomi)"
+  },
+  "version": "1.0.0",
+  "type": "llm-profile",
+  "category": "llm-profiles",
+  "author": {
+    "name": "Danwa Community"
+  },
+  "license": "CC-BY-4.0",
+  "tags": [],
+  "language": "en",
+  "profile_file": "profile.yaml",
+  "profile_format": "yaml",
+  "checksum": "9f88ea92f3ef240c20c55f49f4a0b5735db27ba2177577a93e4281f14ab75d4c",
+  "created_at": "2026-05-17T03:22:25+02:00",
+  "updated_at": "2026-05-28T15:57:08.321282+00:00",
+  "compatibility": {
+    "danwa_min_version": "2.1.0",
+    "danwa_max_version": null
+  },
+  "repository": {
+    "type": "github",
+    "url": "https://github.com/asb-42/danwa-modules",
+    "ref": "v1.0.0"
+  }
+}
