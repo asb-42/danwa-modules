@@ -99,3 +99,14 @@ in an individual module's `manifest.json`.
 4. Submit a pull request
 
 See [schemas/migration-guide.md](schemas/migration-guide.md) for detailed guidelines.
+
+## Translation Limitations
+
+The following UI translation locales currently use English fallback values (no translation file exists). These languages require expert review or an external translation service before they can be considered production-ready:
+
+| Locale | Language | Script | Status |
+|--------|----------|--------|--------|
+| `iu` | Inuktitut (ᐃᓄᒃᑎᑐᑦ) | Canadian Aboriginal Syllabics | No translation file — English fallback |
+| `te` | Telugu (తెలుగు) | Telugu script | No translation file — English fallback |
+
+**Why English fallback?** Languages with complex morphological systems (polysynthetic languages like Inuktitut) or specialized scripts cannot be reliably translated by general-purpose LLMs. Producing incorrect translations in such languages would be worse than presenting the interface in English. If you are a native speaker of any listed language and would like to contribute translations, please open a pull request.
