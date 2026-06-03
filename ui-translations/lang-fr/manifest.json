@@ -9,7 +9,7 @@
     "en": "UI translation pack for French (Français)",
     "fr": "UI-Übersetzungspaket für French (Français)"
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "language-pack",
   "category": "translations",
   "language": "fr",
@@ -34,5 +34,5 @@
   },
   "checksum": "4d097219d71c9494b2250c9d8b0c39d6cd8ecfbc45c4a4b9c61684e7c36f1e1e",
   "string_count": 1275,
-  "updated_at": "2026-06-03T19:16:03.493789+00:00"
+  "updated_at": "2026-06-03T20:00:27.677417+00:00"
 }

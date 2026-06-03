@@ -9,7 +9,7 @@
     "en": "UI translation pack for Russian (Русский)",
     "ru": "UI-Übersetzungspaket für Russian (Русский)"
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "language-pack",
   "category": "translations",
   "language": "ru",
@@ -34,5 +34,5 @@
   },
   "checksum": "80adcc2e83a4440bc330e7592e8b5c69b23a8c0096f7a038e01fddca3d33ba7a",
   "string_count": 1275,
-  "updated_at": "2026-06-03T19:16:03.581572+00:00"
+  "updated_at": "2026-06-03T20:00:27.774692+00:00"
 }

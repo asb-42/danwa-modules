@@ -9,7 +9,7 @@
     "en": "UI translation pack for Chinese (中文)",
     "zh": "UI-Übersetzungspaket für Chinese (中文)"
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "language-pack",
   "category": "translations",
   "language": "zh",
@@ -34,5 +34,5 @@
   },
   "checksum": "9fb87d46f141b29e2c05eb386974dc4a0b51543b665a0c018e150366a2122148",
   "string_count": 1275,
-  "updated_at": "2026-06-03T19:16:03.605280+00:00"
+  "updated_at": "2026-06-03T20:00:27.796238+00:00"
 }

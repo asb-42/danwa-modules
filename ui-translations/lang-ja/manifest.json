@@ -9,7 +9,7 @@
     "en": "UI translation pack for Japanese (日本語)",
     "ja": "UI-Übersetzungspaket für Japanese (日本語)"
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "language-pack",
   "category": "translations",
   "language": "ja",
@@ -34,5 +34,5 @@
   },
   "checksum": "978be0cd0aedc556602929f3fa360d1dbcf7a4f4e7ffbd679559bd22e5316f64",
   "string_count": 1275,
-  "updated_at": "2026-06-03T19:16:03.537720+00:00"
+  "updated_at": "2026-06-03T20:00:27.726829+00:00"
 }

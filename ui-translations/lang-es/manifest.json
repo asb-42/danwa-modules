@@ -9,7 +9,7 @@
     "en": "UI translation pack for Spanish (Español)",
     "es": "UI-Übersetzungspaket für Spanish (Español)"
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "language-pack",
   "category": "translations",
   "language": "es",
@@ -34,5 +34,5 @@
   },
   "checksum": "76496c9d15ea2e0dd9fd44dff763d25ff9b2753dbd89c2bca52444df2aa93699",
   "string_count": 1275,
-  "updated_at": "2026-06-03T19:16:03.469536+00:00"
+  "updated_at": "2026-06-03T20:00:27.652635+00:00"
 }

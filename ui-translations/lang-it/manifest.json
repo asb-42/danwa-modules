@@ -9,7 +9,7 @@
     "en": "UI translation pack for Italian (Italiano)",
     "it": "UI-Übersetzungspaket für Italian (Italiano)"
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "language-pack",
   "category": "translations",
   "language": "it",
@@ -34,5 +34,5 @@
   },
   "checksum": "d06d0041501351726fa0b4752bd44ea8caaac2d152cfcbbef3ab90fef0318d80",
   "string_count": 1275,
-  "updated_at": "2026-06-03T19:16:03.515601+00:00"
+  "updated_at": "2026-06-03T20:00:27.702386+00:00"
 }

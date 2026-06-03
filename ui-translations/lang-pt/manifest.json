@@ -9,7 +9,7 @@
     "en": "UI translation pack for Portuguese (Português)",
     "pt": "UI-Übersetzungspaket für Portuguese (Português)"
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "language-pack",
   "category": "translations",
   "language": "pt",
@@ -34,5 +34,5 @@
   },
   "checksum": "006ec734cf99adde4afc1eadf1d2b389076d8a01b4c68e3a526d96ef4460ad9a",
   "string_count": 1275,
-  "updated_at": "2026-06-03T19:16:03.558974+00:00"
+  "updated_at": "2026-06-03T20:00:27.752491+00:00"
 }
