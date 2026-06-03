@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-05-28T16:59:09.739781+00:00",
+  "generated_at": "2026-06-03T19:17:02.512855+00:00",
   "schema_version": "3.0.0",
   "repository": "https://github.com/asb-42/danwa-modules",
-  "total_modules": 143,
+  "total_modules": 145,
   "modules": [
     {
       "module_id": "critic",
@@ -2247,6 +2247,35 @@
       "updated_at": "2026-05-28T15:57:08.321282+00:00"
     },
     {
+      "module_id": "lang-bg",
+      "version": "1.0.0",
+      "type": "language-pack",
+      "category": "ui-translations",
+      "name": {
+        "en": "Български (Bulgarian)",
+        "bg": "Български"
+      },
+      "description": {
+        "en": "UI translation pack for Български (Bulgarian)"
+      },
+      "language": "bg",
+      "profile_file": "ui_strings.json",
+      "profile_checksum_sha256": "1a427e1f1b7aabbe16bdb02a27b0f022fc987e2a8616e50cd509b34d41e886e4",
+      "module_checksum_sha256": "1a427e1f1b7aabbe16bdb02a27b0f022fc987e2a8616e50cd509b34d41e886e4",
+      "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/lang-bg.zip",
+      "compatibility": {
+        "danwa_min_version": "2.1.0",
+        "danwa_max_version": null
+      },
+      "dependencies": {},
+      "tags": [
+        "bg"
+      ],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-05-31T03:59:55.109875+00:00",
+      "updated_at": "2026-05-31T03:59:55.109875+00:00"
+    },
+    {
       "module_id": "lang-bn",
       "version": "1.0.0",
       "type": "language-pack",
@@ -2261,8 +2290,8 @@
       },
       "language": "bn",
       "profile_file": "ui_strings.json",
-      "profile_checksum_sha256": "acf183ee7f6a5d3fabf6694bdda558ee256a5e565c1138034455a54bbbdb9908",
-      "module_checksum_sha256": "acf183ee7f6a5d3fabf6694bdda558ee256a5e565c1138034455a54bbbdb9908",
+      "profile_checksum_sha256": "dd12a700e6c6dd3c13d05c913d95cbd836d10b01cf99183b54223210a18db5ea",
+      "module_checksum_sha256": "dd12a700e6c6dd3c13d05c913d95cbd836d10b01cf99183b54223210a18db5ea",
       "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/lang-bn.zip",
       "compatibility": {
         "danwa_min_version": "2.1.0",
@@ -2274,7 +2303,7 @@
       ],
       "license": "CC-BY-4.0",
       "created_at": "2026-05-27T15:45:47.186835+00:00",
-      "updated_at": "2026-05-28T16:11:37.114473+00:00"
+      "updated_at": "2026-05-31T04:00:04.954945+00:00"
     },
     {
       "module_id": "lang-bo",
@@ -2291,8 +2320,8 @@
       },
       "language": "bo",
       "profile_file": "ui_strings.json",
-      "profile_checksum_sha256": "7809e5457b98bd562c8c1c9593a2a079345802cb4ee4995a13a8a14f7160ca36",
-      "module_checksum_sha256": "7809e5457b98bd562c8c1c9593a2a079345802cb4ee4995a13a8a14f7160ca36",
+      "profile_checksum_sha256": "ad316b32b2ced8a9199d7a48b376d76865804ddd45b80c2f9827194613fdef53",
+      "module_checksum_sha256": "ad316b32b2ced8a9199d7a48b376d76865804ddd45b80c2f9827194613fdef53",
       "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/lang-bo.zip",
       "compatibility": {
         "danwa_min_version": "2.1.0",
@@ -2304,7 +2333,7 @@
       ],
       "license": "CC-BY-4.0",
       "created_at": "2026-05-27T15:45:21.179725+00:00",
-      "updated_at": "2026-05-28T16:11:37.165107+00:00"
+      "updated_at": "2026-05-31T04:00:04.954945+00:00"
     },
     {
       "module_id": "lang-br",
@@ -2321,8 +2350,8 @@
       },
       "language": "br",
       "profile_file": "ui_strings.json",
-      "profile_checksum_sha256": "7809e5457b98bd562c8c1c9593a2a079345802cb4ee4995a13a8a14f7160ca36",
-      "module_checksum_sha256": "7809e5457b98bd562c8c1c9593a2a079345802cb4ee4995a13a8a14f7160ca36",
+      "profile_checksum_sha256": "bbe320f254d39ca98098ad40317841bbf20673fac08c23003b889059ab05dd96",
+      "module_checksum_sha256": "bbe320f254d39ca98098ad40317841bbf20673fac08c23003b889059ab05dd96",
       "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/lang-br.zip",
       "compatibility": {
         "danwa_min_version": "2.1.0",
@@ -2334,7 +2363,7 @@
       ],
       "license": "CC-BY-4.0",
       "created_at": "2026-05-27T15:45:35.175779+00:00",
-      "updated_at": "2026-05-28T16:11:37.171870+00:00"
+      "updated_at": "2026-05-31T04:00:04.954945+00:00"
     },
     {
       "module_id": "lang-cz",
@@ -2351,8 +2380,8 @@
       },
       "language": "cz",
       "profile_file": "ui_strings.json",
-      "profile_checksum_sha256": "7809e5457b98bd562c8c1c9593a2a079345802cb4ee4995a13a8a14f7160ca36",
-      "module_checksum_sha256": "7809e5457b98bd562c8c1c9593a2a079345802cb4ee4995a13a8a14f7160ca36",
+      "profile_checksum_sha256": "03203a0850b173c39bd5a96527d0bdd219f6da0b2a2f265b9bfa1403721173d3",
+      "module_checksum_sha256": "03203a0850b173c39bd5a96527d0bdd219f6da0b2a2f265b9bfa1403721173d3",
       "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/lang-cz.zip",
       "compatibility": {
         "danwa_min_version": "2.1.0",
@@ -2364,7 +2393,7 @@
       ],
       "license": "CC-BY-4.0",
       "created_at": "2026-05-22T11:51:42.677383+00:00",
-      "updated_at": "2026-05-28T16:11:37.179403+00:00"
+      "updated_at": "2026-05-31T04:00:04.954945+00:00"
     },
     {
       "module_id": "lang-da",
@@ -2381,8 +2410,8 @@
       },
       "language": "da",
       "profile_file": "ui_strings.json",
-      "profile_checksum_sha256": "46b453aa96af3702c25fa5405deffb0431e3847eda616f2e0d97eeaaf5fcaaed",
-      "module_checksum_sha256": "46b453aa96af3702c25fa5405deffb0431e3847eda616f2e0d97eeaaf5fcaaed",
+      "profile_checksum_sha256": "037cadaef849571a248415098b5f95a1809d3bb7820c72a5b41bb1203f748e31",
+      "module_checksum_sha256": "037cadaef849571a248415098b5f95a1809d3bb7820c72a5b41bb1203f748e31",
       "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/lang-da.zip",
       "compatibility": {
         "danwa_min_version": "2.1.0",
@@ -2394,7 +2423,7 @@
       ],
       "license": "CC-BY-4.0",
       "created_at": "2026-05-27T15:46:16.700847+00:00",
-      "updated_at": "2026-05-28T16:11:37.188012+00:00"
+      "updated_at": "2026-05-31T04:00:04.954945+00:00"
     },
     {
       "module_id": "lang-de",
@@ -2411,8 +2440,8 @@
       },
       "language": "de",
       "profile_file": "ui_strings.json",
-      "profile_checksum_sha256": "06720f5a741ed35d7f0d11c2d1153b94f12b6c7bd78613e429532d097b4388dc",
-      "module_checksum_sha256": "06720f5a741ed35d7f0d11c2d1153b94f12b6c7bd78613e429532d097b4388dc",
+      "profile_checksum_sha256": "988199dfba59b70978a15f9500efa07669161900d1bf91c3b32f4f378a2d15c5",
+      "module_checksum_sha256": "988199dfba59b70978a15f9500efa07669161900d1bf91c3b32f4f378a2d15c5",
       "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/lang-de.zip",
       "compatibility": {
         "danwa_min_version": "2.1.0",
@@ -2424,7 +2453,7 @@
       ],
       "license": "CC-BY-4.0",
       "created_at": "2026-05-27T15:46:38.917120+00:00",
-      "updated_at": "2026-05-28T16:11:37.191463+00:00"
+      "updated_at": "2026-06-03T19:16:03.380934+00:00"
     },
     {
       "module_id": "lang-en",
@@ -2452,7 +2481,7 @@
       ],
       "license": "CC-BY-4.0",
       "created_at": "2026-05-27T15:46:37.645500+00:00",
-      "updated_at": "2026-05-28T16:11:37.194490+00:00"
+      "updated_at": "2026-05-31T04:00:29.803062+00:00"
     },
     {
       "module_id": "lang-eo",
@@ -2469,8 +2498,8 @@
       },
       "language": "eo",
       "profile_file": "ui_strings.json",
-      "profile_checksum_sha256": "7809e5457b98bd562c8c1c9593a2a079345802cb4ee4995a13a8a14f7160ca36",
-      "module_checksum_sha256": "7809e5457b98bd562c8c1c9593a2a079345802cb4ee4995a13a8a14f7160ca36",
+      "profile_checksum_sha256": "e591348d3e1fc9500e097fc68e914f8f6b2649d5622bbb47c6dedf239b751445",
+      "module_checksum_sha256": "e591348d3e1fc9500e097fc68e914f8f6b2649d5622bbb47c6dedf239b751445",
       "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/lang-eo.zip",
       "compatibility": {
         "danwa_min_version": "2.1.0",
@@ -2482,7 +2511,7 @@
       ],
       "license": "CC-BY-4.0",
       "created_at": "2026-05-27T15:45:32.618765+00:00",
-      "updated_at": "2026-05-28T16:11:37.196932+00:00"
+      "updated_at": "2026-05-31T04:00:04.954945+00:00"
     },
     {
       "module_id": "lang-es",
@@ -2499,8 +2528,8 @@
       },
       "language": "es",
       "profile_file": "ui_strings.json",
-      "profile_checksum_sha256": "9be828529e21dd7a514d14ee5a70c7db0bae4d29c0cbee3c5810e232e173c0d3",
-      "module_checksum_sha256": "9be828529e21dd7a514d14ee5a70c7db0bae4d29c0cbee3c5810e232e173c0d3",
+      "profile_checksum_sha256": "76496c9d15ea2e0dd9fd44dff763d25ff9b2753dbd89c2bca52444df2aa93699",
+      "module_checksum_sha256": "76496c9d15ea2e0dd9fd44dff763d25ff9b2753dbd89c2bca52444df2aa93699",
       "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/lang-es.zip",
       "compatibility": {
         "danwa_min_version": "2.1.0",
@@ -2512,7 +2541,7 @@
       ],
       "license": "CC-BY-4.0",
       "created_at": "2026-05-27T15:46:34.373066+00:00",
-      "updated_at": "2026-05-28T16:11:37.199350+00:00"
+      "updated_at": "2026-06-03T19:16:03.469536+00:00"
     },
     {
       "module_id": "lang-et",
@@ -2529,8 +2558,8 @@
       },
       "language": "et",
       "profile_file": "ui_strings.json",
-      "profile_checksum_sha256": "7809e5457b98bd562c8c1c9593a2a079345802cb4ee4995a13a8a14f7160ca36",
-      "module_checksum_sha256": "7809e5457b98bd562c8c1c9593a2a079345802cb4ee4995a13a8a14f7160ca36",
+      "profile_checksum_sha256": "884792142934df7e8d6d1a17101173d67e288433ba8ad4d52f914bd7c3bef4cb",
+      "module_checksum_sha256": "884792142934df7e8d6d1a17101173d67e288433ba8ad4d52f914bd7c3bef4cb",
       "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/lang-et.zip",
       "compatibility": {
         "danwa_min_version": "2.1.0",
@@ -2542,7 +2571,7 @@
       ],
       "license": "CC-BY-4.0",
       "created_at": "2026-05-27T15:45:36.266637+00:00",
-      "updated_at": "2026-05-28T16:11:37.201376+00:00"
+      "updated_at": "2026-05-31T04:00:04.954945+00:00"
     },
     {
       "module_id": "lang-eu",
@@ -2559,8 +2588,8 @@
       },
       "language": "eu",
       "profile_file": "ui_strings.json",
-      "profile_checksum_sha256": "7809e5457b98bd562c8c1c9593a2a079345802cb4ee4995a13a8a14f7160ca36",
-      "module_checksum_sha256": "7809e5457b98bd562c8c1c9593a2a079345802cb4ee4995a13a8a14f7160ca36",
+      "profile_checksum_sha256": "97eec727a3d420f5ee5dbb3fe6157a47ef3ad41f3525e00c1a9617e51c0fa674",
+      "module_checksum_sha256": "97eec727a3d420f5ee5dbb3fe6157a47ef3ad41f3525e00c1a9617e51c0fa674",
       "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/lang-eu.zip",
       "compatibility": {
         "danwa_min_version": "2.1.0",
@@ -2572,7 +2601,7 @@
       ],
       "license": "CC-BY-4.0",
       "created_at": "2026-05-27T15:45:33.730994+00:00",
-      "updated_at": "2026-05-28T16:11:37.203397+00:00"
+      "updated_at": "2026-05-31T04:00:04.954945+00:00"
     },
     {
       "module_id": "lang-fa",
@@ -2589,8 +2618,8 @@
       },
       "language": "fa",
       "profile_file": "ui_strings.json",
-      "profile_checksum_sha256": "255a1efb55046e39f95e18d53c6de83b7da4cee5b98263c513e4f7a130905cc0",
-      "module_checksum_sha256": "255a1efb55046e39f95e18d53c6de83b7da4cee5b98263c513e4f7a130905cc0",
+      "profile_checksum_sha256": "3f253da0e5f9c9826facb25e89e36ad8bd735316be1aefa16acfda110e89ad66",
+      "module_checksum_sha256": "3f253da0e5f9c9826facb25e89e36ad8bd735316be1aefa16acfda110e89ad66",
       "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/lang-fa.zip",
       "compatibility": {
         "danwa_min_version": "2.1.0",
@@ -2602,7 +2631,7 @@
       ],
       "license": "CC-BY-4.0",
       "created_at": "2026-05-21T02:31:29.748810+00:00",
-      "updated_at": "2026-05-28T16:11:37.205389+00:00"
+      "updated_at": "2026-05-31T04:00:04.954945+00:00"
     },
     {
       "module_id": "lang-fi",
@@ -2619,8 +2648,8 @@
       },
       "language": "fi",
       "profile_file": "ui_strings.json",
-      "profile_checksum_sha256": "7809e5457b98bd562c8c1c9593a2a079345802cb4ee4995a13a8a14f7160ca36",
-      "module_checksum_sha256": "7809e5457b98bd562c8c1c9593a2a079345802cb4ee4995a13a8a14f7160ca36",
+      "profile_checksum_sha256": "0a909eed5f420a4add41fa97f410486d2e8ef76c08a35262d51ca7a3c5b0f55b",
+      "module_checksum_sha256": "0a909eed5f420a4add41fa97f410486d2e8ef76c08a35262d51ca7a3c5b0f55b",
       "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/lang-fi.zip",
       "compatibility": {
         "danwa_min_version": "2.1.0",
@@ -2632,7 +2661,7 @@
       ],
       "license": "CC-BY-4.0",
       "created_at": "2026-05-27T15:46:09.999989+00:00",
-      "updated_at": "2026-05-28T16:11:37.207932+00:00"
+      "updated_at": "2026-05-31T04:00:04.954945+00:00"
     },
     {
       "module_id": "lang-fr",
@@ -2649,8 +2678,8 @@
       },
       "language": "fr",
       "profile_file": "ui_strings.json",
-      "profile_checksum_sha256": "1081cb6c06335f9f2115b7c0e4670957829f8291916cec93eacf11789fe32082",
-      "module_checksum_sha256": "1081cb6c06335f9f2115b7c0e4670957829f8291916cec93eacf11789fe32082",
+      "profile_checksum_sha256": "4d097219d71c9494b2250c9d8b0c39d6cd8ecfbc45c4a4b9c61684e7c36f1e1e",
+      "module_checksum_sha256": "4d097219d71c9494b2250c9d8b0c39d6cd8ecfbc45c4a4b9c61684e7c36f1e1e",
       "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/lang-fr.zip",
       "compatibility": {
         "danwa_min_version": "2.1.0",
@@ -2662,7 +2691,7 @@
       ],
       "license": "CC-BY-4.0",
       "created_at": "2026-05-27T15:46:36.116585+00:00",
-      "updated_at": "2026-05-28T16:11:37.209615+00:00"
+      "updated_at": "2026-06-03T19:16:03.493789+00:00"
     },
     {
       "module_id": "lang-ga",
@@ -2679,8 +2708,8 @@
       },
       "language": "ga",
       "profile_file": "ui_strings.json",
-      "profile_checksum_sha256": "7809e5457b98bd562c8c1c9593a2a079345802cb4ee4995a13a8a14f7160ca36",
-      "module_checksum_sha256": "7809e5457b98bd562c8c1c9593a2a079345802cb4ee4995a13a8a14f7160ca36",
+      "profile_checksum_sha256": "0e8326542b20f43a83cda4372bf203e93004133321ab8d6a5879912f2a89bfa8",
+      "module_checksum_sha256": "0e8326542b20f43a83cda4372bf203e93004133321ab8d6a5879912f2a89bfa8",
       "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/lang-ga.zip",
       "compatibility": {
         "danwa_min_version": "2.1.0",
@@ -2692,7 +2721,7 @@
       ],
       "license": "CC-BY-4.0",
       "created_at": "2026-05-27T15:45:49.985809+00:00",
-      "updated_at": "2026-05-28T16:11:37.211231+00:00"
+      "updated_at": "2026-05-31T04:00:04.954945+00:00"
     },
     {
       "module_id": "lang-hi",
@@ -2709,8 +2738,8 @@
       },
       "language": "hi",
       "profile_file": "ui_strings.json",
-      "profile_checksum_sha256": "c9e8c744d7c00337b5167e801ddeb11ee367f9f4a4c8b1d776ff965bc8338629",
-      "module_checksum_sha256": "c9e8c744d7c00337b5167e801ddeb11ee367f9f4a4c8b1d776ff965bc8338629",
+      "profile_checksum_sha256": "e36f32801b2b8e7e4fb3f5ed07118d8864f010c918aa3a7978246a47505a7544",
+      "module_checksum_sha256": "e36f32801b2b8e7e4fb3f5ed07118d8864f010c918aa3a7978246a47505a7544",
       "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/lang-hi.zip",
       "compatibility": {
         "danwa_min_version": "2.1.0",
@@ -2722,7 +2751,7 @@
       ],
       "license": "CC-BY-4.0",
       "created_at": "2026-05-22T13:12:05.813799+00:00",
-      "updated_at": "2026-05-28T16:11:37.213773+00:00"
+      "updated_at": "2026-05-31T04:00:04.954945+00:00"
     },
     {
       "module_id": "lang-hr",
@@ -2739,8 +2768,8 @@
       },
       "language": "hr",
       "profile_file": "ui_strings.json",
-      "profile_checksum_sha256": "aafd077ff3fe3e07befca351d91c53fac03a1bad4767e64257673f7a12e073ac",
-      "module_checksum_sha256": "aafd077ff3fe3e07befca351d91c53fac03a1bad4767e64257673f7a12e073ac",
+      "profile_checksum_sha256": "9823b43954a2232d2c310ea8ec64e3a3316db2dfbf41e431666e492cdb7b3704",
+      "module_checksum_sha256": "9823b43954a2232d2c310ea8ec64e3a3316db2dfbf41e431666e492cdb7b3704",
       "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/lang-hr.zip",
       "compatibility": {
         "danwa_min_version": "2.1.0",
@@ -2752,7 +2781,7 @@
       ],
       "license": "CC-BY-4.0",
       "created_at": "2026-05-27T15:46:05.082585+00:00",
-      "updated_at": "2026-05-28T16:11:37.215831+00:00"
+      "updated_at": "2026-05-31T04:00:04.954945+00:00"
     },
     {
       "module_id": "lang-hu",
@@ -2769,8 +2798,8 @@
       },
       "language": "hu",
       "profile_file": "ui_strings.json",
-      "profile_checksum_sha256": "bff3238cbc919ffd0468df6099d367c098a8487f7dd4373f726720cfe30a700a",
-      "module_checksum_sha256": "bff3238cbc919ffd0468df6099d367c098a8487f7dd4373f726720cfe30a700a",
+      "profile_checksum_sha256": "5ed5bf3f1b18ba80705113363e617fbe55d4b2fa3a28499017e26a82d94bcc9a",
+      "module_checksum_sha256": "5ed5bf3f1b18ba80705113363e617fbe55d4b2fa3a28499017e26a82d94bcc9a",
       "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/lang-hu.zip",
       "compatibility": {
         "danwa_min_version": "2.1.0",
@@ -2782,7 +2811,7 @@
       ],
       "license": "CC-BY-4.0",
       "created_at": "2026-05-21T15:06:36.333389+00:00",
-      "updated_at": "2026-05-28T16:11:37.217146+00:00"
+      "updated_at": "2026-05-31T04:00:04.954945+00:00"
     },
     {
       "module_id": "lang-hy",
@@ -2799,8 +2828,8 @@
       },
       "language": "hy",
       "profile_file": "ui_strings.json",
-      "profile_checksum_sha256": "7809e5457b98bd562c8c1c9593a2a079345802cb4ee4995a13a8a14f7160ca36",
-      "module_checksum_sha256": "7809e5457b98bd562c8c1c9593a2a079345802cb4ee4995a13a8a14f7160ca36",
+      "profile_checksum_sha256": "bcedde50d4f012d7d8f114595bb8c2f44a48ba4f83d4a6defbe24e44a6079fa0",
+      "module_checksum_sha256": "bcedde50d4f012d7d8f114595bb8c2f44a48ba4f83d4a6defbe24e44a6079fa0",
       "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/lang-hy.zip",
       "compatibility": {
         "danwa_min_version": "2.1.0",
@@ -2812,7 +2841,7 @@
       ],
       "license": "CC-BY-4.0",
       "created_at": "2026-05-27T15:45:31.249762+00:00",
-      "updated_at": "2026-05-28T16:11:37.218552+00:00"
+      "updated_at": "2026-05-31T04:00:04.954945+00:00"
     },
     {
       "module_id": "lang-id",
@@ -2829,8 +2858,8 @@
       },
       "language": "id",
       "profile_file": "ui_strings.json",
-      "profile_checksum_sha256": "af5b5075b441ce5e94dee089bce7d992daefe875672367d7817e4b0e3d92ac16",
-      "module_checksum_sha256": "af5b5075b441ce5e94dee089bce7d992daefe875672367d7817e4b0e3d92ac16",
+      "profile_checksum_sha256": "336da0c4995bbd8c49fe06acbeb02e32998185b71d3ffe1d526adb0fb662258f",
+      "module_checksum_sha256": "336da0c4995bbd8c49fe06acbeb02e32998185b71d3ffe1d526adb0fb662258f",
       "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/lang-id.zip",
       "compatibility": {
         "danwa_min_version": "2.1.0",
@@ -2842,7 +2871,7 @@
       ],
       "license": "CC-BY-4.0",
       "created_at": "2026-05-27T15:45:53.719607+00:00",
-      "updated_at": "2026-05-28T16:11:37.219874+00:00"
+      "updated_at": "2026-05-31T04:00:04.954945+00:00"
     },
     {
       "module_id": "lang-io",
@@ -2859,8 +2888,8 @@
       },
       "language": "io",
       "profile_file": "ui_strings.json",
-      "profile_checksum_sha256": "7809e5457b98bd562c8c1c9593a2a079345802cb4ee4995a13a8a14f7160ca36",
-      "module_checksum_sha256": "7809e5457b98bd562c8c1c9593a2a079345802cb4ee4995a13a8a14f7160ca36",
+      "profile_checksum_sha256": "e9c8435a0cf80b85b79af2520db2d03f6e1974a601f4cb48d706cd27dc78fac6",
+      "module_checksum_sha256": "e9c8435a0cf80b85b79af2520db2d03f6e1974a601f4cb48d706cd27dc78fac6",
       "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/lang-io.zip",
       "compatibility": {
         "danwa_min_version": "2.1.0",
@@ -2872,7 +2901,7 @@
       ],
       "license": "CC-BY-4.0",
       "created_at": "2026-05-27T15:45:28.864661+00:00",
-      "updated_at": "2026-05-28T16:11:37.221050+00:00"
+      "updated_at": "2026-05-31T04:00:04.954945+00:00"
     },
     {
       "module_id": "lang-is",
@@ -2889,8 +2918,8 @@
       },
       "language": "is",
       "profile_file": "ui_strings.json",
-      "profile_checksum_sha256": "7809e5457b98bd562c8c1c9593a2a079345802cb4ee4995a13a8a14f7160ca36",
-      "module_checksum_sha256": "7809e5457b98bd562c8c1c9593a2a079345802cb4ee4995a13a8a14f7160ca36",
+      "profile_checksum_sha256": "1241e7257ea3e6274b53673fb43c0bdaf9269919afa7518c40d34e463d7b27cc",
+      "module_checksum_sha256": "1241e7257ea3e6274b53673fb43c0bdaf9269919afa7518c40d34e463d7b27cc",
       "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/lang-is.zip",
       "compatibility": {
         "danwa_min_version": "2.1.0",
@@ -2902,7 +2931,7 @@
       ],
       "license": "CC-BY-4.0",
       "created_at": "2026-05-27T15:45:48.662266+00:00",
-      "updated_at": "2026-05-28T16:11:37.222384+00:00"
+      "updated_at": "2026-05-31T04:00:04.954945+00:00"
     },
     {
       "module_id": "lang-it",
@@ -2919,8 +2948,8 @@
       },
       "language": "it",
       "profile_file": "ui_strings.json",
-      "profile_checksum_sha256": "42b71c4e297e6361a79233a46795738bac4b8138d33b0d35b7ac2af9594d4184",
-      "module_checksum_sha256": "42b71c4e297e6361a79233a46795738bac4b8138d33b0d35b7ac2af9594d4184",
+      "profile_checksum_sha256": "d06d0041501351726fa0b4752bd44ea8caaac2d152cfcbbef3ab90fef0318d80",
+      "module_checksum_sha256": "d06d0041501351726fa0b4752bd44ea8caaac2d152cfcbbef3ab90fef0318d80",
       "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/lang-it.zip",
       "compatibility": {
         "danwa_min_version": "2.1.0",
@@ -2932,7 +2961,7 @@
       ],
       "license": "CC-BY-4.0",
       "created_at": "2026-05-27T15:46:33.291553+00:00",
-      "updated_at": "2026-05-28T16:11:37.223477+00:00"
+      "updated_at": "2026-06-03T19:16:03.515601+00:00"
     },
     {
       "module_id": "lang-iu",
@@ -2949,8 +2978,8 @@
       },
       "language": "iu",
       "profile_file": "ui_strings.json",
-      "profile_checksum_sha256": "7809e5457b98bd562c8c1c9593a2a079345802cb4ee4995a13a8a14f7160ca36",
-      "module_checksum_sha256": "7809e5457b98bd562c8c1c9593a2a079345802cb4ee4995a13a8a14f7160ca36",
+      "profile_checksum_sha256": "d28cd2160705dae81b55ba61dc4ed89a4d16a3bd4f057f05da465fb437ed9e68",
+      "module_checksum_sha256": "d28cd2160705dae81b55ba61dc4ed89a4d16a3bd4f057f05da465fb437ed9e68",
       "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/lang-iu.zip",
       "compatibility": {
         "danwa_min_version": "2.1.0",
@@ -2962,7 +2991,7 @@
       ],
       "license": "CC-BY-4.0",
       "created_at": "2026-05-27T15:45:27.464337+00:00",
-      "updated_at": "2026-05-28T16:11:37.224556+00:00"
+      "updated_at": "2026-05-31T04:00:04.954945+00:00"
     },
     {
       "module_id": "lang-ja",
@@ -2979,8 +3008,8 @@
       },
       "language": "ja",
       "profile_file": "ui_strings.json",
-      "profile_checksum_sha256": "248e5ee238b4b5393b112b0601f8a4508908c4aa08434c797ffefe4e09380e81",
-      "module_checksum_sha256": "248e5ee238b4b5393b112b0601f8a4508908c4aa08434c797ffefe4e09380e81",
+      "profile_checksum_sha256": "978be0cd0aedc556602929f3fa360d1dbcf7a4f4e7ffbd679559bd22e5316f64",
+      "module_checksum_sha256": "978be0cd0aedc556602929f3fa360d1dbcf7a4f4e7ffbd679559bd22e5316f64",
       "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/lang-ja.zip",
       "compatibility": {
         "danwa_min_version": "2.1.0",
@@ -2992,7 +3021,7 @@
       ],
       "license": "CC-BY-4.0",
       "created_at": "2026-05-27T15:46:25.860657+00:00",
-      "updated_at": "2026-05-28T16:11:37.225636+00:00"
+      "updated_at": "2026-06-03T19:16:03.537720+00:00"
     },
     {
       "module_id": "lang-ka",
@@ -3009,8 +3038,8 @@
       },
       "language": "ka",
       "profile_file": "ui_strings.json",
-      "profile_checksum_sha256": "7809e5457b98bd562c8c1c9593a2a079345802cb4ee4995a13a8a14f7160ca36",
-      "module_checksum_sha256": "7809e5457b98bd562c8c1c9593a2a079345802cb4ee4995a13a8a14f7160ca36",
+      "profile_checksum_sha256": "2d25b20b54d20bce2dd9dc42ddaf48bad6eecfc8f67665dd201016d3005895f4",
+      "module_checksum_sha256": "2d25b20b54d20bce2dd9dc42ddaf48bad6eecfc8f67665dd201016d3005895f4",
       "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/lang-ka.zip",
       "compatibility": {
         "danwa_min_version": "2.1.0",
@@ -3022,7 +3051,36 @@
       ],
       "license": "CC-BY-4.0",
       "created_at": "2026-05-27T15:45:30.065032+00:00",
-      "updated_at": "2026-05-28T16:11:37.226716+00:00"
+      "updated_at": "2026-05-31T04:00:04.954945+00:00"
+    },
+    {
+      "module_id": "lang-ko",
+      "version": "1.0.0",
+      "type": "language-pack",
+      "category": "ui-translations",
+      "name": {
+        "en": "한국어 (Korean)",
+        "ko": "한국어"
+      },
+      "description": {
+        "en": "UI translation pack for 한국어 (Korean)"
+      },
+      "language": "ko",
+      "profile_file": "ui_strings.json",
+      "profile_checksum_sha256": "c363c0ac4fb6e16b8792209db72f2d2b3dd4e2997d77a1ad324d239e12fbcd1f",
+      "module_checksum_sha256": "c363c0ac4fb6e16b8792209db72f2d2b3dd4e2997d77a1ad324d239e12fbcd1f",
+      "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/lang-ko.zip",
+      "compatibility": {
+        "danwa_min_version": "2.1.0",
+        "danwa_max_version": null
+      },
+      "dependencies": {},
+      "tags": [
+        "ko"
+      ],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-05-31T03:59:55.109875+00:00",
+      "updated_at": "2026-05-31T03:59:55.109875+00:00"
     },
     {
       "module_id": "lang-ku",
@@ -3039,8 +3097,8 @@
       },
       "language": "ku",
       "profile_file": "ui_strings.json",
-      "profile_checksum_sha256": "7809e5457b98bd562c8c1c9593a2a079345802cb4ee4995a13a8a14f7160ca36",
-      "module_checksum_sha256": "7809e5457b98bd562c8c1c9593a2a079345802cb4ee4995a13a8a14f7160ca36",
+      "profile_checksum_sha256": "d26163d8abcc46af7ce8964b4435e5157ff67b8d6b7b5992e73e1743d33128fc",
+      "module_checksum_sha256": "d26163d8abcc46af7ce8964b4435e5157ff67b8d6b7b5992e73e1743d33128fc",
       "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/lang-ku.zip",
       "compatibility": {
         "danwa_min_version": "2.1.0",
@@ -3052,7 +3110,7 @@
       ],
       "license": "CC-BY-4.0",
       "created_at": "2026-05-27T15:45:26.075919+00:00",
-      "updated_at": "2026-05-28T16:11:37.227803+00:00"
+      "updated_at": "2026-05-31T04:00:04.954945+00:00"
     },
     {
       "module_id": "lang-la",
@@ -3069,8 +3127,8 @@
       },
       "language": "la",
       "profile_file": "ui_strings.json",
-      "profile_checksum_sha256": "7809e5457b98bd562c8c1c9593a2a079345802cb4ee4995a13a8a14f7160ca36",
-      "module_checksum_sha256": "7809e5457b98bd562c8c1c9593a2a079345802cb4ee4995a13a8a14f7160ca36",
+      "profile_checksum_sha256": "51be27f7ad05357d6911e5e1e82fb75c9450529fae9ae24ca7f24b0ac3a0c7e3",
+      "module_checksum_sha256": "51be27f7ad05357d6911e5e1e82fb75c9450529fae9ae24ca7f24b0ac3a0c7e3",
       "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/lang-la.zip",
       "compatibility": {
         "danwa_min_version": "2.1.0",
@@ -3082,7 +3140,7 @@
       ],
       "license": "CC-BY-4.0",
       "created_at": "2026-05-22T16:51:28.930579+00:00",
-      "updated_at": "2026-05-28T16:11:37.229216+00:00"
+      "updated_at": "2026-05-31T04:00:04.954945+00:00"
     },
     {
       "module_id": "lang-lt",
@@ -3099,8 +3157,8 @@
       },
       "language": "lt",
       "profile_file": "ui_strings.json",
-      "profile_checksum_sha256": "7809e5457b98bd562c8c1c9593a2a079345802cb4ee4995a13a8a14f7160ca36",
-      "module_checksum_sha256": "7809e5457b98bd562c8c1c9593a2a079345802cb4ee4995a13a8a14f7160ca36",
+      "profile_checksum_sha256": "465b43b468d83b95d1bf338d874b0fd94887f1083627309d08229aed23de623a",
+      "module_checksum_sha256": "465b43b468d83b95d1bf338d874b0fd94887f1083627309d08229aed23de623a",
       "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/lang-lt.zip",
       "compatibility": {
         "danwa_min_version": "2.1.0",
@@ -3112,7 +3170,7 @@
       ],
       "license": "CC-BY-4.0",
       "created_at": "2026-05-27T15:45:37.297496+00:00",
-      "updated_at": "2026-05-28T16:11:37.231331+00:00"
+      "updated_at": "2026-05-31T04:00:04.954945+00:00"
     },
     {
       "module_id": "lang-lv",
@@ -3129,8 +3187,8 @@
       },
       "language": "lv",
       "profile_file": "ui_strings.json",
-      "profile_checksum_sha256": "7809e5457b98bd562c8c1c9593a2a079345802cb4ee4995a13a8a14f7160ca36",
-      "module_checksum_sha256": "7809e5457b98bd562c8c1c9593a2a079345802cb4ee4995a13a8a14f7160ca36",
+      "profile_checksum_sha256": "1f67b680291aeb04a12777b01552d32930948d386ca162114416fca346d626f9",
+      "module_checksum_sha256": "1f67b680291aeb04a12777b01552d32930948d386ca162114416fca346d626f9",
       "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/lang-lv.zip",
       "compatibility": {
         "danwa_min_version": "2.1.0",
@@ -3142,7 +3200,7 @@
       ],
       "license": "CC-BY-4.0",
       "created_at": "2026-05-27T15:45:38.383642+00:00",
-      "updated_at": "2026-05-28T16:11:37.232426+00:00"
+      "updated_at": "2026-05-31T04:00:04.954945+00:00"
     },
     {
       "module_id": "lang-mi",
@@ -3159,8 +3217,8 @@
       },
       "language": "mi",
       "profile_file": "ui_strings.json",
-      "profile_checksum_sha256": "7809e5457b98bd562c8c1c9593a2a079345802cb4ee4995a13a8a14f7160ca36",
-      "module_checksum_sha256": "7809e5457b98bd562c8c1c9593a2a079345802cb4ee4995a13a8a14f7160ca36",
+      "profile_checksum_sha256": "81f0defd515eced3f5489e8a05492151376cfc7d3a481c322faeaa566d52f1ab",
+      "module_checksum_sha256": "81f0defd515eced3f5489e8a05492151376cfc7d3a481c322faeaa566d52f1ab",
       "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/lang-mi.zip",
       "compatibility": {
         "danwa_min_version": "2.1.0",
@@ -3172,7 +3230,7 @@
       ],
       "license": "CC-BY-4.0",
       "created_at": "2026-05-22T20:28:04.818518+00:00",
-      "updated_at": "2026-05-28T16:11:37.234227+00:00"
+      "updated_at": "2026-05-31T04:00:04.954945+00:00"
     },
     {
       "module_id": "lang-mk",
@@ -3189,8 +3247,8 @@
       },
       "language": "mk",
       "profile_file": "ui_strings.json",
-      "profile_checksum_sha256": "3cd2cf88b04414c44c38aa77904f733857bf55f43e2dad46222cbfe68f557d0d",
-      "module_checksum_sha256": "3cd2cf88b04414c44c38aa77904f733857bf55f43e2dad46222cbfe68f557d0d",
+      "profile_checksum_sha256": "dceff6f473214fe966a73665165317df91d958d6c7e2660f3693e24d40c472c9",
+      "module_checksum_sha256": "dceff6f473214fe966a73665165317df91d958d6c7e2660f3693e24d40c472c9",
       "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/lang-mk.zip",
       "compatibility": {
         "danwa_min_version": "2.1.0",
@@ -3202,7 +3260,7 @@
       ],
       "license": "CC-BY-4.0",
       "created_at": "2026-05-27T15:45:24.637768+00:00",
-      "updated_at": "2026-05-28T16:11:37.238445+00:00"
+      "updated_at": "2026-05-31T04:00:04.954945+00:00"
     },
     {
       "module_id": "lang-mr",
@@ -3219,8 +3277,8 @@
       },
       "language": "mr",
       "profile_file": "ui_strings.json",
-      "profile_checksum_sha256": "4651b8ee008202dcce60d43ba1a204d37883ba974e83aae048abf5a3e9acd3cd",
-      "module_checksum_sha256": "4651b8ee008202dcce60d43ba1a204d37883ba974e83aae048abf5a3e9acd3cd",
+      "profile_checksum_sha256": "9d5d20317aa4e61f34294349736526932535537f9a7613c9362e0c242b703271",
+      "module_checksum_sha256": "9d5d20317aa4e61f34294349736526932535537f9a7613c9362e0c242b703271",
       "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/lang-mr.zip",
       "compatibility": {
         "danwa_min_version": "2.1.0",
@@ -3232,7 +3290,7 @@
       ],
       "license": "CC-BY-4.0",
       "created_at": "2026-05-27T15:45:44.147455+00:00",
-      "updated_at": "2026-05-28T16:11:37.239561+00:00"
+      "updated_at": "2026-05-31T04:00:04.954945+00:00"
     },
     {
       "module_id": "lang-ms",
@@ -3249,8 +3307,8 @@
       },
       "language": "ms",
       "profile_file": "ui_strings.json",
-      "profile_checksum_sha256": "2989ed6a7e187e0fb8063f6dd5b9d3634b926e929a51fd61820bf653753a8e84",
-      "module_checksum_sha256": "2989ed6a7e187e0fb8063f6dd5b9d3634b926e929a51fd61820bf653753a8e84",
+      "profile_checksum_sha256": "dcc1baf4eaa74746611aad0c6b3dfddb0f751b042b4856d8368cb063788daec9",
+      "module_checksum_sha256": "dcc1baf4eaa74746611aad0c6b3dfddb0f751b042b4856d8368cb063788daec9",
       "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/lang-ms.zip",
       "compatibility": {
         "danwa_min_version": "2.1.0",
@@ -3262,7 +3320,7 @@
       ],
       "license": "CC-BY-4.0",
       "created_at": "2026-05-27T15:45:22.919528+00:00",
-      "updated_at": "2026-05-28T16:11:37.240654+00:00"
+      "updated_at": "2026-05-31T04:00:04.954945+00:00"
     },
     {
       "module_id": "lang-nb",
@@ -3279,8 +3337,8 @@
       },
       "language": "nb",
       "profile_file": "ui_strings.json",
-      "profile_checksum_sha256": "90d170c7d3032dda22c56d74b4000438bb913ee36823286c91fbe5ec25c68fff",
-      "module_checksum_sha256": "90d170c7d3032dda22c56d74b4000438bb913ee36823286c91fbe5ec25c68fff",
+      "profile_checksum_sha256": "073a69af5efa23fb3487b2ab0a72278d0d7a260e1f6360fe36d4e4b6acd3b186",
+      "module_checksum_sha256": "073a69af5efa23fb3487b2ab0a72278d0d7a260e1f6360fe36d4e4b6acd3b186",
       "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/lang-nb.zip",
       "compatibility": {
         "danwa_min_version": "2.1.0",
@@ -3292,7 +3350,7 @@
       ],
       "license": "CC-BY-4.0",
       "created_at": "2026-05-27T15:46:07.131186+00:00",
-      "updated_at": "2026-05-28T16:11:37.241839+00:00"
+      "updated_at": "2026-05-31T04:00:04.954945+00:00"
     },
     {
       "module_id": "lang-nl",
@@ -3309,8 +3367,8 @@
       },
       "language": "nl",
       "profile_file": "ui_strings.json",
-      "profile_checksum_sha256": "e7c0b8e61893e9888ab4279b6dc25526a1180db817bd6ec1005443a297f55d11",
-      "module_checksum_sha256": "e7c0b8e61893e9888ab4279b6dc25526a1180db817bd6ec1005443a297f55d11",
+      "profile_checksum_sha256": "22b62c6da70508489aeca8725d7db486c12489843d320e6d77b75ecf80845e7a",
+      "module_checksum_sha256": "22b62c6da70508489aeca8725d7db486c12489843d320e6d77b75ecf80845e7a",
       "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/lang-nl.zip",
       "compatibility": {
         "danwa_min_version": "2.1.0",
@@ -3322,7 +3380,7 @@
       ],
       "license": "CC-BY-4.0",
       "created_at": "2026-05-27T15:46:19.922416+00:00",
-      "updated_at": "2026-05-28T16:11:37.243198+00:00"
+      "updated_at": "2026-05-31T04:00:04.954945+00:00"
     },
     {
       "module_id": "lang-nn",
@@ -3339,8 +3397,8 @@
       },
       "language": "nn",
       "profile_file": "ui_strings.json",
-      "profile_checksum_sha256": "e0353e39bd4452949486963066a35cb1133fe48c2effbcd6da8d2022c86dc9f5",
-      "module_checksum_sha256": "e0353e39bd4452949486963066a35cb1133fe48c2effbcd6da8d2022c86dc9f5",
+      "profile_checksum_sha256": "07e4f9f497112c1e0c9dbf7f837492b882a06069e20915d5cda4e6ea9cc793b1",
+      "module_checksum_sha256": "07e4f9f497112c1e0c9dbf7f837492b882a06069e20915d5cda4e6ea9cc793b1",
       "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/lang-nn.zip",
       "compatibility": {
         "danwa_min_version": "2.1.0",
@@ -3352,7 +3410,7 @@
       ],
       "license": "CC-BY-4.0",
       "created_at": "2026-05-27T15:46:06.168314+00:00",
-      "updated_at": "2026-05-28T16:11:37.244554+00:00"
+      "updated_at": "2026-05-31T04:00:04.954945+00:00"
     },
     {
       "module_id": "lang-pl",
@@ -3369,8 +3427,8 @@
       },
       "language": "pl",
       "profile_file": "ui_strings.json",
-      "profile_checksum_sha256": "f9d2ca6759eecdabaf5fa327ce2f4776a3664fe53a8e22c36e31ec861227dc45",
-      "module_checksum_sha256": "f9d2ca6759eecdabaf5fa327ce2f4776a3664fe53a8e22c36e31ec861227dc45",
+      "profile_checksum_sha256": "8f823ed664ab12c8fb23054b615c404f1976216bd32b762960b3553775dc4fcb",
+      "module_checksum_sha256": "8f823ed664ab12c8fb23054b615c404f1976216bd32b762960b3553775dc4fcb",
       "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/lang-pl.zip",
       "compatibility": {
         "danwa_min_version": "2.1.0",
@@ -3382,7 +3440,7 @@
       ],
       "license": "CC-BY-4.0",
       "created_at": "2026-05-27T15:46:18.700809+00:00",
-      "updated_at": "2026-05-28T16:11:37.246917+00:00"
+      "updated_at": "2026-05-31T04:00:04.954945+00:00"
     },
     {
       "module_id": "lang-pt",
@@ -3399,8 +3457,8 @@
       },
       "language": "pt",
       "profile_file": "ui_strings.json",
-      "profile_checksum_sha256": "799eb2caf0bdc4c7799b21cc8cf8e9fd6a7a50d7a36b0a4ef599bb9c0fee54ab",
-      "module_checksum_sha256": "799eb2caf0bdc4c7799b21cc8cf8e9fd6a7a50d7a36b0a4ef599bb9c0fee54ab",
+      "profile_checksum_sha256": "006ec734cf99adde4afc1eadf1d2b389076d8a01b4c68e3a526d96ef4460ad9a",
+      "module_checksum_sha256": "006ec734cf99adde4afc1eadf1d2b389076d8a01b4c68e3a526d96ef4460ad9a",
       "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/lang-pt.zip",
       "compatibility": {
         "danwa_min_version": "2.1.0",
@@ -3412,7 +3470,7 @@
       ],
       "license": "CC-BY-4.0",
       "created_at": "2026-05-27T15:46:31.919402+00:00",
-      "updated_at": "2026-05-28T16:11:37.248110+00:00"
+      "updated_at": "2026-06-03T19:16:03.558974+00:00"
     },
     {
       "module_id": "lang-ro",
@@ -3429,8 +3487,8 @@
       },
       "language": "ro",
       "profile_file": "ui_strings.json",
-      "profile_checksum_sha256": "8057d9061cba5e78dff9419e7030a44c7f45b369ac0233a79e6c8ea64f3f15b1",
-      "module_checksum_sha256": "8057d9061cba5e78dff9419e7030a44c7f45b369ac0233a79e6c8ea64f3f15b1",
+      "profile_checksum_sha256": "236f29850e51ffce01c4903ecbe7461db8f9cbb96da22406bed06328991ea71b",
+      "module_checksum_sha256": "236f29850e51ffce01c4903ecbe7461db8f9cbb96da22406bed06328991ea71b",
       "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/lang-ro.zip",
       "compatibility": {
         "danwa_min_version": "2.1.0",
@@ -3442,7 +3500,7 @@
       ],
       "license": "CC-BY-4.0",
       "created_at": "2026-05-27T15:46:12.075304+00:00",
-      "updated_at": "2026-05-28T16:11:37.249475+00:00"
+      "updated_at": "2026-05-31T04:00:04.954945+00:00"
     },
     {
       "module_id": "lang-ru",
@@ -3459,8 +3517,8 @@
       },
       "language": "ru",
       "profile_file": "ui_strings.json",
-      "profile_checksum_sha256": "7809e5457b98bd562c8c1c9593a2a079345802cb4ee4995a13a8a14f7160ca36",
-      "module_checksum_sha256": "7809e5457b98bd562c8c1c9593a2a079345802cb4ee4995a13a8a14f7160ca36",
+      "profile_checksum_sha256": "80adcc2e83a4440bc330e7592e8b5c69b23a8c0096f7a038e01fddca3d33ba7a",
+      "module_checksum_sha256": "80adcc2e83a4440bc330e7592e8b5c69b23a8c0096f7a038e01fddca3d33ba7a",
       "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/lang-ru.zip",
       "compatibility": {
         "danwa_min_version": "2.1.0",
@@ -3472,7 +3530,7 @@
       ],
       "license": "CC-BY-4.0",
       "created_at": "2026-05-27T15:46:30.546676+00:00",
-      "updated_at": "2026-05-28T16:11:37.250726+00:00"
+      "updated_at": "2026-06-03T19:16:03.581572+00:00"
     },
     {
       "module_id": "lang-sa",
@@ -3489,8 +3547,8 @@
       },
       "language": "sa",
       "profile_file": "ui_strings.json",
-      "profile_checksum_sha256": "c9f86b944861598d6b175e02e78df5b1648be2b595c617f84d678432d92f7d18",
-      "module_checksum_sha256": "c9f86b944861598d6b175e02e78df5b1648be2b595c617f84d678432d92f7d18",
+      "profile_checksum_sha256": "7b53ebe894e00061016dba60bb492ff6a412bb46db9f4db92b279a2826602322",
+      "module_checksum_sha256": "7b53ebe894e00061016dba60bb492ff6a412bb46db9f4db92b279a2826602322",
       "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/lang-sa.zip",
       "compatibility": {
         "danwa_min_version": "2.1.0",
@@ -3502,7 +3560,7 @@
       ],
       "license": "CC-BY-4.0",
       "created_at": "2026-05-27T15:45:51.987906+00:00",
-      "updated_at": "2026-05-28T16:11:37.251929+00:00"
+      "updated_at": "2026-05-31T04:00:04.954945+00:00"
     },
     {
       "module_id": "lang-sk",
@@ -3519,8 +3577,8 @@
       },
       "language": "sk",
       "profile_file": "ui_strings.json",
-      "profile_checksum_sha256": "90f1a343efcfb2d265faff6066d0fcaab324d80ece2dd88fe4af119441e1a093",
-      "module_checksum_sha256": "90f1a343efcfb2d265faff6066d0fcaab324d80ece2dd88fe4af119441e1a093",
+      "profile_checksum_sha256": "ab005adeb94e09e2da00997875dc88f86510cd66214ca5386f8ff44554f83a0f",
+      "module_checksum_sha256": "ab005adeb94e09e2da00997875dc88f86510cd66214ca5386f8ff44554f83a0f",
       "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/lang-sk.zip",
       "compatibility": {
         "danwa_min_version": "2.1.0",
@@ -3532,7 +3590,7 @@
       ],
       "license": "CC-BY-4.0",
       "created_at": "2026-05-27T15:46:11.048683+00:00",
-      "updated_at": "2026-05-28T16:11:37.253216+00:00"
+      "updated_at": "2026-05-31T04:00:04.954945+00:00"
     },
     {
       "module_id": "lang-sl",
@@ -3549,8 +3607,8 @@
       },
       "language": "sl",
       "profile_file": "ui_strings.json",
-      "profile_checksum_sha256": "0538c592a1b281a02c89f06a7054b0aa5f5ac76e3a6f7b5eea5b3c1be4581180",
-      "module_checksum_sha256": "0538c592a1b281a02c89f06a7054b0aa5f5ac76e3a6f7b5eea5b3c1be4581180",
+      "profile_checksum_sha256": "099527ff2e92a280105cf66f8098d9896c3532bae99052c3e5eace09c776b5b2",
+      "module_checksum_sha256": "099527ff2e92a280105cf66f8098d9896c3532bae99052c3e5eace09c776b5b2",
       "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/lang-sl.zip",
       "compatibility": {
         "danwa_min_version": "2.1.0",
@@ -3562,7 +3620,7 @@
       ],
       "license": "CC-BY-4.0",
       "created_at": "2026-05-27T15:46:08.200527+00:00",
-      "updated_at": "2026-05-28T16:11:37.254336+00:00"
+      "updated_at": "2026-05-31T04:00:04.954945+00:00"
     },
     {
       "module_id": "lang-sq",
@@ -3579,8 +3637,8 @@
       },
       "language": "sq",
       "profile_file": "ui_strings.json",
-      "profile_checksum_sha256": "7809e5457b98bd562c8c1c9593a2a079345802cb4ee4995a13a8a14f7160ca36",
-      "module_checksum_sha256": "7809e5457b98bd562c8c1c9593a2a079345802cb4ee4995a13a8a14f7160ca36",
+      "profile_checksum_sha256": "d9da9f5b3a1c399776fe686ff5ceaf0b89694399928a81b1644cfd1bb3c6848b",
+      "module_checksum_sha256": "d9da9f5b3a1c399776fe686ff5ceaf0b89694399928a81b1644cfd1bb3c6848b",
       "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/lang-sq.zip",
       "compatibility": {
         "danwa_min_version": "2.1.0",
@@ -3592,7 +3650,7 @@
       ],
       "license": "CC-BY-4.0",
       "created_at": "2026-05-27T15:46:03.943776+00:00",
-      "updated_at": "2026-05-28T16:11:37.255542+00:00"
+      "updated_at": "2026-05-31T04:00:04.954945+00:00"
     },
     {
       "module_id": "lang-sr",
@@ -3609,8 +3667,8 @@
       },
       "language": "sr",
       "profile_file": "ui_strings.json",
-      "profile_checksum_sha256": "6ecca520dcc40b692458561fb425553176e870444828826469dbc537e46a1608",
-      "module_checksum_sha256": "6ecca520dcc40b692458561fb425553176e870444828826469dbc537e46a1608",
+      "profile_checksum_sha256": "dbcd84f1cd565d7f1a33502825792bbef76c0801fe58a26375923af977806116",
+      "module_checksum_sha256": "dbcd84f1cd565d7f1a33502825792bbef76c0801fe58a26375923af977806116",
       "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/lang-sr.zip",
       "compatibility": {
         "danwa_min_version": "2.1.0",
@@ -3622,7 +3680,7 @@
       ],
       "license": "CC-BY-4.0",
       "created_at": "2026-05-27T15:46:13.323560+00:00",
-      "updated_at": "2026-05-28T16:11:37.256602+00:00"
+      "updated_at": "2026-05-31T04:00:04.954945+00:00"
     },
     {
       "module_id": "lang-ta",
@@ -3639,8 +3697,8 @@
       },
       "language": "ta",
       "profile_file": "ui_strings.json",
-      "profile_checksum_sha256": "699c9aae15c2e1389b31e1ada137fe0b4d7c3723674384701dfadf7fdf515963",
-      "module_checksum_sha256": "699c9aae15c2e1389b31e1ada137fe0b4d7c3723674384701dfadf7fdf515963",
+      "profile_checksum_sha256": "fd709a0b50433c35bf1cb26d5f3ebc1acc40db6378978ee52f5e281b0325b80e",
+      "module_checksum_sha256": "fd709a0b50433c35bf1cb26d5f3ebc1acc40db6378978ee52f5e281b0325b80e",
       "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/lang-ta.zip",
       "compatibility": {
         "danwa_min_version": "2.1.0",
@@ -3652,7 +3710,7 @@
       ],
       "license": "CC-BY-4.0",
       "created_at": "2026-05-27T15:45:55.235030+00:00",
-      "updated_at": "2026-05-28T16:11:37.257664+00:00"
+      "updated_at": "2026-05-31T04:00:04.954945+00:00"
     },
     {
       "module_id": "lang-te",
@@ -3669,8 +3727,8 @@
       },
       "language": "te",
       "profile_file": "ui_strings.json",
-      "profile_checksum_sha256": "22ff788ff934b1923e8b27222da133a8d21742fcfdc1acf7a140a3efdce656ab",
-      "module_checksum_sha256": "22ff788ff934b1923e8b27222da133a8d21742fcfdc1acf7a140a3efdce656ab",
+      "profile_checksum_sha256": "d28cd2160705dae81b55ba61dc4ed89a4d16a3bd4f057f05da465fb437ed9e68",
+      "module_checksum_sha256": "d28cd2160705dae81b55ba61dc4ed89a4d16a3bd4f057f05da465fb437ed9e68",
       "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/lang-te.zip",
       "compatibility": {
         "danwa_min_version": "2.1.0",
@@ -3682,7 +3740,7 @@
       ],
       "license": "CC-BY-4.0",
       "created_at": "2026-05-27T15:45:42.197436+00:00",
-      "updated_at": "2026-05-28T16:11:37.258758+00:00"
+      "updated_at": "2026-05-31T04:00:04.954945+00:00"
     },
     {
       "module_id": "lang-th",
@@ -3699,8 +3757,8 @@
       },
       "language": "th",
       "profile_file": "ui_strings.json",
-      "profile_checksum_sha256": "86dd5507f24b1c5e905c09f0dc44241a1c36383861ca77d90a0bceda0a9442fa",
-      "module_checksum_sha256": "86dd5507f24b1c5e905c09f0dc44241a1c36383861ca77d90a0bceda0a9442fa",
+      "profile_checksum_sha256": "7bdb5fa0c5ba865bb7f80c1ac7378d139b6bdbc19083c93ea0876fc5bfe94243",
+      "module_checksum_sha256": "7bdb5fa0c5ba865bb7f80c1ac7378d139b6bdbc19083c93ea0876fc5bfe94243",
       "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/lang-th.zip",
       "compatibility": {
         "danwa_min_version": "2.1.0",
@@ -3712,7 +3770,7 @@
       ],
       "license": "CC-BY-4.0",
       "created_at": "2026-05-27T15:46:02.702277+00:00",
-      "updated_at": "2026-05-28T16:11:37.259961+00:00"
+      "updated_at": "2026-05-31T04:00:04.954945+00:00"
     },
     {
       "module_id": "lang-tl",
@@ -3729,8 +3787,8 @@
       },
       "language": "tl",
       "profile_file": "ui_strings.json",
-      "profile_checksum_sha256": "1d5043eebf32f3e7124e64fa64e8c9749a38aad846e6fc32e107e85a98426ebe",
-      "module_checksum_sha256": "1d5043eebf32f3e7124e64fa64e8c9749a38aad846e6fc32e107e85a98426ebe",
+      "profile_checksum_sha256": "d1e54d04e0820f08fc0bd2ead12d7e48a4df0135518c3e47972c80d0324c0975",
+      "module_checksum_sha256": "d1e54d04e0820f08fc0bd2ead12d7e48a4df0135518c3e47972c80d0324c0975",
       "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/lang-tl.zip",
       "compatibility": {
         "danwa_min_version": "2.1.0",
@@ -3742,7 +3800,7 @@
       ],
       "license": "CC-BY-4.0",
       "created_at": "2026-05-27T15:45:39.916683+00:00",
-      "updated_at": "2026-05-28T16:11:37.261054+00:00"
+      "updated_at": "2026-05-31T04:00:04.954945+00:00"
     },
     {
       "module_id": "lang-tr",
@@ -3759,8 +3817,8 @@
       },
       "language": "tr",
       "profile_file": "ui_strings.json",
-      "profile_checksum_sha256": "0c7a390f44f3e1e39f1d0dbafd51f9dfc9fd3dc806e0c4e3e75bfea960e58b5a",
-      "module_checksum_sha256": "0c7a390f44f3e1e39f1d0dbafd51f9dfc9fd3dc806e0c4e3e75bfea960e58b5a",
+      "profile_checksum_sha256": "0b8f79585a0c755ca624f6bba1b02e2b0080de1e0be1dabf6dbb767a7d9b6033",
+      "module_checksum_sha256": "0b8f79585a0c755ca624f6bba1b02e2b0080de1e0be1dabf6dbb767a7d9b6033",
       "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/lang-tr.zip",
       "compatibility": {
         "danwa_min_version": "2.1.0",
@@ -3772,7 +3830,7 @@
       ],
       "license": "CC-BY-4.0",
       "created_at": "2026-05-21T21:24:54.005455+00:00",
-      "updated_at": "2026-05-28T16:11:37.262243+00:00"
+      "updated_at": "2026-05-31T04:00:04.954945+00:00"
     },
     {
       "module_id": "lang-ur",
@@ -3789,8 +3847,8 @@
       },
       "language": "ur",
       "profile_file": "ui_strings.json",
-      "profile_checksum_sha256": "cbc9c053afa6e22bde068df12ebc2e712e3fc94970ad7fe01e1049258fb126b3",
-      "module_checksum_sha256": "cbc9c053afa6e22bde068df12ebc2e712e3fc94970ad7fe01e1049258fb126b3",
+      "profile_checksum_sha256": "1465e63239ba88f28e71c9a4585234f3e3ae758933b3d22cc882c66b97a64e19",
+      "module_checksum_sha256": "1465e63239ba88f28e71c9a4585234f3e3ae758933b3d22cc882c66b97a64e19",
       "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/lang-ur.zip",
       "compatibility": {
         "danwa_min_version": "2.1.0",
@@ -3802,7 +3860,7 @@
       ],
       "license": "CC-BY-4.0",
       "created_at": "2026-05-27T15:45:45.748878+00:00",
-      "updated_at": "2026-05-28T16:11:37.263891+00:00"
+      "updated_at": "2026-05-31T04:00:04.954945+00:00"
     },
     {
       "module_id": "lang-vi",
@@ -3819,8 +3877,8 @@
       },
       "language": "vi",
       "profile_file": "ui_strings.json",
-      "profile_checksum_sha256": "1b8600b8cd3a67c59dae6f5cc9bdc4df1f0e65d60e7f3a12d6cf17745a0da8af",
-      "module_checksum_sha256": "1b8600b8cd3a67c59dae6f5cc9bdc4df1f0e65d60e7f3a12d6cf17745a0da8af",
+      "profile_checksum_sha256": "69273a57a40d04dbed3bfc0a9cf73cb545de3f5a548e1011f43e94dca36bc958",
+      "module_checksum_sha256": "69273a57a40d04dbed3bfc0a9cf73cb545de3f5a548e1011f43e94dca36bc958",
       "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/lang-vi.zip",
       "compatibility": {
         "danwa_min_version": "2.1.0",
@@ -3832,7 +3890,7 @@
       ],
       "license": "CC-BY-4.0",
       "created_at": "2026-05-27T15:45:41.085248+00:00",
-      "updated_at": "2026-05-28T16:11:37.264957+00:00"
+      "updated_at": "2026-05-31T04:00:04.954945+00:00"
     },
     {
       "module_id": "lang-yi",
@@ -3849,8 +3907,8 @@
       },
       "language": "yi",
       "profile_file": "ui_strings.json",
-      "profile_checksum_sha256": "7809e5457b98bd562c8c1c9593a2a079345802cb4ee4995a13a8a14f7160ca36",
-      "module_checksum_sha256": "7809e5457b98bd562c8c1c9593a2a079345802cb4ee4995a13a8a14f7160ca36",
+      "profile_checksum_sha256": "1dfcd649a07667fc3cb8be10e51be9b8f779966af24e0cb08be0ea9516c9d1f2",
+      "module_checksum_sha256": "1dfcd649a07667fc3cb8be10e51be9b8f779966af24e0cb08be0ea9516c9d1f2",
       "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/lang-yi.zip",
       "compatibility": {
         "danwa_min_version": "2.1.0",
@@ -3862,7 +3920,7 @@
       ],
       "license": "CC-BY-4.0",
       "created_at": "2026-05-27T15:45:18.978326+00:00",
-      "updated_at": "2026-05-28T16:11:37.266031+00:00"
+      "updated_at": "2026-05-31T04:00:04.954945+00:00"
     },
     {
       "module_id": "lang-zh",
@@ -3879,8 +3937,8 @@
       },
       "language": "zh",
       "profile_file": "ui_strings.json",
-      "profile_checksum_sha256": "942a40841d488aa241125c08cfa37567e13f3ecfb744ff6d4bae944cb4fc6b27",
-      "module_checksum_sha256": "942a40841d488aa241125c08cfa37567e13f3ecfb744ff6d4bae944cb4fc6b27",
+      "profile_checksum_sha256": "9fb87d46f141b29e2c05eb386974dc4a0b51543b665a0c018e150366a2122148",
+      "module_checksum_sha256": "9fb87d46f141b29e2c05eb386974dc4a0b51543b665a0c018e150366a2122148",
       "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/lang-zh.zip",
       "compatibility": {
         "danwa_min_version": "2.1.0",
@@ -3892,7 +3950,7 @@
       ],
       "license": "CC-BY-4.0",
       "created_at": "2026-05-27T15:46:27.643353+00:00",
-      "updated_at": "2026-05-28T16:11:37.267098+00:00"
+      "updated_at": "2026-06-03T19:16:03.605280+00:00"
     },
     {
       "module_id": "workflow-socratic-debate",
