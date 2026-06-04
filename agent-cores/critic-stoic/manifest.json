@@ -19,16 +19,15 @@
   "description": {
     "en": "Critic applying Stoic philosophical framework"
   },
-  "checksum": "1ec5399d7a7054cf0884384fc2225a688ad45841d84cc98d23697f05e308ec9c",
+  "checksum": "6f5e09a008f3321d5451035c951c9691b16ed5b4158cf7bb00483139cc25babc",
   "role": "critic",
   "profile_id": "critic-stoic",
   "profile_file": "profile.md",
   "profile_format": "markdown",
   "created_at": "2026-05-17T03:22:25+02:00",
-  "updated_at": "2026-05-28T15:57:08.297439+00:00",
+  "updated_at": "2026-05-24T15:33:22+02:00",
   "compatibility": {
-    "danwa_min_version": "2.1.0",
-    "danwa_max_version": null
+    "danwa_min_version": "2.1.0"
   },
   "repository": {
     "type": "github",

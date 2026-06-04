@@ -17,16 +17,15 @@
   "description": {
     "en": "A neutral moderator who focuses on identifying logical fallacies and ensuring balanced discussion. Uses the Socratic method to probe underlying assumptions.\n"
   },
-  "checksum": "400cbf7a9878af04d29f8a15f960f70caff4c3978741d37e26c6ec927e6220e2",
+  "checksum": "822f7a56e5e4df4fe7ed4d93d8d8f50ca4d05c01b6becc8d04e2a468e7dfbcaa",
   "role": "",
   "profile_id": "custom-moderator",
   "profile_file": "profile.md",
   "profile_format": "markdown",
   "created_at": "2026-05-17T03:22:25+02:00",
-  "updated_at": "2026-05-28T15:57:08.298242+00:00",
+  "updated_at": "2026-05-24T15:33:22+02:00",
   "compatibility": {
-    "danwa_min_version": "2.1.0",
-    "danwa_max_version": null
+    "danwa_min_version": "2.1.0"
   },
   "repository": {
     "type": "github",

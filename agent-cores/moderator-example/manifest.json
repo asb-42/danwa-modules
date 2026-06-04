@@ -19,16 +19,15 @@
   "description": {
     "en": "Example moderator for balanced debate facilitation"
   },
-  "checksum": "98d9195041d383cc4a1893d432c98c1d15e0a6930c209a76be45271fd79e9846",
+  "checksum": "591a074649d4bc83e68eb2a1352f71bbf554d59902fd6a6536fa36d4cdf13807",
   "role": "moderator",
   "profile_id": "moderator-example",
   "profile_file": "profile.md",
   "profile_format": "markdown",
   "created_at": "2026-05-17T03:22:25+02:00",
-  "updated_at": "2026-05-28T15:57:08.303024+00:00",
+  "updated_at": "2026-05-24T15:33:22+02:00",
   "compatibility": {
-    "danwa_min_version": "2.1.0",
-    "danwa_max_version": null
+    "danwa_min_version": "2.1.0"
   },
   "repository": {
     "type": "github",

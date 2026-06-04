@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-04T02:42:31.321889+00:00",
+  "generated_at": "2026-06-04T03:57:19.383347+00:00",
   "schema_version": "3.0.0",
   "repository": "https://github.com/asb-42/danwa-modules",
   "total_modules": 147,
@@ -913,8 +913,7 @@
       "module_checksum_sha256": "07f713d54bfb71abb03f30e722d31eb21e8a198ea6964681b6f590af0b630d1f",
       "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/agent-critic-default-en.zip",
       "compatibility": {
-        "danwa_min_version": "2.1.0",
-        "danwa_max_version": null
+        "danwa_min_version": "2.1.0"
       },
       "dependencies": {},
       "tags": [
@@ -924,7 +923,7 @@
       ],
       "license": "CC-BY-4.0",
       "created_at": "2026-05-17T03:22:25+02:00",
-      "updated_at": "2026-05-28T15:57:08.295489+00:00"
+      "updated_at": "2026-05-26T10:33:49.576893+00:00"
     },
     {
       "module_id": "agent-critic-enhanced",
@@ -973,8 +972,7 @@
       "module_checksum_sha256": "d29499b869bb8d07b019c128369d3181557b3f5d93e8a0b91e8221b4af0fa5f6",
       "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/agent-critic-example.zip",
       "compatibility": {
-        "danwa_min_version": "2.1.0",
-        "danwa_max_version": null
+        "danwa_min_version": "2.1.0"
       },
       "dependencies": {},
       "tags": [
@@ -983,7 +981,7 @@
       ],
       "license": "CC-BY-4.0",
       "created_at": "2026-05-17T03:22:25+02:00",
-      "updated_at": "2026-05-28T15:57:08.296787+00:00"
+      "updated_at": "2026-05-24T15:33:22+02:00"
     },
     {
       "module_id": "agent-critic-stoic",
@@ -1002,8 +1000,7 @@
       "module_checksum_sha256": "1ec5399d7a7054cf0884384fc2225a688ad45841d84cc98d23697f05e308ec9c",
       "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/agent-critic-stoic.zip",
       "compatibility": {
-        "danwa_min_version": "2.1.0",
-        "danwa_max_version": null
+        "danwa_min_version": "2.1.0"
       },
       "dependencies": {},
       "tags": [
@@ -1012,7 +1009,7 @@
       ],
       "license": "CC-BY-4.0",
       "created_at": "2026-05-17T03:22:25+02:00",
-      "updated_at": "2026-05-28T15:57:08.297439+00:00"
+      "updated_at": "2026-05-24T15:33:22+02:00"
     },
     {
       "module_id": "agent-custom-moderator",
@@ -1031,14 +1028,13 @@
       "module_checksum_sha256": "400cbf7a9878af04d29f8a15f960f70caff4c3978741d37e26c6ec927e6220e2",
       "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/agent-custom-moderator.zip",
       "compatibility": {
-        "danwa_min_version": "2.1.0",
-        "danwa_max_version": null
+        "danwa_min_version": "2.1.0"
       },
       "dependencies": {},
       "tags": [],
       "license": "MIT",
       "created_at": "2026-05-17T03:22:25+02:00",
-      "updated_at": "2026-05-28T15:57:08.298242+00:00"
+      "updated_at": "2026-05-24T15:33:22+02:00"
     },
     {
       "module_id": "agent-devils-advocate-default",
@@ -1202,8 +1198,7 @@
       "module_checksum_sha256": "90aa94838e4f26857b2d11f11f82b97cc2be528312a33146c97fa2dbb8cd5e91",
       "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/agent-moderator-default-en.zip",
       "compatibility": {
-        "danwa_min_version": "2.1.0",
-        "danwa_max_version": null
+        "danwa_min_version": "2.1.0"
       },
       "dependencies": {},
       "tags": [
@@ -1213,7 +1208,7 @@
       ],
       "license": "CC-BY-4.0",
       "created_at": "2026-05-17T03:22:25+02:00",
-      "updated_at": "2026-05-28T15:57:08.301999+00:00"
+      "updated_at": "2026-05-26T10:33:16.236479+00:00"
     },
     {
       "module_id": "agent-moderator-enhanced",
@@ -1262,8 +1257,7 @@
       "module_checksum_sha256": "98d9195041d383cc4a1893d432c98c1d15e0a6930c209a76be45271fd79e9846",
       "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/agent-moderator-example.zip",
       "compatibility": {
-        "danwa_min_version": "2.1.0",
-        "danwa_max_version": null
+        "danwa_min_version": "2.1.0"
       },
       "dependencies": {},
       "tags": [
@@ -1272,7 +1266,7 @@
       ],
       "license": "CC-BY-4.0",
       "created_at": "2026-05-17T03:22:25+02:00",
-      "updated_at": "2026-05-28T15:57:08.303024+00:00"
+      "updated_at": "2026-05-24T15:33:22+02:00"
     },
     {
       "module_id": "agent-optimizer-default-en",
@@ -1291,8 +1285,7 @@
       "module_checksum_sha256": "4081d545cf842a6493aadb8c2160f4ce9622c15e0f5b0dd795cced78251f27b3",
       "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/agent-optimizer-default-en.zip",
       "compatibility": {
-        "danwa_min_version": "2.1.0",
-        "danwa_max_version": null
+        "danwa_min_version": "2.1.0"
       },
       "dependencies": {},
       "tags": [
@@ -1302,7 +1295,7 @@
       ],
       "license": "CC-BY-4.0",
       "created_at": "2026-05-17T03:22:25+02:00",
-      "updated_at": "2026-05-28T15:57:08.303534+00:00"
+      "updated_at": "2026-05-26T10:33:28.836746+00:00"
     },
     {
       "module_id": "agent-optimizer-enhanced",
@@ -1351,8 +1344,7 @@
       "module_checksum_sha256": "f587e64470bf85fb7b0c2d319d076bdb8ecd7b8d53c2ed4cbbf5453652a482de",
       "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/agent-optimizer-example.zip",
       "compatibility": {
-        "danwa_min_version": "2.1.0",
-        "danwa_max_version": null
+        "danwa_min_version": "2.1.0"
       },
       "dependencies": {},
       "tags": [
@@ -1361,7 +1353,7 @@
       ],
       "license": "CC-BY-4.0",
       "created_at": "2026-05-17T03:22:25+02:00",
-      "updated_at": "2026-05-28T15:57:08.304587+00:00"
+      "updated_at": "2026-05-24T15:33:22+02:00"
     },
     {
       "module_id": "agent-orchestrator-default",
@@ -1467,8 +1459,7 @@
       "module_checksum_sha256": "3c3b2d16732e2f708b075ef35c59c8d5b8d44e67550c60f4c7366913abefb1f5",
       "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/agent-strategist-default-en.zip",
       "compatibility": {
-        "danwa_min_version": "2.1.0",
-        "danwa_max_version": null
+        "danwa_min_version": "2.1.0"
       },
       "dependencies": {},
       "tags": [
@@ -1478,7 +1469,7 @@
       ],
       "license": "CC-BY-4.0",
       "created_at": "2026-05-17T03:22:25+02:00",
-      "updated_at": "2026-05-28T15:57:08.306814+00:00"
+      "updated_at": "2026-05-26T10:33:40.070249+00:00"
     },
     {
       "module_id": "agent-strategist-enhanced",
@@ -1527,8 +1518,7 @@
       "module_checksum_sha256": "94be20b8e03bc93304765a37e864374fd79eb384a810d767208b9cfe4fc8585c",
       "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/agent-strategist-example.zip",
       "compatibility": {
-        "danwa_min_version": "2.1.0",
-        "danwa_max_version": null
+        "danwa_min_version": "2.1.0"
       },
       "dependencies": {},
       "tags": [
@@ -1537,7 +1527,7 @@
       ],
       "license": "CC-BY-4.0",
       "created_at": "2026-05-17T03:22:25+02:00",
-      "updated_at": "2026-05-28T15:57:08.309112+00:00"
+      "updated_at": "2026-05-24T15:33:22+02:00"
     },
     {
       "module_id": "agent-strategist-german-law",
@@ -1556,8 +1546,7 @@
       "module_checksum_sha256": "90b183c361103564d5a0a089a945df37465160a1edc5fab8206287a4b6118b4b",
       "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/agent-strategist-german-law.zip",
       "compatibility": {
-        "danwa_min_version": "2.1.0",
-        "danwa_max_version": null
+        "danwa_min_version": "2.1.0"
       },
       "dependencies": {},
       "tags": [
@@ -1566,7 +1555,7 @@
       ],
       "license": "CC-BY-4.0",
       "created_at": "2026-05-17T03:22:25+02:00",
-      "updated_at": "2026-05-28T15:57:08.309728+00:00"
+      "updated_at": "2026-05-24T15:33:22+02:00"
     },
     {
       "module_id": "agent-synthesizer-default",
