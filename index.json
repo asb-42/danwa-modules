@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-04T04:05:05.599054+00:00",
+  "generated_at": "2026-06-04T04:12:06.527187+00:00",
   "schema_version": "3.0.0",
   "repository": "https://github.com/asb-42/danwa-modules",
   "total_modules": 147,
@@ -162,16 +162,15 @@
       "name": {
         "en": "Critic (Kantian)"
       },
-      "description": {},
-      "language": "de",
+      "description": {
+        "en": "Evaluates strategies through Kantian ethical principles and the categorical imperative."
+      },
+      "language": "en",
       "profile_file": "profile.md",
       "profile_checksum_sha256": "4ed2a9602e3a111e0df59e9ab8e3c7df4032a93520d54a69fbfc36b4bad778f0",
       "module_checksum_sha256": "4ed2a9602e3a111e0df59e9ab8e3c7df4032a93520d54a69fbfc36b4bad778f0",
       "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/kantian-critic.zip",
-      "compatibility": {
-        "danwa_min_version": "2.1.0",
-        "danwa_max_version": null
-      },
+      "compatibility": {},
       "dependencies": {},
       "tags": [
         "kantian",
@@ -180,7 +179,7 @@
       ],
       "license": "CC-BY-4.0",
       "created_at": "2026-05-17T03:53:23+02:00",
-      "updated_at": "2026-05-28T15:57:08.261856+00:00"
+      "updated_at": "2026-05-24T15:44:32+02:00"
     },
     {
       "module_id": "kantian-strategist",
@@ -191,17 +190,14 @@
         "en": "Kantian Strategist"
       },
       "description": {
-        "en": ""
+        "en": "Develops strategies grounded in Kantian ethics, universalizability, and human dignity."
       },
-      "language": "de",
+      "language": "en",
       "profile_file": "profile.md",
       "profile_checksum_sha256": "38c506b4b6e9ee3547b7b247325d5e45f0ce5a7cbbcea23bb4f3a3a5f1b6b15a",
       "module_checksum_sha256": "38c506b4b6e9ee3547b7b247325d5e45f0ce5a7cbbcea23bb4f3a3a5f1b6b15a",
       "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/kantian-strategist.zip",
-      "compatibility": {
-        "danwa_min_version": "2.1.0",
-        "danwa_max_version": null
-      },
+      "compatibility": {},
       "dependencies": {},
       "tags": [
         "kantian",
@@ -210,7 +206,7 @@
       ],
       "license": "CC-BY-4.0",
       "created_at": "2026-05-17T03:53:23+02:00",
-      "updated_at": "2026-05-28T15:57:08.264276+00:00"
+      "updated_at": "2026-05-26T10:35:06.682411+00:00"
     },
     {
       "module_id": "moderator",
@@ -280,16 +276,15 @@
       "name": {
         "en": "Critic (Steiner)"
       },
-      "description": {},
-      "language": "de",
+      "description": {
+        "en": "Evaluates strategies using Rudolf Steiner's anthroposophical threefold social framework."
+      },
+      "language": "en",
       "profile_file": "profile.md",
       "profile_checksum_sha256": "e257a3df3eb82bb050c94fa6984bd7eaa3145fc9265371219e35edb833a3adae",
       "module_checksum_sha256": "e257a3df3eb82bb050c94fa6984bd7eaa3145fc9265371219e35edb833a3adae",
       "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/steiner-critic.zip",
-      "compatibility": {
-        "danwa_min_version": "2.1.0",
-        "danwa_max_version": null
-      },
+      "compatibility": {},
       "dependencies": {},
       "tags": [
         "steiner",
@@ -298,7 +293,7 @@
       ],
       "license": "CC-BY-4.0",
       "created_at": "2026-05-17T03:53:23+02:00",
-      "updated_at": "2026-05-28T15:57:08.271531+00:00"
+      "updated_at": "2026-05-24T15:44:32+02:00"
     },
     {
       "module_id": "steiner-strategist",
@@ -308,16 +303,15 @@
       "name": {
         "en": "Strategist (Steiner)"
       },
-      "description": {},
-      "language": "de",
+      "description": {
+        "en": "Develops strategies inspired by Steiner's anthroposophy: thinking, feeling, willing."
+      },
+      "language": "en",
       "profile_file": "profile.md",
       "profile_checksum_sha256": "8a0630d8723524ac7e0148333f0a1124b5699c71075cec59e0f78ab2e464b123",
       "module_checksum_sha256": "8a0630d8723524ac7e0148333f0a1124b5699c71075cec59e0f78ab2e464b123",
       "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/steiner-strategist.zip",
-      "compatibility": {
-        "danwa_min_version": "2.1.0",
-        "danwa_max_version": null
-      },
+      "compatibility": {},
       "dependencies": {},
       "tags": [
         "steiner",
@@ -326,7 +320,7 @@
       ],
       "license": "CC-BY-4.0",
       "created_at": "2026-05-17T03:53:23+02:00",
-      "updated_at": "2026-05-28T15:57:08.273387+00:00"
+      "updated_at": "2026-05-24T15:44:32+02:00"
     },
     {
       "module_id": "strategist",
