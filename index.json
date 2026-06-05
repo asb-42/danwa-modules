@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-06-04T04:12:06.527187+00:00",
+  "generated_at": "2026-06-05T16:04:50.536068+00:00",
   "schema_version": "3.0.0",
   "repository": "https://github.com/asb-42/danwa-modules",
-  "total_modules": 147,
+  "total_modules": 154,
   "modules": [
     {
       "module_id": "critic",
@@ -833,6 +833,68 @@
       "updated_at": "2026-05-28T15:57:08.293084+00:00"
     },
     {
+      "module_id": "agent-adversary-default-en",
+      "version": "1.0.0",
+      "type": "agent-core",
+      "category": "agent-cores",
+      "name": {
+        "en": "Default Adversary (EN)"
+      },
+      "description": {
+        "en": "Constructs the strongest possible case against a position. For adversarial debate workflows."
+      },
+      "language": "en",
+      "profile_file": "profile.md",
+      "profile_checksum_sha256": "43f44a38a47f7608729d3a8bcb3426520456b7512d5cad2e7b2cae078ee8a477",
+      "module_checksum_sha256": "43f44a38a47f7608729d3a8bcb3426520456b7512d5cad2e7b2cae078ee8a477",
+      "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/agent-adversary-default-en.zip",
+      "compatibility": {
+        "danwa_min_version": "2.1.0",
+        "danwa_max_version": null
+      },
+      "dependencies": {},
+      "tags": [
+        "default",
+        "adversarial",
+        "adversary",
+        "english"
+      ],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-06-05T15:37:00+00:00",
+      "updated_at": "2026-06-05T15:37:00+00:00"
+    },
+    {
+      "module_id": "agent-advocate-default-en",
+      "version": "1.0.0",
+      "type": "agent-core",
+      "category": "agent-cores",
+      "name": {
+        "en": "Default Advocate (EN)"
+      },
+      "description": {
+        "en": "Constructs the strongest possible case in defense of a position. For adversarial debate workflows."
+      },
+      "language": "en",
+      "profile_file": "profile.md",
+      "profile_checksum_sha256": "f8326ed6195adf2be75f46515bb384ef05ce2669e980236fc92c4e7150a10258",
+      "module_checksum_sha256": "f8326ed6195adf2be75f46515bb384ef05ce2669e980236fc92c4e7150a10258",
+      "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/agent-advocate-default-en.zip",
+      "compatibility": {
+        "danwa_min_version": "2.1.0",
+        "danwa_max_version": null
+      },
+      "dependencies": {},
+      "tags": [
+        "default",
+        "adversarial",
+        "advocate",
+        "english"
+      ],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-06-05T15:37:00+00:00",
+      "updated_at": "2026-06-05T15:37:00+00:00"
+    },
+    {
       "module_id": "agent-analyst-default",
       "version": "1.0.0",
       "type": "agent-core",
@@ -1147,6 +1209,68 @@
       "updated_at": "2026-05-28T15:57:08.300955+00:00"
     },
     {
+      "module_id": "agent-interviewee-default-en",
+      "version": "1.0.0",
+      "type": "agent-core",
+      "category": "agent-cores",
+      "name": {
+        "en": "Default Interviewee (EN)"
+      },
+      "description": {
+        "en": "Provides detailed, evidence-based answers to structured interview questions. For interview workflows."
+      },
+      "language": "en",
+      "profile_file": "profile.md",
+      "profile_checksum_sha256": "250f3c7ed91dc931e35306911747affc3d30a7c57a27de6ca956364984148e18",
+      "module_checksum_sha256": "250f3c7ed91dc931e35306911747affc3d30a7c57a27de6ca956364984148e18",
+      "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/agent-interviewee-default-en.zip",
+      "compatibility": {
+        "danwa_min_version": "2.1.0",
+        "danwa_max_version": null
+      },
+      "dependencies": {},
+      "tags": [
+        "default",
+        "interview",
+        "structured-inquiry",
+        "english"
+      ],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-06-05T15:37:00+00:00",
+      "updated_at": "2026-06-05T15:37:00+00:00"
+    },
+    {
+      "module_id": "agent-interviewer-default-en",
+      "version": "1.0.0",
+      "type": "agent-core",
+      "category": "agent-cores",
+      "name": {
+        "en": "Default Interviewer (EN)"
+      },
+      "description": {
+        "en": "Asks probing, structured questions to explore a topic deeply. For interview workflows."
+      },
+      "language": "en",
+      "profile_file": "profile.md",
+      "profile_checksum_sha256": "5ee2c4def224b328ad90a7603bb2273df180594921865532ee7ff70495a09bd5",
+      "module_checksum_sha256": "5ee2c4def224b328ad90a7603bb2273df180594921865532ee7ff70495a09bd5",
+      "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/agent-interviewer-default-en.zip",
+      "compatibility": {
+        "danwa_min_version": "2.1.0",
+        "danwa_max_version": null
+      },
+      "dependencies": {},
+      "tags": [
+        "default",
+        "interview",
+        "structured-inquiry",
+        "english"
+      ],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-06-05T15:37:00+00:00",
+      "updated_at": "2026-06-05T15:37:00+00:00"
+    },
+    {
       "module_id": "agent-mediator-default",
       "version": "1.0.0",
       "type": "agent-core",
@@ -1377,6 +1501,99 @@
       "license": "CC-BY-4.0",
       "created_at": "2026-05-24T05:43:27+02:00",
       "updated_at": "2026-05-28T15:57:08.305202+00:00"
+    },
+    {
+      "module_id": "agent-referee-default-en",
+      "version": "1.0.0",
+      "type": "agent-core",
+      "category": "agent-cores",
+      "name": {
+        "en": "Default Referee (EN)"
+      },
+      "description": {
+        "en": "Neutral referee for adversarial debates — evaluates fairness, tracks argument quality, delivers verdict."
+      },
+      "language": "en",
+      "profile_file": "profile.md",
+      "profile_checksum_sha256": "2f4bb701a17c3bf5fbedb811508cc131a329cfeddfe5bcb1ef5e0f3ffc17238f",
+      "module_checksum_sha256": "2f4bb701a17c3bf5fbedb811508cc131a329cfeddfe5bcb1ef5e0f3ffc17238f",
+      "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/agent-referee-default-en.zip",
+      "compatibility": {
+        "danwa_min_version": "2.1.0",
+        "danwa_max_version": null
+      },
+      "dependencies": {},
+      "tags": [
+        "default",
+        "adversarial",
+        "referee",
+        "neutral",
+        "english"
+      ],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-06-05T15:37:00+00:00",
+      "updated_at": "2026-06-05T15:37:00+00:00"
+    },
+    {
+      "module_id": "agent-reviewer-default-en",
+      "version": "1.0.0",
+      "type": "agent-core",
+      "category": "agent-cores",
+      "name": {
+        "en": "Default Reviewer (EN)"
+      },
+      "description": {
+        "en": "Reviews content and provides structured, actionable feedback. For review workflows."
+      },
+      "language": "en",
+      "profile_file": "profile.md",
+      "profile_checksum_sha256": "5d87ab0644c8dcf104128c918abae0a58196e6e11539c436a13286347b31f944",
+      "module_checksum_sha256": "5d87ab0644c8dcf104128c918abae0a58196e6e11539c436a13286347b31f944",
+      "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/agent-reviewer-default-en.zip",
+      "compatibility": {
+        "danwa_min_version": "2.1.0",
+        "danwa_max_version": null
+      },
+      "dependencies": {},
+      "tags": [
+        "default",
+        "review",
+        "english"
+      ],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-06-05T15:37:00+00:00",
+      "updated_at": "2026-06-05T15:37:00+00:00"
+    },
+    {
+      "module_id": "agent-reviser-default-en",
+      "version": "1.0.0",
+      "type": "agent-core",
+      "category": "agent-cores",
+      "name": {
+        "en": "Default Reviser (EN)"
+      },
+      "description": {
+        "en": "Takes structured feedback and produces an improved revision. For review workflows."
+      },
+      "language": "en",
+      "profile_file": "profile.md",
+      "profile_checksum_sha256": "d4b7b67e62559b28a656fdb7a229a99c840387e2eb8bcc761ba134ecc89d6a4a",
+      "module_checksum_sha256": "d4b7b67e62559b28a656fdb7a229a99c840387e2eb8bcc761ba134ecc89d6a4a",
+      "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/agent-reviser-default-en.zip",
+      "compatibility": {
+        "danwa_min_version": "2.1.0",
+        "danwa_max_version": null
+      },
+      "dependencies": {},
+      "tags": [
+        "default",
+        "review",
+        "revision",
+        "english"
+      ],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-06-05T15:37:00+00:00",
+      "updated_at": "2026-06-05T15:37:00+00:00"
     },
     {
       "module_id": "agent-socratic-questioner-default",
