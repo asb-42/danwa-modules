@@ -1,0 +1,38 @@
+{
+  "schema_version": "3.0.0",
+  "module_id": "lp-0599c248-6a80-59a6-987e-94f362913ee6",
+  "name": {
+    "en": "Esperanto (Esperanto)",
+    "eo": "Esperanto"
+  },
+  "description": {
+    "en": "UI translation pack for Esperanto (Esperanto)",
+    "eo": "UI-Übersetzungspaket für Esperanto (Esperanto)"
+  },
+  "version": "1.0.0",
+  "type": "language-pack",
+  "category": "translations",
+  "language": "eo",
+  "author": {
+    "name": "Danwa User"
+  },
+  "license": "CC-BY-4.0",
+  "tags": [
+    "eo"
+  ],
+  "profile_file": "ui_strings.json",
+  "profile_format": "json",
+  "created_at": "2026-05-27T15:45:32.618765+00:00",
+  "compatibility": {
+    "danwa_min_version": "2.1.0",
+    "danwa_max_version": null
+  },
+  "repository": {
+    "type": "github",
+    "url": "https://github.com/asb-42/danwa-modules",
+    "ref": "v1.0.0"
+  },
+  "checksum": "e591348d3e1fc9500e097fc68e914f8f6b2649d5622bbb47c6dedf239b751445",
+  "string_count": 1155,
+  "updated_at": "2026-06-05T21:45:52.275121+00:00"
+}
