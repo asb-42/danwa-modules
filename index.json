@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-06-05T16:04:50.536068+00:00",
+  "generated_at": "2026-06-05T17:26:19.900910+00:00",
   "schema_version": "3.0.0",
   "repository": "https://github.com/asb-42/danwa-modules",
-  "total_modules": 154,
+  "total_modules": 153,
   "modules": [
     {
       "module_id": "critic",
@@ -4139,29 +4139,34 @@
     },
     {
       "module_id": "workflow-socratic-debate",
-      "version": "1.0.0",
+      "version": "2.0.0",
       "type": "workflow-template",
       "category": "workflows",
       "name": {
         "en": "Socratic Debate"
       },
       "description": {
-        "en": "A debate workflow using the Socratic method for deep examination of claims."
+        "en": "A debate workflow using the Socratic method for deep examination of claims. The Strategist proposes a thesis, the Critic applies Socratic questioning to challenge it, and a Moderator evaluates whether the examination has been thorough."
       },
       "language": "en",
       "profile_file": "profile.json",
-      "profile_checksum_sha256": "7387e2a048956c68353e798633101adf6b57259b33ad686863346f4865fee252",
-      "module_checksum_sha256": "7387e2a048956c68353e798633101adf6b57259b33ad686863346f4865fee252",
-      "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/workflow-socratic-debate.zip",
+      "profile_checksum_sha256": "70f5ec0a775a202abca51c9e67912fc85c79be06bfe9bc42c4c0c85be4a83872",
+      "module_checksum_sha256": "70f5ec0a775a202abca51c9e67912fc85c79be06bfe9bc42c4c0c85be4a83872",
+      "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v2.0.0/workflow-socratic-debate.zip",
       "compatibility": {
         "danwa_min_version": "2.1.0",
         "danwa_max_version": null
       },
       "dependencies": {},
-      "tags": [],
+      "tags": [
+        "socratic",
+        "debate",
+        "structured",
+        "inquiry"
+      ],
       "license": "MIT",
       "created_at": "2026-05-17T03:22:25+02:00",
-      "updated_at": "2026-05-28T15:57:08.322603+00:00"
+      "updated_at": "2026-06-05T17:17:00+00:00"
     },
     {
       "module_id": "workflow-tpl-5-phase-debate",
@@ -4380,39 +4385,6 @@
       "license": "CC-BY-4.0",
       "created_at": "2026-05-17T03:22:25+02:00",
       "updated_at": "2026-05-28T15:57:08.327010+00:00"
-    },
-    {
-      "module_id": "workflow-tpl-streitgespraech",
-      "version": "1.0.0",
-      "type": "workflow-template",
-      "category": "workflows",
-      "name": {
-        "en": "Streitgespräch (Adversarial Debate)"
-      },
-      "description": {
-        "en": "A confrontational debate format where an Advocate defends one position while an Adversary attacks it. A Referee ensures fair play, and the Moderator synthesizes the outcome. Based on the adversarial method of philosophical inquiry."
-      },
-      "language": "en",
-      "profile_file": "profile.json",
-      "profile_checksum_sha256": "9c284f4a1695fddf55bf8391edfa279ead4cd3205adadb646a26d0fa607469d7",
-      "module_checksum_sha256": "9c284f4a1695fddf55bf8391edfa279ead4cd3205adadb646a26d0fa607469d7",
-      "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/workflow-tpl-streitgespraech.zip",
-      "compatibility": {
-        "danwa_min_version": "2.1.0",
-        "danwa_max_version": null
-      },
-      "dependencies": {},
-      "tags": [
-        "streitgespräch",
-        "adversarial",
-        "advocate",
-        "adversary",
-        "referee",
-        "debate"
-      ],
-      "license": "CC-BY-4.0",
-      "created_at": "2026-05-17T03:22:25+02:00",
-      "updated_at": "2026-05-28T15:57:08.327433+00:00"
     }
   ]
 }
