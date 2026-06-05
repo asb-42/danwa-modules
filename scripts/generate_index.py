@@ -75,6 +75,7 @@ def build_module_entry(manifest_path: Path) -> dict | None:
         "name": manifest.get("name", {}),
         "description": manifest.get("description", {}),
         "language": manifest.get("language", ""),
+        "role": manifest.get("role", ""),
         "profile_file": profile_file,
         "profile_checksum_sha256": profile_checksum,
         "module_checksum_sha256": module_checksum,

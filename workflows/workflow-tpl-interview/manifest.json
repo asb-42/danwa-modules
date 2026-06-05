@@ -34,5 +34,8 @@
     "type": "github",
     "url": "https://github.com/asb-42/danwa-modules",
     "ref": "v1.0.0"
+  },
+  "dependencies": {
+    "roles": ["interviewer", "interviewee", "moderator"]
   }
 }

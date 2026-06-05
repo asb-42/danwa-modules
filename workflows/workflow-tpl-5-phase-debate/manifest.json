@@ -35,5 +35,8 @@
     "type": "github",
     "url": "https://github.com/asb-42/danwa-modules",
     "ref": "v1.0.0"
+  },
+  "dependencies": {
+    "roles": ["analyst", "creative", "socratic-questioner", "strategist", "expert-reviewer", "steel-manner", "devils-advocate", "fact-checker", "troll", "mediator", "ethicist", "synthesizer", "moderator", "critic", "optimizer", "orchestrator"]
   }
 }
