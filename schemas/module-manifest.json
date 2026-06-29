@@ -160,6 +160,11 @@
       "type": "string",
       "description": "Functional role hint (e.g. 'critic', 'strategist')"
     },
+    "roles": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "List of role names required by this workflow template"
+    },
     "string_count": {
       "type": "integer",
       "description": "Number of translation strings (for language-pack modules)"

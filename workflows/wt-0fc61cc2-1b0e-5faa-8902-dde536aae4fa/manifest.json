@@ -35,10 +35,8 @@
     "url": "https://github.com/asb-42/danwa-modules",
     "ref": "v1.0.0"
   },
-  "dependencies": {
-    "roles": [
-      "reviewer",
-      "reviser"
-    ]
-  }
+  "roles": [
+    "reviewer",
+    "reviser"
+  ]
 }
