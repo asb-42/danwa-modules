@@ -1,0 +1,151 @@
+{
+  "template_id": "default-interactive-actions",
+  "actions": [
+    {
+      "id": "agent-strategist",
+      "type": "agent",
+      "label": {
+        "en": "Strategist Analysis",
+        "de": "Strategen-Analyse"
+      },
+      "description": {
+        "en": "Let the Strategist agent analyze the current thread and provide strategic insights.",
+        "de": "Lass den Strategen-Agenten den aktuellen Thread analysieren und strategische Erkenntnisse liefern."
+      },
+      "icon": "🧠",
+      "default_role": "strategist",
+      "llm_profile_id": null,
+      "system_prompt_addon": "Du bist ein erfahrener Stratege. Analysiere die aktuelle Diskussion und liefere strategische Erkenntnisse.",
+      "requires_input": false,
+      "tags": ["analysis", "strategy"]
+    },
+    {
+      "id": "agent-critic",
+      "type": "agent",
+      "label": {
+        "en": "Critical Review",
+        "de": "Kritische Überprüfung"
+      },
+      "description": {
+        "en": "Have the Critic agent identify weaknesses and counter-arguments.",
+        "de": "Lass den Kritiker-Agenten Schwachstellen und Gegenargumente identifizieren."
+      },
+      "icon": "🔍",
+      "default_role": "critic",
+      "llm_profile_id": null,
+      "system_prompt_addon": "Du bist ein scharfsinniger Kritiker. Identifiziere Schwachstellen und liefere konstruktive Kritik.",
+      "requires_input": false,
+      "tags": ["critique", "review"]
+    },
+    {
+      "id": "agent-optimist",
+      "type": "agent",
+      "label": {
+        "en": "Positive Perspective",
+        "de": "Positive Perspektive"
+      },
+      "description": {
+        "en": "The Optimist agent highlights opportunities and positive aspects.",
+        "de": "Der Optimist-Agent hebt Chancen und positive Aspekte hervor."
+      },
+      "icon": "🌱",
+      "default_role": "optimist",
+      "llm_profile_id": null,
+      "system_prompt_addon": "Du bist ein positiver Denker. Hebe Chancen und Lösungsansätze hervor.",
+      "requires_input": false,
+      "tags": ["positive", "opportunities"]
+    },
+    {
+      "id": "agent-devils-advocate",
+      "type": "agent",
+      "label": {
+        "en": "Devil's Advocate",
+        "de": "Anwalt des Teufels"
+      },
+      "description": {
+        "en": "Challenge the prevailing view with strong counter-arguments.",
+        "de": "Herausfordere die vorherrschende Meinung mit starken Gegenargumenten."
+      },
+      "icon": "😈",
+      "default_role": "devil",
+      "llm_profile_id": null,
+      "system_prompt_addon": "Du bist der Anwalt des Teufels. Challenge jede Annahme und finde Gegenargumente.",
+      "requires_input": false,
+      "tags": ["challenge", "devils-advocate"]
+    },
+    {
+      "id": "agent-mediator",
+      "type": "agent",
+      "label": {
+        "en": "Mediator Synthesis",
+        "de": "Mediator-Synthese"
+      },
+      "description": {
+        "en": "The Mediator finds common ground and synthesizes different viewpoints.",
+        "de": "Der Mediator findet gemeinsamen Boden und synthetisiert unterschiedliche Standpunkte."
+      },
+      "icon": "🤝",
+      "default_role": "mediator",
+      "llm_profile_id": null,
+      "system_prompt_addon": "Du bist ein Mediator. Finde Kompromisse und synthetisiere verschiedene Perspektiven.",
+      "requires_input": false,
+      "tags": ["mediation", "synthesis"]
+    },
+    {
+      "id": "agent-creative",
+      "type": "agent",
+      "label": {
+        "en": "Creative Brainstorm",
+        "de": "Kreativer Brainstorm"
+      },
+      "description": {
+        "en": "Generate creative alternatives and novel approaches.",
+        "de": "Generiere kreative Alternativen und neuartige Ansätze."
+      },
+      "icon": "💡",
+      "default_role": "creative",
+      "llm_profile_id": null,
+      "system_prompt_addon": "Du bist ein kreativer Denker. Generiere unkonventionelle Ideen und alternative Lösungsansätze.",
+      "requires_input": false,
+      "tags": ["creative", "brainstorm"]
+    },
+    {
+      "id": "hitl-question",
+      "type": "hitl",
+      "label": {
+        "en": "Ask User",
+        "de": "Nutzer fragen"
+      },
+      "description": {
+        "en": "Pause the debate and ask the human user for input.",
+        "de": "Pausiere die Debatte und frage den menschlichen Nutzer nach Eingabe."
+      },
+      "icon": "👤",
+      "requires_input": true,
+      "input_label": {
+        "en": "Question for the user",
+        "de": "Frage an den Nutzer"
+      },
+      "tags": ["human", "input"]
+    },
+    {
+      "id": "a2a-external",
+      "type": "a2a",
+      "label": {
+        "en": "External A2A Agent",
+        "de": "Externer A2A-Agent"
+      },
+      "description": {
+        "en": "Call an external agent via the A2A protocol.",
+        "de": "Rufe einen externen Agenten über das A2A-Protokoll auf."
+      },
+      "icon": "🔗",
+      "requires_input": true,
+      "input_label": {
+        "en": "Agent URL",
+        "de": "Agenten-URL"
+      },
+      "tags": ["a2a", "external"]
+    }
+  ]
+}

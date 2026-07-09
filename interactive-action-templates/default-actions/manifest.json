@@ -1,0 +1,31 @@
+{
+  "schema_version": "3.0.0",
+  "module_id": "interactive-action-template-default",
+  "name": {
+    "en": "Default Interactive Actions",
+    "de": "Standard Interaktive Aktionen"
+  },
+  "description": {
+    "en": "Default action templates for the interactive debate mode [+] forking menu.",
+    "de": "Standard-Aktionvorlagen für das [+] Forking-Menü im interaktiven Debattenmodus."
+  },
+  "version": "1.0.0",
+  "type": "action-template",
+  "category": "interactive",
+  "author": {
+    "name": "Danwa Core"
+  },
+  "license": "CC-BY-4.0",
+  "tags": [
+    "interactive",
+    "forking",
+    "action-templates"
+  ],
+  "language": "en",
+  "created_at": "2026-07-09T10:00:00+02:00",
+  "updated_at": "2026-07-09T10:00:00+02:00",
+  "compatibility": {
+    "danwa_min_version": "2.2.0",
+    "danwa_max_version": null
+  }
+}

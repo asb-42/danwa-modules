@@ -55,7 +55,9 @@
         "prompt-modifier",
         "kitsune-assistant",
         "bundle",
-        "language-pack"
+        "language-pack",
+        "action-template",
+        "synthesizer-pattern"
       ],
       "description": "Module type — determines how the module is loaded and used. 'agent-core' is an alias for 'agent-persona'."
     },
@@ -73,7 +75,8 @@
         "role-types",
         "kitsune",
         "bundles",
-        "translations"
+        "translations",
+        "interactive"
       ]
     },
     "author": {

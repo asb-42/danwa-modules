@@ -1,0 +1,78 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Interactive Action Template",
+  "description": "Schema for action templates that appear in the [+] forking menu of the interactive debate mode.",
+  "type": "object",
+  "required": ["template_id", "actions"],
+  "properties": {
+    "template_id": {
+      "type": "string",
+      "description": "Unique identifier for this template set"
+    },
+    "actions": {
+      "type": "array",
+      "description": "List of available actions",
+      "items": {
+        "type": "object",
+        "required": ["id", "type", "label"],
+        "properties": {
+          "id": {
+            "type": "string",
+            "description": "Unique action identifier"
+          },
+          "type": {
+            "type": "string",
+            "enum": ["agent", "a2a", "hitl"],
+            "description": "Action type: agent (LLM), a2a (external), hitl (human)"
+          },
+          "label": {
+            "type": "object",
+            "description": "Display label per language",
+            "properties": {
+              "en": { "type": "string" },
+              "de": { "type": "string" }
+            },
+            "additionalProperties": { "type": "string" }
+          },
+          "description": {
+            "type": "object",
+            "description": "Description per language",
+            "additionalProperties": { "type": "string" }
+          },
+          "icon": {
+            "type": "string",
+            "description": "Emoji icon for the action"
+          },
+          "default_role": {
+            "type": "string",
+            "description": "Default agent role (for type=agent)"
+          },
+          "llm_profile_id": {
+            "type": ["string", "null"],
+            "description": "LLM profile ID to use (null = default)"
+          },
+          "system_prompt_addon": {
+            "type": "string",
+            "description": "Additional system prompt instructions"
+          },
+          "requires_input": {
+            "type": "boolean",
+            "description": "Whether this action requires user input"
+          },
+          "input_label": {
+            "type": "object",
+            "description": "Label for the input field",
+            "additionalProperties": { "type": "string" }
+          },
+          "tags": {
+            "type": "array",
+            "items": { "type": "string" },
+            "description": "Tags for filtering"
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

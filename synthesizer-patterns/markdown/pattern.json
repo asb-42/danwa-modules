@@ -1,0 +1,14 @@
+{
+  "pattern_id": "markdown-synthesizer",
+  "output_format": "markdown",
+  "template": "# {{title}}\n\n**Erstellt:** {{created_at}}\n**Events:** {{event_count}}\n**Forks:** {{fork_count}}\n\n---\n\n## Diskussionsverlauf\n\n{{#each events}}\n### {{actor_icon}} {{actor_id}} ({{role}})\n\n{{content}}\n\n*{{event_type}} · {{timestamp}}*\n\n---\n\n{{/each}}\n\n## Zusammenfassung\n\n{{synthesis}}\n\n## Token-Statistik\n\n| Metrik | Wert |\n|--------|------|\n| Input Tokens | {{tokens_input}} |\n| Output Tokens | {{tokens_output}} |\n| Gesamt | {{tokens_total}} |",
+  "actor_icons": {
+    "user": "👤",
+    "agent": "🤖",
+    "a2a": "🔗",
+    "system": "⚙️"
+  },
+  "include_side_branches": true,
+  "max_depth": null,
+  "group_by_thread": true
+}

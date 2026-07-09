@@ -1,0 +1,31 @@
+{
+  "schema_version": "3.0.0",
+  "module_id": "synthesizer-pattern-markdown",
+  "name": {
+    "en": "Markdown Synthesizer",
+    "de": "Markdown-Synthesizer"
+  },
+  "description": {
+    "en": "Compresses an event-sourced debate tree into a structured Markdown document.",
+    "de": "Komprimiert einen Event-Sourcing-Debattenbaum in ein strukturiertes Markdown-Dokument."
+  },
+  "version": "1.0.0",
+  "type": "synthesizer-pattern",
+  "category": "interactive",
+  "author": {
+    "name": "Danwa Core"
+  },
+  "license": "CC-BY-4.0",
+  "tags": [
+    "synthesizer",
+    "markdown",
+    "export"
+  ],
+  "language": "en",
+  "created_at": "2026-07-09T10:00:00+02:00",
+  "updated_at": "2026-07-09T10:00:00+02:00",
+  "compatibility": {
+    "danwa_min_version": "2.2.0",
+    "danwa_max_version": null
+  }
+}
