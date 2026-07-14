@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-06-06T01:15:27.341419+00:00",
+  "generated_at": "2026-07-14T01:49:01.966840+00:00",
   "schema_version": "3.0.0",
   "repository": "https://github.com/asb-42/danwa-modules",
-  "total_modules": 153,
+  "total_modules": 155,
   "modules": [
     {
       "module_id": "ap-06aa392f-a00a-555d-8e44-338cfaee8943",
@@ -2027,6 +2027,39 @@
       "updated_at": "2026-06-05T21:45:52.270694+00:00"
     },
     {
+      "module_id": "interactive-action-template-default",
+      "version": "1.0.0",
+      "type": "action-template",
+      "category": "interactive-action-templates",
+      "name": {
+        "en": "Default Interactive Actions",
+        "de": "Standard Interaktive Aktionen"
+      },
+      "description": {
+        "en": "Default action templates for the interactive debate mode [+] forking menu.",
+        "de": "Standard-Aktionvorlagen für das [+] Forking-Menü im interaktiven Debattenmodus."
+      },
+      "language": "en",
+      "role": "",
+      "profile_file": "",
+      "profile_checksum_sha256": "",
+      "module_checksum_sha256": "768ae7a729bc6a554778bf1126f16b663a25e4f6597b058ddef8f8adef8d4e55",
+      "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/interactive-action-template-default.zip",
+      "compatibility": {
+        "danwa_min_version": "2.2.0",
+        "danwa_max_version": null
+      },
+      "dependencies": {},
+      "tags": [
+        "interactive",
+        "forking",
+        "action-templates"
+      ],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-07-09T10:00:00+02:00",
+      "updated_at": "2026-07-09T10:00:00+02:00"
+    },
+    {
       "module_id": "ka-15d890fe-8cf2-5096-8570-0fcf40bf7354",
       "version": "1.0.0",
       "type": "kitsune-assistant",
@@ -2518,6 +2551,39 @@
       "license": "CC-BY-4.0",
       "created_at": "2026-06-04T00:07:12.660883+00:00",
       "updated_at": "2026-06-04T00:07:12.660883+00:00"
+    },
+    {
+      "module_id": "synthesizer-pattern-markdown",
+      "version": "1.0.0",
+      "type": "synthesizer-pattern",
+      "category": "synthesizer-patterns",
+      "name": {
+        "en": "Markdown Synthesizer",
+        "de": "Markdown-Synthesizer"
+      },
+      "description": {
+        "en": "Compresses an event-sourced debate tree into a structured Markdown document.",
+        "de": "Komprimiert einen Event-Sourcing-Debattenbaum in ein strukturiertes Markdown-Dokument."
+      },
+      "language": "de",
+      "role": "",
+      "profile_file": "",
+      "profile_checksum_sha256": "",
+      "module_checksum_sha256": "fb5464c4f2ff6cda88dc47a96eda81374ee3f72681acf73505cc54d440e474ed",
+      "download_url": "https://github.com/asb-42/danwa-modules/releases/download/v1.0.0/synthesizer-pattern-markdown.zip",
+      "compatibility": {
+        "danwa_min_version": "2.2.0",
+        "danwa_max_version": null
+      },
+      "dependencies": {},
+      "tags": [
+        "synthesizer",
+        "markdown",
+        "export"
+      ],
+      "license": "CC-BY-4.0",
+      "created_at": "2026-07-09T10:00:00+02:00",
+      "updated_at": "2026-07-09T10:00:00+02:00"
     },
     {
       "module_id": "lp-0599c248-6a80-59a6-987e-94f362913ee6",
@@ -4303,12 +4369,7 @@
         "danwa_min_version": "2.1.0",
         "danwa_max_version": null
       },
-      "dependencies": {
-        "roles": [
-          "reviewer",
-          "reviser"
-        ]
-      },
+      "dependencies": {},
       "tags": [
         "quick",
         "lightweight",
@@ -4340,13 +4401,7 @@
         "danwa_min_version": "2.1.0",
         "danwa_max_version": null
       },
-      "dependencies": {
-        "roles": [
-          "strategist",
-          "critic",
-          "moderator"
-        ]
-      },
+      "dependencies": {},
       "tags": [
         "ethics",
         "kantian",
@@ -4378,13 +4433,7 @@
         "danwa_min_version": "2.1.0",
         "danwa_max_version": null
       },
-      "dependencies": {
-        "roles": [
-          "interviewer",
-          "interviewee",
-          "moderator"
-        ]
-      },
+      "dependencies": {},
       "tags": [
         "interview",
         "investigation",
@@ -4416,13 +4465,7 @@
         "danwa_min_version": "2.1.0",
         "danwa_max_version": null
       },
-      "dependencies": {
-        "roles": [
-          "strategist",
-          "socratic-questioner",
-          "moderator"
-        ]
-      },
+      "dependencies": {},
       "tags": [
         "socratic",
         "debate",
@@ -4454,14 +4497,7 @@
         "danwa_min_version": "2.1.0",
         "danwa_max_version": null
       },
-      "dependencies": {
-        "roles": [
-          "strategist",
-          "critic",
-          "optimizer",
-          "moderator"
-        ]
-      },
+      "dependencies": {},
       "tags": [
         "dialectic",
         "hegel",
@@ -4494,14 +4530,7 @@
         "danwa_min_version": "2.1.0",
         "danwa_max_version": null
       },
-      "dependencies": {
-        "roles": [
-          "strategist",
-          "critic",
-          "optimizer",
-          "moderator"
-        ]
-      },
+      "dependencies": {},
       "tags": [
         "debate",
         "multi-agent",
@@ -4532,26 +4561,7 @@
         "danwa_min_version": "2.1.0",
         "danwa_max_version": null
       },
-      "dependencies": {
-        "roles": [
-          "analyst",
-          "creative",
-          "socratic-questioner",
-          "strategist",
-          "expert-reviewer",
-          "steel-manner",
-          "devils-advocate",
-          "fact-checker",
-          "troll",
-          "mediator",
-          "ethicist",
-          "synthesizer",
-          "moderator",
-          "critic",
-          "optimizer",
-          "orchestrator"
-        ]
-      },
+      "dependencies": {},
       "tags": [
         "multi-phase",
         "structured",
@@ -4584,14 +4594,7 @@
         "danwa_min_version": "2.1.0",
         "danwa_max_version": null
       },
-      "dependencies": {
-        "roles": [
-          "strategist",
-          "critic",
-          "optimizer",
-          "moderator"
-        ]
-      },
+      "dependencies": {},
       "tags": [
         "mediation",
         "conflict-resolution",
