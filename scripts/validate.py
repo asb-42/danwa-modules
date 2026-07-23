@@ -64,8 +64,13 @@ def validate_manifest(manifest_path: Path, schema: dict) -> list[str]:
     # Check profile file exists and is non-empty
     profile_file = manifest.get("profile_file", "")
     if profile_file:
-        profile_path = module_dir / profile_file
-        if not profile_path.exists():
+        # Path traversal defence: reject paths that escape the module directory.
+        base = module_dir.resolve()
+        profile_path = (module_dir / profile_file).resolve()
+        import os
+        if not str(profile_path).startswith(str(base) + os.sep) and profile_path != base:
+            errors.append(f"{rel}: Profile file path escapes module directory: {profile_file}")
+        elif not profile_path.exists():
             errors.append(f"{rel}: Profile file not found: {profile_file}")
         elif profile_path.stat().st_size == 0:
             errors.append(f"{rel}: Profile file is empty: {profile_file}")
@@ -73,14 +78,17 @@ def validate_manifest(manifest_path: Path, schema: dict) -> list[str]:
     # Verify checksum if present
     checksum = manifest.get("checksum", "")
     if checksum and profile_file:
-        profile_path = module_dir / profile_file
-        if profile_path.exists():
-            actual = sha256_file(profile_path)
-            if actual != checksum:
-                errors.append(
-                    f"{rel}: Checksum mismatch for {profile_file}: "
-                    f"expected {checksum}, got {actual}"
-                )
+        base = module_dir.resolve()
+        profile_path = (module_dir / profile_file).resolve()
+        import os
+        if str(profile_path).startswith(str(base) + os.sep) or profile_path == base:
+            if profile_path.exists():
+                actual = sha256_file(profile_path)
+                if actual != checksum:
+                    errors.append(
+                        f"{rel}: Checksum mismatch for {profile_file}: "
+                        f"expected {checksum}, got {actual}"
+                    )
 
     return errors
 
