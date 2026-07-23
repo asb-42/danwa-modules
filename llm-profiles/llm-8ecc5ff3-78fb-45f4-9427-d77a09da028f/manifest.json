@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0.0",
+  "schema_version": "3.0.0",
   "module_id": "llm-8ecc5ff3-78fb-45f4-9427-d77a09da028f",
   "name": {
     "en": "gemma-4-31b-it (LM Studio)"
@@ -15,7 +15,16 @@
   "language": "en",
   "profile_file": "profile.yaml",
   "profile_format": "yaml",
-  "files": [],
   "created_at": "2026-06-04T00:07:12.660883+00:00",
-  "updated_at": "2026-06-04T00:07:12.660883+00:00"
+  "updated_at": "2026-07-23T21:49:30.429791+00:00",
+  "compatibility": {
+    "danwa_min_version": "2.1.0",
+    "danwa_max_version": null
+  },
+  "repository": {
+    "type": "github",
+    "url": "https://github.com/asb-42/danwa-modules",
+    "ref": "v1.0.0"
+  },
+  "checksum": "c699006fc99e37d55f033c4e8c7705c02c72a57f36008941724ed00ac7aa3c6f"
 }

@@ -90,6 +90,15 @@ def validate_manifest(manifest_path: Path, schema: dict) -> list[str]:
                         f"expected {checksum}, got {actual}"
                     )
 
+    # Enforce mandatory checksums for v2+ manifests with a profile_file
+    schema_version = manifest.get("schema_version", "1.0.0")
+    if schema_version in ("2.0.0", "3.0.0") and profile_file:
+        if not checksum:
+            errors.append(
+                f"{rel}: Checksum is required for v2+ manifests with a profile_file "
+                f"(schema_version={schema_version}, profile_file={profile_file})"
+            )
+
     return errors
 
 
