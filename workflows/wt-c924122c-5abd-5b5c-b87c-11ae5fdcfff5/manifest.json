@@ -26,7 +26,7 @@
   "profile_format": "json",
   "checksum": "531213d4707345303ee18f2bc7d5e90f743c769556195df7179cecb7774cb750",
   "created_at": "2026-05-25T05:49:22+02:00",
-  "updated_at": "2026-06-05T21:45:52.301900+00:00",
+  "updated_at": "2026-07-23T21:49:30.454926+00:00",
   "compatibility": {
     "danwa_min_version": "2.1.0",
     "danwa_max_version": null
@@ -35,23 +35,5 @@
     "type": "github",
     "url": "https://github.com/asb-42/danwa-modules",
     "ref": "v1.0.0"
-  },
-  "roles": [
-    "analyst",
-    "creative",
-    "socratic-questioner",
-    "strategist",
-    "expert-reviewer",
-    "steel-manner",
-    "devils-advocate",
-    "fact-checker",
-    "troll",
-    "mediator",
-    "ethicist",
-    "synthesizer",
-    "moderator",
-    "critic",
-    "optimizer",
-    "orchestrator"
-  ]
+  }
 }

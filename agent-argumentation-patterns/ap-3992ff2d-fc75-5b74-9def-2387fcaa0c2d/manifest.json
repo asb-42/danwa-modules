@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0.0",
+  "schema_version": "3.0.0",
   "module_id": "ap-3992ff2d-fc75-5b74-9def-2387fcaa0c2d",
   "name": {
     "en": "Strategist (Steiner)"
@@ -19,11 +19,19 @@
   "language": "en",
   "profile_file": "profile.md",
   "profile_format": "markdown",
-  "files": [],
   "checksum": "8a0630d8723524ac7e0148333f0a1124b5699c71075cec59e0f78ab2e464b123",
   "created_at": "2026-05-17T03:53:23+02:00",
-  "updated_at": "2026-06-05T21:45:52.253808+00:00",
+  "updated_at": "2026-07-23T21:49:30.218105+00:00",
   "description": {
     "en": "Develops strategies inspired by Steiner's anthroposophy: thinking, feeling, willing."
+  },
+  "compatibility": {
+    "danwa_min_version": "2.1.0",
+    "danwa_max_version": null
+  },
+  "repository": {
+    "type": "github",
+    "url": "https://github.com/asb-42/danwa-modules",
+    "ref": "v1.0.0"
   }
 }

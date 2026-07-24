@@ -2,7 +2,7 @@
   "schema_version": "3.0.0",
   "module_id": "ac-96392ba1-ef55-5598-bab3-1c90fc9aba9d",
   "name": {
-    "en": "Enhanced Critic (EN)"
+    "en": "Enhanced Critic"
   },
   "version": "1.0.0",
   "type": "agent-core",
@@ -24,7 +24,8 @@
   "profile_file": "profile.md",
   "profile_format": "markdown",
   "created_at": "2026-05-17T03:22:25+02:00",
-  "updated_at": "2026-06-05T21:45:52.261019+00:00",
+  "updated_at": "2026-07-23T21:49:30.313291+00:00",
+  "checksum": "738ae3b47cf61566fdd913b9eec8a91f1350b58b92a99fb257db00a5a7cbf4c7",
   "compatibility": {
     "danwa_min_version": "2.1.0",
     "danwa_max_version": null
@@ -33,6 +34,5 @@
     "type": "github",
     "url": "https://github.com/asb-42/danwa-modules",
     "ref": "v1.0.0"
-  },
-  "checksum": "738ae3b47cf61566fdd913b9eec8a91f1350b58b92a99fb257db00a5a7cbf4c7"
+  }
 }

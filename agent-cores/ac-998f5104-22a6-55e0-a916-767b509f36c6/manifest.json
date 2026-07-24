@@ -24,7 +24,8 @@
   "profile_file": "profile.md",
   "profile_format": "markdown",
   "created_at": "2026-05-17T03:22:25+02:00",
-  "updated_at": "2026-06-05T21:45:52.266685+00:00",
+  "updated_at": "2026-07-23T21:49:30.314388+00:00",
+  "checksum": "28a7de740de6196c0d1da40e2c6e6b9cec29b0d951eb32cb81f26f4f63f82124",
   "compatibility": {
     "danwa_min_version": "2.1.0",
     "danwa_max_version": null
@@ -33,6 +34,5 @@
     "type": "github",
     "url": "https://github.com/asb-42/danwa-modules",
     "ref": "v1.0.0"
-  },
-  "checksum": "28a7de740de6196c0d1da40e2c6e6b9cec29b0d951eb32cb81f26f4f63f82124"
+  }
 }
