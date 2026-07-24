@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0.0",
+  "schema_version": "3.0.0",
   "module_id": "llm-018f1b67-40c2-468a-95a8-8a0fa92b68f3",
   "name": {
     "en": "qwen3.6-plus (Opencode Zen)"
@@ -15,7 +15,16 @@
   "language": "en",
   "profile_file": "profile.yaml",
   "profile_format": "yaml",
-  "files": [],
   "created_at": "2026-06-04T00:07:12.660883+00:00",
-  "updated_at": "2026-06-04T00:07:12.660883+00:00"
+  "updated_at": "2026-07-23T21:49:30.402966+00:00",
+  "compatibility": {
+    "danwa_min_version": "2.1.0",
+    "danwa_max_version": null
+  },
+  "repository": {
+    "type": "github",
+    "url": "https://github.com/asb-42/danwa-modules",
+    "ref": "v1.0.0"
+  },
+  "checksum": "d05d6ab6fdb42f33471ecf2003aaa40d0f59072c2039b866d6be10ee86d5173b"
 }

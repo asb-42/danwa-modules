@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0.0",
+  "schema_version": "3.0.0",
   "module_id": "llm-d392912b-3e7e-402f-90ed-be46753437f3",
   "name": {
     "en": "deepseek-v4-flash (Opencode Zen)"
@@ -15,7 +15,16 @@
   "language": "en",
   "profile_file": "profile.yaml",
   "profile_format": "yaml",
-  "files": [],
   "created_at": "2026-06-04T00:07:12.660883+00:00",
-  "updated_at": "2026-06-04T00:07:12.660883+00:00"
+  "updated_at": "2026-07-23T21:49:30.435840+00:00",
+  "compatibility": {
+    "danwa_min_version": "2.1.0",
+    "danwa_max_version": null
+  },
+  "repository": {
+    "type": "github",
+    "url": "https://github.com/asb-42/danwa-modules",
+    "ref": "v1.0.0"
+  },
+  "checksum": "91f48d8f5e1f56edd5e7ca125b3233ff3379e3cd8d7de38301a24fbad1196bb8"
 }

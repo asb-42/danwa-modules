@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0.0",
+  "schema_version": "3.0.0",
   "module_id": "llm-5009cbdf-13d2-468d-a6c5-e133efec41d6",
   "name": {
     "en": "qwen3.5-35b-a3b-ultra-uncensored-heretic (LM Studio)"
@@ -15,7 +15,16 @@
   "language": "en",
   "profile_file": "profile.yaml",
   "profile_format": "yaml",
-  "files": [],
   "created_at": "2026-06-04T00:07:12.660883+00:00",
-  "updated_at": "2026-06-04T00:07:12.660883+00:00"
+  "updated_at": "2026-07-23T21:49:30.414469+00:00",
+  "compatibility": {
+    "danwa_min_version": "2.1.0",
+    "danwa_max_version": null
+  },
+  "repository": {
+    "type": "github",
+    "url": "https://github.com/asb-42/danwa-modules",
+    "ref": "v1.0.0"
+  },
+  "checksum": "df6a796568ecc2ec85bca4a0d7e300aabcea47c749cbfb2cad4537867fbd3ffc"
 }

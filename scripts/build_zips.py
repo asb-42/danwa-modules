@@ -47,12 +47,20 @@ def find_modules() -> list[tuple[Path, str]]:
 
 
 def build_zip(module_dir: Path, module_id: str, releases_dir: Path) -> Path:
-    """Create a ZIP archive for *module_dir* and return the path."""
+    """Create a ZIP archive for *module_dir* and return the path.
+
+    Rejects archive entry names containing ``..`` segments to prevent
+    Zip Slip path-traversal on extraction (supply-side defence).
+    """
     zip_path = releases_dir / f"{module_id}.zip"
     with zipfile.ZipFile(zip_path, "w", zipfile.ZIP_DEFLATED) as zf:
         for f in sorted(module_dir.rglob("*")):
             if f.is_file():
                 arcname = f.relative_to(module_dir).as_posix()
+                # Reject path-traversal entries (supply-side Zip Slip defence)
+                if ".." in arcname.split("/"):
+                    print(f"  WARN: Skipping path-traversal entry: {arcname}", file=sys.stderr)
+                    continue
                 zf.write(f, arcname)
     return zip_path
 

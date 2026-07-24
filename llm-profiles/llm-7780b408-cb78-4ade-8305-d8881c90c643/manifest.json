@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.0.0",
+  "schema_version": "3.0.0",
   "module_id": "llm-7780b408-cb78-4ade-8305-d8881c90c643",
   "name": {
     "en": "nemotron-3-super (Opencode Zen)"
@@ -15,7 +15,16 @@
   "language": "en",
   "profile_file": "profile.yaml",
   "profile_format": "yaml",
-  "files": [],
   "created_at": "2026-06-04T00:07:12.660883+00:00",
-  "updated_at": "2026-06-04T00:07:12.660883+00:00"
+  "updated_at": "2026-07-23T21:49:30.417868+00:00",
+  "compatibility": {
+    "danwa_min_version": "2.1.0",
+    "danwa_max_version": null
+  },
+  "repository": {
+    "type": "github",
+    "url": "https://github.com/asb-42/danwa-modules",
+    "ref": "v1.0.0"
+  },
+  "checksum": "6c1a971ad49ec16d6abedccff36cd05c3e904ae271e8bbb7a5fb0fabe9f80387"
 }

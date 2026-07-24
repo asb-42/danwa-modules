@@ -21,7 +21,8 @@ except ImportError:
 
 ROOT = Path(__file__).parent.parent
 SCHEMA_PATH = ROOT / "schemas" / "module-manifest.json"
-SKIP_DIRS = {".git", ".github", "plans", "scripts", "schemas"}
+SKIP_DIRS = {".git", ".github", "plans", "scripts", "schemas", "releases",
+             "node_modules", ".venv", "__pycache__", ".pytest_cache"}
 
 
 def sha256_file(path: Path) -> str:
@@ -43,15 +44,19 @@ def find_manifests() -> list[Path]:
     return results
 
 
-def validate_manifest(manifest_path: Path, schema: dict) -> list[str]:
-    """Validate a single manifest. Returns list of error strings."""
+def validate_manifest(manifest_path: Path, schema: dict) -> tuple[list[str], dict | None]:
+    """Validate a single manifest.
+
+    Returns ``(errors, manifest_dict)`` so callers can reuse the parsed
+    manifest without re-reading the file (avoids double I/O).
+    """
     errors = []
     rel = manifest_path.relative_to(ROOT)
 
     try:
         manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
     except json.JSONDecodeError as e:
-        return [f"{rel}: Invalid JSON: {e}"]
+        return [f"{rel}: Invalid JSON: {e}"], None
 
     # Schema validation
     validator = Draft7Validator(schema)
@@ -64,8 +69,13 @@ def validate_manifest(manifest_path: Path, schema: dict) -> list[str]:
     # Check profile file exists and is non-empty
     profile_file = manifest.get("profile_file", "")
     if profile_file:
-        profile_path = module_dir / profile_file
-        if not profile_path.exists():
+        # Path traversal defence: reject paths that escape the module directory.
+        base = module_dir.resolve()
+        profile_path = (module_dir / profile_file).resolve()
+        import os
+        if not str(profile_path).startswith(str(base) + os.sep) and profile_path != base:
+            errors.append(f"{rel}: Profile file path escapes module directory: {profile_file}")
+        elif not profile_path.exists():
             errors.append(f"{rel}: Profile file not found: {profile_file}")
         elif profile_path.stat().st_size == 0:
             errors.append(f"{rel}: Profile file is empty: {profile_file}")
@@ -73,27 +83,40 @@ def validate_manifest(manifest_path: Path, schema: dict) -> list[str]:
     # Verify checksum if present
     checksum = manifest.get("checksum", "")
     if checksum and profile_file:
-        profile_path = module_dir / profile_file
-        if profile_path.exists():
-            actual = sha256_file(profile_path)
-            if actual != checksum:
-                errors.append(
-                    f"{rel}: Checksum mismatch for {profile_file}: "
-                    f"expected {checksum}, got {actual}"
-                )
+        base = module_dir.resolve()
+        profile_path = (module_dir / profile_file).resolve()
+        import os
+        if str(profile_path).startswith(str(base) + os.sep) or profile_path == base:
+            if profile_path.exists():
+                actual = sha256_file(profile_path)
+                if actual != checksum:
+                    errors.append(
+                        f"{rel}: Checksum mismatch for {profile_file}: "
+                        f"expected {checksum}, got {actual}"
+                    )
 
-    return errors
+    # Enforce mandatory checksums for v2+ manifests with a profile_file
+    schema_version = manifest.get("schema_version", "1.0.0")
+    if schema_version in ("2.0.0", "3.0.0") and profile_file:
+        if not checksum:
+            errors.append(
+                f"{rel}: Checksum is required for v2+ manifests with a profile_file "
+                f"(schema_version={schema_version}, profile_file={profile_file})"
+            )
+
+    return errors, manifest
 
 
-def check_uniqueness(manifests: list[Path]) -> list[str]:
-    """Check that all module_ids are unique."""
+def check_uniqueness(parsed_manifests: list[tuple[Path, dict | None]]) -> list[str]:
+    """Check that all module_ids are unique.
+
+    Accepts pre-parsed manifests to avoid re-reading files.
+    """
     errors = []
     seen: dict[str, Path] = {}
 
-    for manifest_path in manifests:
-        try:
-            manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
-        except (json.JSONDecodeError, OSError):
+    for manifest_path, manifest in parsed_manifests:
+        if manifest is None:
             continue
 
         module_id = manifest.get("module_id", "")
@@ -124,14 +147,16 @@ def main() -> int:
     print()
 
     total_errors = []
+    parsed_manifests = []  # (path, manifest_dict) for reuse in check_uniqueness
 
     # Validate each manifest
     for manifest_path in manifests:
-        errs = validate_manifest(manifest_path, schema)
+        errs, manifest = validate_manifest(manifest_path, schema)
         total_errors.extend(errs)
+        parsed_manifests.append((manifest_path, manifest))
 
-    # Check uniqueness
-    uniqueness_errors = check_uniqueness(manifests)
+    # Check uniqueness (reuses parsed manifests, no re-reading files)
+    uniqueness_errors = check_uniqueness(parsed_manifests)
     total_errors.extend(uniqueness_errors)
 
     if total_errors:
