@@ -57,7 +57,8 @@
         "bundle",
         "language-pack",
         "action-template",
-        "synthesizer-pattern"
+        "synthesizer-pattern",
+        "tts-adapter"
       ],
       "description": "Module type — determines how the module is loaded and used. 'agent-core' is an alias for 'agent-persona'."
     },
@@ -76,7 +77,8 @@
         "kitsune",
         "bundles",
         "translations",
-        "interactive"
+        "interactive",
+        "tts-adapters"
       ]
     },
     "author": {
