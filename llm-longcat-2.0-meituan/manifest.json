@@ -1,0 +1,13 @@
+{
+  "module_id": "llm-longcat-2.0-meituan",
+  "name": {
+    "en": "LongCat-2.0 (Meituan)"
+  },
+  "type": "llm-profile",
+  "version": "1.0.0",
+  "language": "en",
+  "tags": [],
+  "schema_version": "3.0.0",
+  "profile_file": "profile.yaml",
+  "profile_format": "yaml"
+}
