@@ -9,5 +9,6 @@
   "tags": [],
   "schema_version": "3.0.0",
   "profile_file": "profile.yaml",
-  "profile_format": "yaml"
+  "profile_format": "yaml",
+  "checksum": "f2fceb0132d91143c3635ba375df816057115cf614ad6e8bce2c39007f50dbf7"
 }
